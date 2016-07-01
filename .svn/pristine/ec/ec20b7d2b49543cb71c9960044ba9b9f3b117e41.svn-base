@@ -1,0 +1,51 @@
+INFO  2015-06-09 11:14:22 - DataObject.User
+INFO  2015-06-09 11:14:25 - Download file: D:\Projects\Projects\NexGen\NexGen\bin\Release\cache\IMG\20150608\RSD_2015-06-08_d07393206bc3\66506371_1..jpeg success
+INFO  2015-06-09 11:14:25 - Download file: D:\Projects\Projects\NexGen\NexGen\bin\Release\cache\OCR\20150608\RSD_2015-06-08_d07393206bc3\66506371_1..xml success
+INFO  2015-06-09 11:14:25 - Download file: D:\Projects\Projects\NexGen\NexGen\bin\Release\cache\IMG\20150608\RSD_2015-06-08_d07393206bc3\66506371_2..jpeg success
+INFO  2015-06-09 11:14:25 - Download file: D:\Projects\Projects\NexGen\NexGen\bin\Release\cache\OCR\20150608\RSD_2015-06-08_d07393206bc3\66506371_2..xml success
+INFO  2015-06-09 05:42:00 - DataObject.User
+INFO  2015-06-09 05:42:02 - Create Folder: D:\Projects\Projects\NexGen\NexGen\bin\Release\cache\IMG\20150609\RSD_2015-06-09_744c4bd5fc5d\
+INFO  2015-06-09 05:42:03 - Download file: D:\Projects\Projects\NexGen\NexGen\bin\Release\cache\IMG\20150609\RSD_2015-06-09_744c4bd5fc5d\66696667_1..jpeg success
+INFO  2015-06-09 05:42:03 - Create Folder: D:\Projects\Projects\NexGen\NexGen\bin\Release\cache\OCR\20150609\RSD_2015-06-09_744c4bd5fc5d\
+INFO  2015-06-09 05:42:03 - Download file: D:\Projects\Projects\NexGen\NexGen\bin\Release\cache\OCR\20150609\RSD_2015-06-09_744c4bd5fc5d\66696667_1..xml success
+INFO  2015-06-09 05:42:03 - Download file: D:\Projects\Projects\NexGen\NexGen\bin\Release\cache\IMG\20150609\RSD_2015-06-09_744c4bd5fc5d\66696667_2..jpeg success
+INFO  2015-06-09 05:42:03 - Download file: D:\Projects\Projects\NexGen\NexGen\bin\Release\cache\OCR\20150609\RSD_2015-06-09_744c4bd5fc5d\66696667_2..xml success
+INFO  2015-06-09 05:42:54 - DataObject.User
+INFO  2015-06-09 05:42:56 - Download file: D:\Projects\Projects\NexGen\NexGen\bin\Release\cache\IMG\20150609\RSD_2015-06-09_744c4bd5fc5d\66697563_1..jpg success
+INFO  2015-06-09 05:42:56 - Download file: D:\Projects\Projects\NexGen\NexGen\bin\Release\cache\OCR\20150609\RSD_2015-06-09_744c4bd5fc5d\66697563_1..xml success
+INFO  2015-06-09 05:42:57 - Download file: D:\Projects\Projects\NexGen\NexGen\bin\Release\cache\IMG\20150609\RSD_2015-06-09_744c4bd5fc5d\66697563_2..jpg success
+INFO  2015-06-09 05:42:57 - Download file: D:\Projects\Projects\NexGen\NexGen\bin\Release\cache\OCR\20150609\RSD_2015-06-09_744c4bd5fc5d\66697563_2..xml success
+INFO  2015-06-09 05:43:50 - DataObject.User
+INFO  2015-06-09 05:43:52 - Download file: D:\Projects\Projects\NexGen\NexGen\bin\Release\cache\IMG\20150609\RSD_2015-06-09_744c4bd5fc5d\66697568_1..jpeg success
+INFO  2015-06-09 05:43:52 - Download file: D:\Projects\Projects\NexGen\NexGen\bin\Release\cache\OCR\20150609\RSD_2015-06-09_744c4bd5fc5d\66697568_1..xml success
+INFO  2015-06-09 05:43:52 - Download file: D:\Projects\Projects\NexGen\NexGen\bin\Release\cache\IMG\20150609\RSD_2015-06-09_744c4bd5fc5d\66697568_2..jpeg success
+INFO  2015-06-09 05:43:52 - Download file: D:\Projects\Projects\NexGen\NexGen\bin\Release\cache\OCR\20150609\RSD_2015-06-09_744c4bd5fc5d\66697568_2..xml success
+INFO  2015-06-09 05:44:22 - DataObject.User
+INFO  2015-06-09 05:44:24 - File download requested is existed -> ignore (D:\Projects\Projects\NexGen\NexGen\bin\Release\cache\IMG\20150609\RSD_2015-06-09_744c4bd5fc5d\66697568_1..jpeg)
+INFO  2015-06-09 05:44:24 - File download requested is existed -> ignore (D:\Projects\Projects\NexGen\NexGen\bin\Release\cache\IMG\20150609\RSD_2015-06-09_744c4bd5fc5d\66697568_2..jpeg)
+INFO  2015-06-09 05:45:32 - DataObject.User
+INFO  2015-06-09 05:45:34 - Download file: D:\Projects\Projects\NexGen\NexGen\bin\Release\cache\IMG\20150609\RSD_2015-06-09_744c4bd5fc5d\66697958_1..jpeg success
+INFO  2015-06-09 05:45:34 - Download file: D:\Projects\Projects\NexGen\NexGen\bin\Release\cache\OCR\20150609\RSD_2015-06-09_744c4bd5fc5d\66697958_1..xml success
+INFO  2015-06-09 05:46:42 - DataObject.User
+INFO  2015-06-09 05:46:52 - DataObject.User
+INFO  2015-06-09 05:46:55 - Download file: D:\Projects\Projects\NexGen\NexGen\bin\Release\cache\IMG\20150609\RSD_2015-06-09_744c4bd5fc5d\66699047_1..jpg success
+INFO  2015-06-09 05:46:55 - Download file: D:\Projects\Projects\NexGen\NexGen\bin\Release\cache\OCR\20150609\RSD_2015-06-09_744c4bd5fc5d\66699047_1..xml success
+INFO  2015-06-09 05:48:08 - Download file: D:\Projects\Projects\NexGen\NexGen\bin\Release\cache\IMG\20150609\RSD_2015-06-09_744c4bd5fc5d\66699170_1..jpeg success
+INFO  2015-06-09 05:48:08 - Download file: D:\Projects\Projects\NexGen\NexGen\bin\Release\cache\OCR\20150609\RSD_2015-06-09_744c4bd5fc5d\66699170_1..xml success
+ERROR 2015-06-09 05:48:50 - Input string was not in a correct format.
+ERROR 2015-06-09 05:48:50 -    at System.Number.ParseDouble(String value, NumberStyles options, NumberFormatInfo numfmt)
+   at System.Double.Parse(String s, IFormatProvider provider)
+   at NexGen.UserConctrol.doc_rsd_input.GetRecord() in d:\Projects\Projects\NexGen\NexGen\UserConctrol\doc_rsd_input.cs:line 127
+INFO  2015-06-09 05:49:22 - Download file: D:\Projects\Projects\NexGen\NexGen\bin\Release\cache\IMG\20150609\RSD_2015-06-09_744c4bd5fc5d\66699527_1..jpg success
+INFO  2015-06-09 05:49:22 - Download file: D:\Projects\Projects\NexGen\NexGen\bin\Release\cache\OCR\20150609\RSD_2015-06-09_744c4bd5fc5d\66699527_1..xml success
+INFO  2015-06-09 05:55:02 - DataObject.User
+INFO  2015-06-09 05:55:05 - Download file: D:\Projects\Projects\NexGen\NexGen\bin\Release\cache\IMG\20150609\RSD_2015-06-09_744c4bd5fc5d\66697010_1..jpeg success
+INFO  2015-06-09 05:55:05 - Download file: D:\Projects\Projects\NexGen\NexGen\bin\Release\cache\OCR\20150609\RSD_2015-06-09_744c4bd5fc5d\66697010_1..xml success
+INFO  2015-06-09 05:55:45 - Download file: D:\Projects\Projects\NexGen\NexGen\bin\Release\cache\IMG\20150609\RSD_2015-06-09_744c4bd5fc5d\66692217_1..jpeg success
+INFO  2015-06-09 05:55:45 - Download file: D:\Projects\Projects\NexGen\NexGen\bin\Release\cache\OCR\20150609\RSD_2015-06-09_744c4bd5fc5d\66692217_1..xml success
+INFO  2015-06-09 05:55:45 - Download file: D:\Projects\Projects\NexGen\NexGen\bin\Release\cache\IMG\20150609\RSD_2015-06-09_744c4bd5fc5d\66692217_2..jpeg success
+INFO  2015-06-09 05:55:45 - Download file: D:\Projects\Projects\NexGen\NexGen\bin\Release\cache\OCR\20150609\RSD_2015-06-09_744c4bd5fc5d\66692217_2..xml success
+INFO  2015-06-09 05:55:45 - Download file: D:\Projects\Projects\NexGen\NexGen\bin\Release\cache\IMG\20150609\RSD_2015-06-09_744c4bd5fc5d\66692217_3..jpeg success
+INFO  2015-06-09 05:55:45 - Download file: D:\Projects\Projects\NexGen\NexGen\bin\Release\cache\OCR\20150609\RSD_2015-06-09_744c4bd5fc5d\66692217_3..xml success
+INFO  2015-06-09 05:55:45 - Download file: D:\Projects\Projects\NexGen\NexGen\bin\Release\cache\IMG\20150609\RSD_2015-06-09_744c4bd5fc5d\66692217_4..jpeg success
+INFO  2015-06-09 05:55:45 - Download file: D:\Projects\Projects\NexGen\NexGen\bin\Release\cache\OCR\20150609\RSD_2015-06-09_744c4bd5fc5d\66692217_4..xml success

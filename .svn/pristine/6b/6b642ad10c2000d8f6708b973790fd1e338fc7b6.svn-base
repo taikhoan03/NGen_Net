@@ -1,0 +1,34 @@
+INFO  2015-06-03 11:37:46 - DataObject.User
+INFO  2015-06-03 11:37:54 - Create Folder: D:\Projects\Projects\NexGen\NexGen\bin\Release\cache\IMG\20150526\RSD_2015-05-26_c560caab7fec\
+INFO  2015-06-03 11:37:54 - Download file: D:\Projects\Projects\NexGen\NexGen\bin\Release\cache\IMG\20150526\RSD_2015-05-26_c560caab7fec\64150677_1..jpeg success
+INFO  2015-06-03 11:37:54 - Create Folder: D:\Projects\Projects\NexGen\NexGen\bin\Release\cache\OCR\20150526\RSD_2015-05-26_c560caab7fec\
+INFO  2015-06-03 11:37:54 - Download file: D:\Projects\Projects\NexGen\NexGen\bin\Release\cache\OCR\20150526\RSD_2015-05-26_c560caab7fec\64150677_1..xml success
+INFO  2015-06-03 11:37:55 - Download file: D:\Projects\Projects\NexGen\NexGen\bin\Release\cache\IMG\20150526\RSD_2015-05-26_c560caab7fec\64150677_2..jpeg success
+INFO  2015-06-03 11:37:55 - Download file: D:\Projects\Projects\NexGen\NexGen\bin\Release\cache\OCR\20150526\RSD_2015-05-26_c560caab7fec\64150677_2..xml success
+INFO  2015-06-03 11:46:49 - DataObject.User
+INFO  2015-06-03 11:46:51 - File download requested is existed -> ignore (D:\Projects\Projects\NexGen\NexGen\bin\Release\cache\IMG\20150526\RSD_2015-05-26_c560caab7fec\64150677_1..jpeg)
+INFO  2015-06-03 11:46:51 - File download requested is existed -> ignore (D:\Projects\Projects\NexGen\NexGen\bin\Release\cache\IMG\20150526\RSD_2015-05-26_c560caab7fec\64150677_2..jpeg)
+INFO  2015-06-03 12:26:11 - DataObject.User
+INFO  2015-06-03 01:41:14 - 
+INFO  2015-06-03 01:41:16 - DataObject.User
+INFO  2015-06-03 01:41:22 - Create Folder: D:\Projects\Projects\NexGen\NexGen\bin\Release\cache\IMG\20150603\RSD_2015-06-03_ee0d4ee4753a\
+INFO  2015-06-03 01:41:22 - Download file: D:\Projects\Projects\NexGen\NexGen\bin\Release\cache\IMG\20150603\RSD_2015-06-03_ee0d4ee4753a\65605758_1..jpeg success
+INFO  2015-06-03 01:41:22 - Create Folder: D:\Projects\Projects\NexGen\NexGen\bin\Release\cache\OCR\20150603\RSD_2015-06-03_ee0d4ee4753a\
+ERROR 2015-06-03 01:41:22 - OCR Error:cache\OCR\20150603/RSD_2015-06-03_ee0d4ee4753a/65605758_1..xml
+ERROR 2015-06-03 01:41:22 - Could not find file 'D:\Projects\Projects\NexGen\NexGen\bin\Release\cache\OCR\20150603\RSD_2015-06-03_ee0d4ee4753a\65605758_1..xml'.
+ERROR 2015-06-03 01:41:22 -    at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   at System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize, FileOptions options, String msgPath, Boolean bFromProxy)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize)
+   at System.Xml.XmlUrlResolver.GetEntity(Uri absoluteUri, String role, Type ofObjectToReturn)
+   at System.Xml.XmlTextReaderImpl.OpenUrlDelegate(Object xmlResolver)
+   at System.Threading.CompressedStack.runTryCode(Object userData)
+   at System.Runtime.CompilerServices.RuntimeHelpers.ExecuteCodeWithGuaranteedCleanup(TryCode code, CleanupCode backoutCode, Object userData)
+   at System.Threading.CompressedStack.Run(CompressedStack compressedStack, ContextCallback callback, Object state)
+   at System.Xml.XmlTextReaderImpl.OpenUrl()
+   at System.Xml.XmlTextReaderImpl.Read()
+   at System.Xml.XmlLoader.Load(XmlDocument doc, XmlReader reader, Boolean preserveWhitespace)
+   at System.Xml.XmlDocument.Load(XmlReader reader)
+   at System.Xml.XmlDocument.Load(String filename)
+   at NexGen.From_Keyer.GetOCRDoc(String imagepath) in d:\Projects\Projects\NexGen\NexGen\From_Keyer.cs:line 410
+ERROR 2015-06-03 01:41:22 - OCR parse errors

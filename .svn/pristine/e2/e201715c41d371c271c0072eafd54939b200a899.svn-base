@@ -1,0 +1,27 @@
+INFO  2015-04-20 07:40:52 - DataObject.User
+INFO  2015-04-20 07:46:58 - DataObject.User
+INFO  2015-04-20 08:15:50 - DataObject.User
+INFO  2015-04-20 08:16:35 - DataObject.User
+INFO  2015-04-20 08:17:30 - DataObject.User
+ERROR 2015-04-20 08:19:39 - Input string was not in a correct format.
+ERROR 2015-04-20 08:19:39 -    at System.Number.ParseDouble(String value, NumberStyles options, NumberFormatInfo numfmt)
+   at NexGen.UserConctrol.doc_rsd_input.GetRecord() in d:\Projects\Projects\NexGen\NexGen\UserConctrol\doc_rsd_input.cs:line 127
+ERROR 2015-04-20 08:20:11 - Input string was not in a correct format.
+ERROR 2015-04-20 08:20:11 -    at System.Number.ParseDouble(String value, NumberStyles options, NumberFormatInfo numfmt)
+   at NexGen.UserConctrol.doc_rsd_input.GetRecord() in d:\Projects\Projects\NexGen\NexGen\UserConctrol\doc_rsd_input.cs:line 127
+INFO  2015-04-20 08:23:59 - DataObject.User
+INFO  2015-04-20 08:51:23 - DataObject.User
+INFO  2015-04-20 08:57:23 - DataObject.User
+INFO  2015-04-20 09:02:52 - DataObject.User
+INFO  2015-04-20 09:09:30 - DataObject.User
+INFO  2015-04-20 09:10:46 - DataObject.User
+INFO  2015-04-20 09:17:16 - DataObject.User
+INFO  2015-04-20 09:19:19 - DataObject.User
+INFO  2015-04-20 09:22:20 - DataObject.User
+INFO  2015-04-20 09:23:29 - DataObject.User
+INFO  2015-04-20 09:24:42 - DataObject.User
+INFO  2015-04-20 09:26:16 - DataObject.User
+INFO  2015-04-20 09:31:52 - DataObject.User
+INFO  2015-04-20 09:38:08 - DataObject.User
+INFO  2015-04-20 09:45:43 - DataObject.User
+INFO  2015-04-20 09:48:11 - DataObject.User

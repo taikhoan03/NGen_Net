@@ -1,0 +1,16 @@
+INFO  2015-04-21 11:02:19 NexGenService.CommonService:line 25 - service start
+INFO  2015-04-21 11:02:20 NexGenFlow.Manage.User:line 23 - User [trunghieu] login success.
+INFO  2015-04-21 11:03:11 NexGenService.CommonService:line 25 - service start
+INFO  2015-04-21 11:03:12 NexGenFlow.Manage.User:line 23 - User [trunghieu] login success.
+INFO  2015-04-21 11:08:42 NexGenService.CommonService:line 25 - service start
+INFO  2015-04-21 11:08:42 NexGenFlow.Manage.User:line 23 - User [trunghieu] login success.
+INFO  2015-04-21 11:10:39 NexGenService.CommonService:line 25 - service start
+INFO  2015-04-21 11:10:40 NexGenFlow.Manage.User:line 23 - User [trunghieu] login success.
+INFO  2015-04-21 11:14:21 NexGenService.CommonService:line 25 - service start
+INFO  2015-04-21 11:14:21 NexGenFlow.Manage.User:line 23 - User [trunghieu] login success.
+INFO  2015-04-21 05:12:37 NexGenService.CommonService:line 26 - service start
+INFO  2015-04-21 05:12:38 NexGenFlow.Manage.User:line 24 - User [trunghieu] login success.
+INFO  2015-04-21 05:13:40 NexGenService.CommonService:line 26 - service start
+INFO  2015-04-21 05:13:40 NexGenFlow.Manage.User:line 24 - User [trunghieu] login success.
+INFO  2015-04-21 05:15:04 NexGenService.CommonService:line 26 - service start
+INFO  2015-04-21 05:15:04 NexGenFlow.Manage.User:line 24 - User [trunghieu] login success.

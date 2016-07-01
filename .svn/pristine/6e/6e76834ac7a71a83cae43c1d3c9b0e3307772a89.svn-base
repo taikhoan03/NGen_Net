@@ -1,0 +1,131 @@
+/**
+ * Created by mint-ghost on 8/19/15.
+ */
+var express = require('express');
+var router = express.Router();
+var Client = require('ftp');
+var path=require('path');
+var fs = require('fs');
+var xml2js = require('xml2js');
+var config={
+    host:'192.168.101.253',
+    user:'detoolv2',
+    password:'UrgRu1'
+};
+
+
+// connect to localhost:21 as anonymous
+//
+router.get('/:importdate/:package/:name/:type', function (req, res, next) {
+    // link shoud like:
+    // http://localhost:3000/remote/20150819/RSD_2015-08-19_7755bed35f6f/63142453_1..jpeg
+    if(!req.session.user){
+        res.send('');
+        return;
+    }
+
+    var type=req.params.type;
+    if(type.toLowerCase()!='xml')
+        res.writeHead(200, {'Content-Type': 'image/gif' });
+    else
+        res.writeHead(200, { 'Content-Type': 'application/json' });
+    var filename=req.params.name;
+    var extention=path.extname(filename);
+    var save_path=path.join(__dirname, '../public/images',req.params.importdate,req.params.package,filename);
+    if(type.toLowerCase()=='xml'){
+        save_path=path.join(__dirname, '../public/images',req.params.importdate,req.params.package,filename.replace(extention,'.xml'));
+    }
+    var folder_date=path.join(__dirname, '../public/images',req.params.importdate);
+    var folder_package=path.join(__dirname, '../public/images',req.params.importdate,req.params.package);
+    if (!fs.existsSync(folder_date)){
+        fs.mkdirSync(folder_date);
+    }
+    if (!fs.existsSync(folder_package)){
+        fs.mkdirSync(folder_package);
+    }
+    fs.exists(save_path,function(exists){
+        if(exists){
+            if(type.toLowerCase()!='xml'){
+                var img = fs.readFileSync(save_path);
+                res.end(img, 'binary');
+            }else{
+                var img = fs.readFileSync(save_path);
+                var jsson;
+                var parser = new xml2js.Parser();
+                parser.parseString(img, function (err, result) {
+                    jsson = result;//JSON.stringify(result);
+                    //console.log(JSON.stringify(result));
+
+                });
+                res.end(JSON.stringify(jsson),'utf-8');
+            }
+
+            //for test
+            // remove this file
+            //fs.unlink(save_path);
+        }else{
+            var c = new Client();
+            c.on('ready', function() {
+                if(type.toLowerCase()!='xml'){
+                    c.get('Resource/IMG/'+req.params.importdate+'/'+req.params.package+'/'+filename, function(err, stream) {
+                        if (err) {
+                            console.log(err);
+                            return;
+                        }
+                        stream.once('close', function() { c.end(); });
+                        var file=fs.createWriteStream(save_path);
+                        file.on('finish',function(){
+                            var img = fs.readFileSync(save_path);
+                            //res.writeHead(200, {'Content-Type': 'image/gif' });
+                            res.end(img, 'binary');
+                        }).on('error', function(err) { // Handle errors
+                            fs.unlink(save_path); // Delete the file async. (But we don't check the result)
+
+                        });
+                        stream.pipe(file);
+
+
+                    });
+                }else{
+                    filename=filename.replace(extention,'.xml');
+                    c.get('Resource/OCR/'+req.params.importdate+'/'+req.params.package+'/'+filename, function(err, stream) {
+                        if (err) {
+                            console.log(err);
+                            return;
+                        }
+                        stream.once('close', function() { c.end(); });
+
+                        var file=fs.createWriteStream(save_path);
+
+                        file.on('finish',function(){
+                            stream.destroy();
+                            var img = fs.readFileSync(save_path);
+                            var jsson;
+                            var parser = new xml2js.Parser();
+                            parser.parseString(img, function (err, result) {
+                                jsson = result;//JSON.stringify(result);
+                                //console.log(JSON.stringify(result));
+
+                            });
+                            res.end(JSON.stringify(jsson),'utf-8');
+                        }).on('error', function(err) { // Handle errors
+                            fs.unlink(save_path); // Delete the file async. (But we don't check the result)
+
+                        });
+                        stream.pipe(file);
+
+
+                    });
+                }
+
+            });
+
+            c.connect(config);
+        }
+
+    });
+    //res.send('ggg');
+
+});
+
+module.exports = router;

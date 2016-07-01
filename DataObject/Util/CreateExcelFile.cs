@@ -1,0 +1,706 @@
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Diagnostics;
+using System.Data;
+using System.Reflection;
+using DocumentFormat.OpenXml.Packaging;
+using DocumentFormat.OpenXml.Spreadsheet;
+using DocumentFormat.OpenXml;
+using System.IO;
+
+namespace DataObject.Util
+{
+    public class CreateExcelFile
+    {
+        public static bool CreateExcelDocument<T>(List<T> list, string xlsxFilePath)
+        {
+            if (list.Count == 0)
+                return false;
+            DataSet ds = new DataSet();
+            DataTable table = new DataTable();
+
+            //if (list[0].GetType() == typeof(data.Key_Doc))
+            //{
+            //    table = ListToDataTable(list,true);//add firstEmpty/defaultColumn
+            //    for (int i = 0; i < table.Columns.Count; i++)
+            //    {
+            //        table.Columns[i].ColumnName = Key_Doc.getDisplayName(table.Columns[i].ColumnName);
+            //    }
+            //}
+            //else if (list[0].GetType() == typeof(Crunch_DataObject.Key_Doc_ADC))
+            //{
+            //    table = ListToDataTable(list,true);//add firstEmpty/defaultColumn
+            //    for (int i = 0; i < table.Columns.Count; i++)
+            //    {
+            //        table.Columns[i].ColumnName = Key_Doc_ADC.getDisplayName(table.Columns[i].ColumnName);
+            //    }
+            //}else
+            //{
+            //    table = ListToDataTable(list);
+            //}
+            table = ListToDataTable(list);
+            ds.Tables.Add(table);
+
+            return CreateExcelDocument(ds, xlsxFilePath);
+        }
+
+        //  This function is adapated from: http://www.codeguru.com/forum/showthread.php?t=450171
+        //  My thanks to Carl Quirion, for making it "nullable-friendly".
+        private static System.Data.DataTable ListToDataTable<T>(List<T> list, bool emptyFirstColumn=false)
+        {
+            System.Data.DataTable dt = new System.Data.DataTable();
+            System.Data.DataRow row;
+            var properties = typeof(T).GetProperties(BindingFlags.Public | BindingFlags.Instance | BindingFlags.SetField);
+            //if(emptyFirstColumn)
+            //    dt.Columns.Add("Filename");
+            Dictionary<string, string> columns = new Dictionary<string, string>();
+            columns.Add("transaction_type", "transaction_type");
+            columns.Add("receipt_id", "receipt_id");
+            columns.Add("banner_id", "banner_id");
+            columns.Add("total", "total");
+            columns.Add("transaction_date", "transaction_date");
+            columns.Add("transaction_time", "transaction_time");
+            columns.Add("sr_no", "sr_no");
+            columns.Add("item_type", "");
+            columns.Add("qty", "");
+            columns.Add("rin", "");
+            columns.Add("price", "");
+            columns.Add("per_item", "");
+            columns.Add("rejection_reason", "");
+            columns.Add("worker_id", "");
+            columns.Add("image_1", "");
+            columns.Add("image_2", "");
+            columns.Add("image_3", "");
+            columns.Add("image_4", "");
+            columns.Add("image_5", "");
+            columns.Add("image_6", "");
+            columns.Add("image_7", "");
+            columns.Add("image_8", "");
+            columns.Add("image_9", "");
+            columns.Add("", "");
+
+            //string[]columns = new string[]
+            //{
+            //    "transaction_type",
+            //    "receipt_id",
+            //    "banner_id",
+            //    "total",
+            //    "transaction_date",
+            //    "transaction_time",
+            //    "sr_no",
+            //    "item_type",
+            //    "qty",
+            //    "rin",
+            //    "price",
+            //    "per_item",
+            //    "rejection_reason",
+            //    "worker_id",
+            //    "image_1",
+            //    "image_2",
+            //    "image_3",
+            //    "image_4",
+            //    "image_5",
+            //    "image_6",
+            //    "image_7",
+            //    "image_8",
+            //    "image_9"
+            //};
+            try
+            {
+                var obj = (object)list[0];
+                var rec = (DataObject.MergedObject.DocumentExport)obj;
+                if (rec.Transaction_type == DataObject.EVRData.Transaction_type_RSD)
+                {
+                    columns = new Dictionary<string, string>();
+                    columns.Add("transaction_type", "transaction_type");
+                    columns.Add("receipt_id", "receipt_id");
+                    columns.Add("banner_id", "banner_id");
+                    columns.Add("total", "total");
+                    columns.Add("transaction_date", "transaction_date");
+                    columns.Add("transaction_time", "transaction_time");
+                    columns.Add("sr_no", "sr_no");
+                    columns.Add("item_type", "");
+                    columns.Add("qty", "");
+                    columns.Add("rsd", "");
+                    columns.Add("price", "");
+                    columns.Add("per_item", "");
+                    columns.Add("rejection_reason", "");
+                    columns.Add("worker_id", "");
+                    columns.Add("image_1", "");
+                    columns.Add("image_2", "");
+                    columns.Add("image_3", "");
+                    columns.Add("image_4", "");
+                    columns.Add("image_5", "");
+                    columns.Add("image_6", "");
+                    columns.Add("image_7", "");
+                    columns.Add("image_8", "");
+                    columns.Add("image_9", "");
+
+                    //columns = new string[]
+                    //{
+                    //    "transaction_type",
+                    //    "receipt_id",
+                    //    "banner_id",
+                    //    "total",
+                    //    "transaction_date",
+                    //    "transaction_time",
+                    //    "sr_no",
+                    //    "item_type",
+                    //    "qty",
+                    //    "rsd",
+                    //    "price",
+                    //    "per_item",
+                    //    "rejection_reason",
+                    //    "worker_id",
+                    //    "image_1",
+                    //    "image_2",
+                    //    "image_3",
+                    //    "image_4",
+                    //    "image_5",
+                    //    "image_6",
+                    //    "image_7",
+                    //    "image_8",
+                    //    "image_9"
+                    //};
+                }else if(rec.Transaction_type == DataObject.EVRData.Transaction_type_UPC)
+                {
+                    columns = new Dictionary<string, string>();
+                    columns.Add("transaction_type", "transaction_type");
+                    columns.Add("receipt_id", "receipt_id");
+                    columns.Add("banner_id", "banner_id");
+                    columns.Add("total", "total");
+                    columns.Add("transaction_date", "transaction_date");
+                    columns.Add("transaction_time", "transaction_time");
+                    columns.Add("sr_no", "sr_no");
+                    columns.Add("item_type", "");
+                    columns.Add("qty", "");
+                    columns.Add("upc", "");
+                    columns.Add("price", "");
+                    columns.Add("per_item", "");
+                    columns.Add("rejection_reason", "");
+                    columns.Add("worker_id", "");
+                    columns.Add("image_1", "");
+                    columns.Add("image_2", "");
+                    columns.Add("image_3", "");
+                    columns.Add("image_4", "");
+                    columns.Add("image_5", "");
+                    columns.Add("image_6", "");
+                    columns.Add("image_7", "");
+                    columns.Add("image_8", "");
+                    columns.Add("image_9", "");
+                    //columns = new string[]
+                    //{
+                    //    "transaction_type",
+                    //    "receipt_id",
+                    //    "banner_id",
+                    //    "total",
+                    //    "transaction_date",
+                    //    "transaction_time",
+                    //    "sr_no",
+                    //    "item_type",
+                    //    "qty",
+                    //    "upc",
+                    //    "price",
+                    //    "per_item",
+                    //    "rejection_reason",
+                    //    "worker_id",
+                    //    "image_1",
+                    //    "image_2",
+                    //    "image_3",
+                    //    "image_4",
+                    //    "image_5",
+                    //    "image_6",
+                    //    "image_7",
+                    //    "image_8",
+                    //    "image_9"
+                    //};
+                }
+                else if (rec.Transaction_type == DataObject.EVRData.Transaction_type_UPC_RSD||
+                    rec.Transaction_type=="UPC/RSD")
+                {
+                    columns = new Dictionary<string, string>();
+                    columns.Add("transaction_type", "transaction_type");
+                    columns.Add("receipt_id", "receipt_id");
+                    columns.Add("banner_id", "banner_id");
+                    columns.Add("total", "total");
+                    columns.Add("transaction_date", "transaction_date");
+                    columns.Add("transaction_time", "transaction_time");
+                    columns.Add("sr_no", "sr_no");
+                    columns.Add("item_type", "");
+                    columns.Add("qty", "");
+                    columns.Add("upc", "");
+                    columns.Add("rin_upc_rsd_description", "rsd");
+                    columns.Add("price", "");
+                    columns.Add("per_item", "");
+                    columns.Add("rejection_reason", "");
+                    columns.Add("worker_id", "");
+                    columns.Add("image_1", "");
+                    columns.Add("image_2", "");
+                    columns.Add("image_3", "");
+                    columns.Add("image_4", "");
+                    columns.Add("image_5", "");
+                    columns.Add("image_6", "");
+                    columns.Add("image_7", "");
+                    columns.Add("image_8", "");
+                    columns.Add("image_9", "");
+                }else if (rec.Transaction_type == DataObject.EVRData.Transaction_type_RIN_RSD ||
+                    rec.Transaction_type=="RIN/RSD")
+                {
+                    columns = new Dictionary<string, string>();
+                    columns.Add("transaction_type", "transaction_type");
+                    columns.Add("receipt_id", "receipt_id");
+                    columns.Add("banner_id", "banner_id");
+                    columns.Add("total", "total");
+                    columns.Add("transaction_date", "transaction_date");
+                    columns.Add("transaction_time", "transaction_time");
+                    columns.Add("sr_no", "sr_no");
+                    columns.Add("item_type", "");
+                    columns.Add("qty", "");
+                    columns.Add("rin", "");
+                    columns.Add("rin_upc_rsd_description", "rsd");
+                    columns.Add("price", "");
+                    columns.Add("per_item", "");
+                    columns.Add("rejection_reason", "");
+                    columns.Add("worker_id", "");
+                    columns.Add("image_1", "");
+                    columns.Add("image_2", "");
+                    columns.Add("image_3", "");
+                    columns.Add("image_4", "");
+                    columns.Add("image_5", "");
+                    columns.Add("image_6", "");
+                    columns.Add("image_7", "");
+                    columns.Add("image_8", "");
+                    columns.Add("image_9", "");
+                    columns.Add("", "");
+                }
+            }
+            catch (Exception)
+            {
+                throw;
+            }
+            foreach (var column in columns)
+            {
+                var property = properties.Where(p => p.Name.ToLower() == column.Key).FirstOrDefault();
+                if (property != null)
+                {
+                    //if (column == "rin_upc_rsd_description")
+                    //{
+
+                    //}
+                    //else
+                    //{
+                    //    dt.Columns.Add(new System.Data.DataColumn(property.Name.ToLower(), property.PropertyType));
+                    //}
+                    if (column.Value == string.Empty)
+                        dt.Columns.Add(new System.Data.DataColumn(column.Key, property.PropertyType));
+                    else
+                        dt.Columns.Add(new System.Data.DataColumn(column.Value, property.PropertyType));
+                }
+                
+                
+            }
+            //foreach (PropertyInfo info in properties)
+            //{
+            //    dt.Columns.Add(new System.Data.DataColumn(info.Name, info.PropertyType));
+            //}
+            
+            foreach (T t in list)
+            {
+                try
+                {
+                    row = dt.NewRow();
+                    
+                    foreach (PropertyInfo info in properties)
+                    {
+                        try
+                        {
+                            if (columns.Any(p => p.Key == info.Name.ToLower()))
+                            {
+                                var _value = info.GetValue(t, null);
+                                if (info.Name.ToLower() == "total")
+                                {
+                                    if (double.Parse(_value + string.Empty) != -1234599878.09998)
+                                    {
+                                        var column = columns.FirstOrDefault(p => p.Key == info.Name.ToLower());
+                                        if (column.Value == string.Empty)
+                                        {
+                                            row[column.Key] = _value;
+                                        }
+                                        else
+                                            row[column.Value] = _value;
+                                        //row[info.Name] = _value; 
+                                    }
+                                    else
+                                    {
+                                        var column = columns.FirstOrDefault(p => p.Key == info.Name.ToLower());
+                                        if (column.Value == string.Empty)
+                                        {
+                                            row[column.Key] = DBNull.Value;
+                                        }
+                                        else
+                                            row[column.Value] = DBNull.Value;
+                                    }
+                                        //row[info.Name] = DBNull.Value; 
+                                }
+                                else
+                                {
+                                    var column = columns.FirstOrDefault(p => p.Key == info.Name.ToLower());
+                                    if (column.Value==string.Empty)
+                                    {
+                                        row[column.Key] = _value;
+                                    }else
+                                        row[column.Value] = _value;
+                                }
+                                    
+                            }
+                        }
+                        catch (Exception)
+                        {
+                        }
+                    }
+                    dt.Rows.Add(row);
+                }
+                catch (Exception)
+                {
+                }
+            }
+            return dt;
+        }
+
+        //public static bool CreateExcelDocument(DataTable dt, string xlsxFilePath)
+        //{
+        //    DataSet ds = new DataSet();
+        //    ds.Tables.Add(dt);
+
+        //    return CreateExcelDocument(ds, xlsxFilePath);
+        //}
+
+        public static bool CreateExcelDocument(DataSet ds, string excelFilename)
+        {
+            try
+            {
+                using (SpreadsheetDocument document = SpreadsheetDocument.Create(excelFilename, SpreadsheetDocumentType.Workbook))
+                {
+                    document.AddWorkbookPart();
+                    document.WorkbookPart.Workbook = new DocumentFormat.OpenXml.Spreadsheet.Workbook();
+
+                    //  My thanks to James Miera for the following line of code (which prevents crashes in Excel 2010)
+                    document.WorkbookPart.Workbook.Append(new BookViews(new WorkbookView()));
+
+                    //  If we don't add a "WorkbookStylesPart", OLEDB will refuse to connect to this .xlsx file !
+                    WorkbookStylesPart workbookStylesPart = document.WorkbookPart.AddNewPart<WorkbookStylesPart>("rIdStyles");
+                    Stylesheet stylesheet = new Stylesheet();
+                    workbookStylesPart.Stylesheet = stylesheet;
+
+                    CreateParts(ds, document);
+                }
+                Trace.WriteLine("Successfully created: " + excelFilename);
+                return true;
+            }
+            catch (Exception ex)
+            {
+                Trace.WriteLine("Failed, exception thrown: " + ex.Message);
+                return false;
+            }
+        }
+
+        public static DataTable ReadExcelDocument(string excelFileName)
+        {
+            try
+            {
+                DataTable dt = new DataTable();
+
+                using (SpreadsheetDocument spreadSheetDocument = SpreadsheetDocument.Open(@excelFileName, false))
+                {
+                    WorkbookPart workbookPart = spreadSheetDocument.WorkbookPart;
+                    IEnumerable<Sheet> sheets = spreadSheetDocument.WorkbookPart.Workbook.GetFirstChild<Sheets>().Elements<Sheet>();
+                    string relationshipId = sheets.First().Id.Value;
+                    WorksheetPart worksheetPart = (WorksheetPart)spreadSheetDocument.WorkbookPart.GetPartById(relationshipId);
+                    Worksheet workSheet = worksheetPart.Worksheet;
+                    SheetData sheetData = workSheet.GetFirstChild<SheetData>();
+                    IEnumerable<Row> rows = sheetData.Descendants<Row>();
+
+                    foreach (Cell cell in rows.ElementAt(0))
+                    {
+                        dt.Columns.Add(GetCellValue(spreadSheetDocument, cell));
+                    }
+
+                    foreach (Row row in rows) //this will also include your header row...
+                    {
+                        DataRow tempRow = dt.NewRow();
+
+                        for (int i = 0; i < row.Descendants<Cell>().Count(); i++)
+                        {
+                            tempRow[i] = GetCellValue(spreadSheetDocument, row.Descendants<Cell>().ElementAt(i));
+                        }
+
+                        dt.Rows.Add(tempRow);
+                    }
+                    dt.Rows.RemoveAt(0);
+                    return dt;
+                }
+            }
+            catch (Exception ex)
+            {
+                Trace.WriteLine(ex.Message);
+                return null;
+            }
+        }
+
+        public static string GetCellValue(SpreadsheetDocument document, Cell cell)
+        {
+            SharedStringTablePart stringTablePart = document.WorkbookPart.SharedStringTablePart;
+            if (cell.CellValue == null)
+                return "";
+            string value = cell.CellValue.InnerXml;
+
+            if (cell.DataType != null && cell.DataType.Value == CellValues.SharedString)
+            {
+                return stringTablePart.SharedStringTable.ChildElements[Int32.Parse(value)].InnerText;
+            }
+            else
+            {
+                return value;
+            }
+        }
+
+        private static void CreateParts(DataSet ds, SpreadsheetDocument spreadsheet)
+        {
+            //  Loop through each of the DataTables in our DataSet, and create a new Excel Worksheet for each.
+            uint worksheetNumber = 1;
+            WorksheetPart newWorksheetPart;
+            foreach (DataTable dt in ds.Tables)
+            {
+                //  For each worksheet you want to create
+                string workSheetID = "rId" + worksheetNumber.ToString();
+                string worksheetName = dt.TableName;
+
+                newWorksheetPart = spreadsheet.WorkbookPart.AddNewPart<WorksheetPart>();
+                newWorksheetPart.Worksheet = new DocumentFormat.OpenXml.Spreadsheet.Worksheet();
+
+                // create sheet data
+                newWorksheetPart.Worksheet.AppendChild(new DocumentFormat.OpenXml.Spreadsheet.SheetData());
+
+                // save worksheet
+                WriteDataTableToExcelWorksheet(dt, newWorksheetPart);
+                //newWorksheetPart.Worksheet.Save();
+
+                // create the worksheet to workbook relation
+                if (worksheetNumber == 1)
+                    spreadsheet.WorkbookPart.Workbook.AppendChild(new DocumentFormat.OpenXml.Spreadsheet.Sheets());
+
+                spreadsheet.WorkbookPart.Workbook.GetFirstChild<DocumentFormat.OpenXml.Spreadsheet.Sheets>().AppendChild(new DocumentFormat.OpenXml.Spreadsheet.Sheet()
+                {
+                    Id = spreadsheet.WorkbookPart.GetIdOfPart(newWorksheetPart),
+                    SheetId = (uint)worksheetNumber,
+                    Name = dt.TableName
+                });
+
+                worksheetNumber++;
+            }
+
+            spreadsheet.WorkbookPart.Workbook.Save();
+        }
+
+        private static void WriteDataTableToExcelWorksheet(DataTable dt, WorksheetPart worksheetPart)
+        {
+            var worksheet = worksheetPart.Worksheet;
+            var sheetData = worksheet.GetFirstChild<SheetData>();
+
+            string cellValue = "";
+
+            //  Create a Header Row in our Excel file, containing one header for each Column of data in our DataTable.
+            //
+            //  We'll also create an array, showing which type each column of data is (Text or Numeric), so when we come to write the actual
+            //  cells of data, we'll know if to write Text values or Numeric cell values.
+            int numberOfColumns = dt.Columns.Count;
+            //bool[] IsNumericColumn = new bool[numberOfColumns];
+
+            string[] excelColumnNames = new string[numberOfColumns];
+            for (int n = 0; n < numberOfColumns; n++)
+            {
+                excelColumnNames[n] = GetExcelColumnName(n);
+                //excelColumnNames[n] = Key_Doc.getFieldName(GetExcelColumnName(n));
+            }
+            //
+            //  Create the Header row in our Excel Worksheet
+            //
+            uint rowIndex = 1;
+
+            var headerRow = new Row { RowIndex = rowIndex };  // add a row at the top of spreadsheet
+            sheetData.Append(headerRow);
+            DataColumn col;
+            for (int colInx = 0; colInx < numberOfColumns; colInx++)
+            {
+                col = dt.Columns[colInx];
+                //AppendTextCell(excelColumnNames[colInx] + "1", Key_Doc.getFieldName(col.ColumnName), headerRow);
+                AppendTextCell(excelColumnNames[colInx] + "1", col.ColumnName, headerRow);
+                //IsNumericColumn[colInx] = (col.DataType.FullName == "System.Decimal") || (col.DataType.FullName == "System.Int32");
+            }
+
+            //
+            //  Now, step through each row of data in our DataTable...
+            //
+            //double cellNumericValue = 0;
+            Row newExcelRow;
+            foreach (DataRow dr in dt.Rows)
+            {
+                // ...create a new row, and append a set of this row's data to it.
+                ++rowIndex;
+                newExcelRow = new Row { RowIndex = rowIndex };  // add a row at the top of spreadsheet
+                sheetData.Append(newExcelRow);
+
+                for (int colInx = 0; colInx < numberOfColumns; colInx++)
+                {
+                    cellValue = dr[colInx].ToString();//.ItemArray[colInx].ToString();
+
+                    // Create cell with data
+                    //if (IsNumericColumn[colInx])
+                    //{
+                    //    //  For numeric cells, make sure our input data IS a number, then write it out to the Excel file.
+                    //    //  If this numeric value is NULL, then don't write anything to the Excel file.
+                    //    cellNumericValue = 0;
+                    //    if (double.TryParse(cellValue, out cellNumericValue))
+                    //    {
+                    //        cellValue = cellNumericValue.ToString();
+                    //        AppendNumericCell(excelColumnNames[colInx] + rowIndex.ToString(), cellValue, newExcelRow);
+                    //    }
+                    //}
+                    //else
+                    //{
+                    //  For text cells, just write the input data straight out to the Excel file.
+                    AppendTextCell(excelColumnNames[colInx] + rowIndex.ToString(), cellValue, newExcelRow);
+                    //}
+                }
+            }
+        }
+
+        private static void AppendTextCell(string cellReference, string cellStringValue, Row excelRow)
+        {
+            //  Add a new Excel Cell to our Row 
+            Cell cell = new Cell() { CellReference = cellReference, DataType = CellValues.String };
+            //CellValue cellValue = new CellValue() { Text=cellStringValue};
+            cell.Append(new CellValue() { Text = cellStringValue });
+            excelRow.Append(cell);
+        }
+
+        //private static void AppendNumericCell(string cellReference, string cellStringValue, Row excelRow)
+        //{
+        //    //  Add a new Excel Cell to our Row 
+        //    Cell cell = new Cell() { CellReference = cellReference };
+        //    CellValue cellValue = new CellValue();
+        //    cellValue.Text = cellStringValue;
+        //    cell.Append(cellValue);
+        //    excelRow.Append(cell);
+        //}
+
+        private static string GetExcelColumnName(int columnIndex)
+        {
+            //  Convert a zero-based column index into an Excel column reference  (A, B, C.. Y, Y, AA, AB, AC... AY, AZ, B1, B2..)
+            //
+            //  eg  GetExcelColumnName(0) should return "A"
+            //      GetExcelColumnName(1) should return "B"
+            //      GetExcelColumnName(25) should return "Z"
+            //      GetExcelColumnName(26) should return "AA"
+            //      GetExcelColumnName(27) should return "AB"
+            //      ..etc..
+            //
+            if (columnIndex < 26)
+                return ((char)('A' + columnIndex)).ToString();
+
+            char firstChar = (char)('A' + (columnIndex / 26) - 1);
+            char secondChar = (char)('A' + (columnIndex % 26));
+
+            return string.Format("{0}{1}", firstChar, secondChar);
+        }
+
+        /// <summary>
+        /// Made by MC Hà
+        /// Read CSV document and transfer to datatable
+        /// </summary>
+        /// <param name="CSVFileName"></param>
+        /// <returns></returns>
+        public static DataTable ReadCSVDocument(string CSVFileName)
+        {
+            StreamReader oStreamReader = new StreamReader(CSVFileName);
+            DataTable oDataTable = null;
+            int RowCount = 0;
+            List<string> ColumnNames = new List<string>();
+            List<string> oStreamDataValues = new List<string>();
+
+            while (!oStreamReader.EndOfStream)
+            {
+                String oStreamRowData = oStreamReader.ReadLine().Trim().ToString();
+                if (oStreamRowData.Length > 0)
+                {
+                    // oStreamDataValues = oStreamRowData.Split(',');
+                    //Edit here: Fix bug when having "," in lines
+                    string[] tmp = oStreamRowData.Split(',');
+                    bool merge = false;
+                    oStreamDataValues = new List<string>();
+                    for (int i = 0; i < tmp.Count(); i++)
+                    {
+                        if (merge == false)
+                        {
+                            oStreamDataValues.Add(tmp[i]);
+                        }
+                        else if (merge == true)
+                            oStreamDataValues[oStreamDataValues.Count() - 1] += tmp[i];
+
+                        if (tmp[i].StartsWith("\""))
+                        {
+                            merge = true;
+                            oStreamDataValues[oStreamDataValues.Count() - 1] = oStreamDataValues[oStreamDataValues.Count() - 1].Remove(0, 1);
+                        }
+                        else if (tmp[i].EndsWith("\""))
+                        {
+                            merge = false;
+                            oStreamDataValues[oStreamDataValues.Count() - 1] = oStreamDataValues[oStreamDataValues.Count() - 1].Remove(oStreamDataValues[oStreamDataValues.Count() - 1].Length - 1, 1);
+                        }
+                    }
+
+                    //Bcoz the first row contains column names, we will poluate the column name by reading the first row and RowCount-0 will be true only once
+                    if (RowCount == 0)
+                    {
+                        RowCount = 1;
+                        ColumnNames = oStreamDataValues;
+                        oDataTable = new DataTable();
+
+                        foreach (string csvcolumn in ColumnNames)
+                        {
+                            if (csvcolumn != "")
+                            {
+                                DataColumn oDataColumn = new DataColumn(csvcolumn.ToUpper(), typeof(string));
+                                oDataColumn.DefaultValue = string.Empty;
+                                oDataTable.Columns.Add(oDataColumn);
+                            }
+                        }
+                    }
+                    else
+                    {
+                        DataRow oDataRow = oDataTable.NewRow();
+                        for (int i = 0; i < oDataTable.Columns.Count; i++)
+                        {
+                            oDataRow[ColumnNames[i]] = oStreamDataValues[i] == null ? string.Empty : oStreamDataValues[i].ToString();
+                        }
+                        oDataTable.Rows.Add(oDataRow);
+                    }
+                }
+            }
+            oStreamReader.Close();
+            oStreamReader.Dispose();
+            //foreach (DataRow oDataRow in oDataTable.Rows)
+            //{
+            //    string RowValues = string.Empty;
+            //    foreach (string csvcolumn in ColumnNames)
+            //    {
+            //        RowValues += csvcolumn + "=" + oDataRow[csvcolumn].ToString() + ";  ";
+            //    }
+
+            //}
+            return oDataTable;
+        }
+    }
+}

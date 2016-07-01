@@ -1,0 +1,11 @@
+INFO  2015-09-07 06:08:53 - DataObject.User
+INFO  2015-09-07 06:08:56 - Create Folder: D:\Projects\Projects\NexGen\SVN\NexGen\bin\Debug\cache\IMG\20150907\UPC_2015-09-06_a6e19c510c78\
+INFO  2015-09-07 06:08:56 - Download file: D:\Projects\Projects\NexGen\SVN\NexGen\bin\Debug\cache\IMG\20150907\UPC_2015-09-06_a6e19c510c78\44437985_1..jpeg success
+INFO  2015-09-07 06:08:56 - Create Folder: D:\Projects\Projects\NexGen\SVN\NexGen\bin\Debug\cache\OCR\20150907\UPC_2015-09-06_a6e19c510c78\
+INFO  2015-09-07 06:08:56 - Download file: D:\Projects\Projects\NexGen\SVN\NexGen\bin\Debug\cache\OCR\20150907\UPC_2015-09-06_a6e19c510c78\44437985_1..xml success
+INFO  2015-09-07 06:14:58 - DataObject.User
+INFO  2015-09-07 06:15:01 - Download file: D:\Projects\Projects\NexGen\SVN\NexGen\bin\Debug\cache\IMG\20150907\UPC_2015-09-06_a6e19c510c78\45651560_1..jpeg success
+INFO  2015-09-07 06:15:01 - Download file: D:\Projects\Projects\NexGen\SVN\NexGen\bin\Debug\cache\OCR\20150907\UPC_2015-09-06_a6e19c510c78\45651560_1..xml success
+INFO  2015-09-07 06:16:13 - DataObject.User
+INFO  2015-09-07 06:16:17 - File download requested is existed -> ignore (D:\Projects\Projects\NexGen\SVN\NexGen\bin\Debug\cache\IMG\20150907\UPC_2015-09-06_a6e19c510c78\45651560_1..jpeg)
+INFO  2015-09-07 11:04:45 - DataObject.User

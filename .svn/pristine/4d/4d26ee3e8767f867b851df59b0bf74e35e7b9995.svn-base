@@ -1,0 +1,40 @@
+INFO  2015-04-17 02:07:25 - Download file: D:\Projects\Projects\NexGen\NexGen\bin\Debug\cache\IMG\20150416\UPC_2015-04-16_d7d14dc8a516\57196641_1..jpeg success
+ERROR 2015-04-17 02:07:25 - OCR: Resource/OCR/20150416/UPC_2015-04-16_d7d14dc8a516/57196641_1..jpeg Fail
+ERROR 2015-04-17 02:07:25 - Failed to open file.
+ERROR 2015-04-17 02:07:25 -    at CacheImage.FTPHelper.Download(String path, String outputFile) in d:\Projects\Clore\_new\CacheImage\CacheImage\CacheImage\FTP\FTPHelper.cs:line 91
+   at CacheImage.Program.Main(String[] args) in d:\Projects\Clore\_new\CacheImage\CacheImage\CacheImage\Program.cs:line 84
+INFO  2015-04-17 02:10:58 - File download requested is existed -> ignore (D:\Projects\Projects\NexGen\NexGen\bin\Debug\cache\IMG\20150416\UPC_2015-04-16_d7d14dc8a516\57196641_1..jpeg)
+ERROR 2015-04-17 02:10:59 - OCR: Resource/OCR/20150416/UPC_2015-04-16_d7d14dc8a516/57196641_1..jpeg Fail
+ERROR 2015-04-17 02:10:59 - Failed to open file.
+ERROR 2015-04-17 02:10:59 -    at CacheImage.FTPHelper.Download(String path, String outputFile) in d:\Projects\Clore\_new\CacheImage\CacheImage\CacheImage\FTP\FTPHelper.cs:line 91
+   at CacheImage.Program.Main(String[] args) in d:\Projects\Clore\_new\CacheImage\CacheImage\CacheImage\Program.cs:line 84
+INFO  2015-04-17 02:13:04 - File download requested is existed -> ignore (D:\Projects\Projects\NexGen\NexGen\bin\Debug\cache\IMG\20150416\UPC_2015-04-16_d7d14dc8a516\57196641_1..jpeg)
+ERROR 2015-04-17 02:13:05 - OCR: Resource/OCR/20150416/UPC_2015-04-16_d7d14dc8a516/57196641_1..jpeg Fail
+ERROR 2015-04-17 02:13:05 - Failed to open file.
+ERROR 2015-04-17 02:13:05 -    at CacheImage.FTPHelper.Download(String path, String outputFile) in d:\Projects\Clore\_new\CacheImage\CacheImage\CacheImage\FTP\FTPHelper.cs:line 91
+   at CacheImage.Program.Main(String[] args) in d:\Projects\Clore\_new\CacheImage\CacheImage\CacheImage\Program.cs:line 84
+INFO  2015-04-17 02:14:17 - File download requested is existed -> ignore (D:\Projects\Projects\NexGen\NexGen\bin\Debug\cache\IMG\20150416\UPC_2015-04-16_d7d14dc8a516\57196641_1..jpeg)
+ERROR 2015-04-17 02:14:18 - OCR: Resource/OCR/20150416/UPC_2015-04-16_d7d14dc8a516/57196641_1..jpeg Fail
+ERROR 2015-04-17 02:14:18 - Failed to open file.
+ERROR 2015-04-17 02:14:18 -    at CacheImage.FTPHelper.Download(String path, String outputFile) in d:\Projects\Clore\_new\CacheImage\CacheImage\CacheImage\FTP\FTPHelper.cs:line 91
+   at CacheImage.Program.Main(String[] args) in d:\Projects\Clore\_new\CacheImage\CacheImage\CacheImage\Program.cs:line 84
+INFO  2015-04-17 02:15:26 - File download requested is existed -> ignore (D:\Projects\Projects\NexGen\NexGen\bin\Debug\cache\IMG\20150416\UPC_2015-04-16_d7d14dc8a516\57196641_1..jpeg)
+ERROR 2015-04-17 02:15:27 - OCR: Resource/OCR/20150416/UPC_2015-04-16_d7d14dc8a516/57196641_1..jpeg Fail
+ERROR 2015-04-17 02:15:27 - Failed to open file.
+ERROR 2015-04-17 02:15:27 -    at CacheImage.FTPHelper.Download(String path, String outputFile) in d:\Projects\Clore\_new\CacheImage\CacheImage\CacheImage\FTP\FTPHelper.cs:line 91
+   at CacheImage.Program.Main(String[] args) in d:\Projects\Clore\_new\CacheImage\CacheImage\CacheImage\Program.cs:line 84
+INFO  2015-04-17 02:16:24 - File download requested is existed -> ignore (D:\Projects\Projects\NexGen\NexGen\bin\Debug\cache\IMG\20150416\UPC_2015-04-16_d7d14dc8a516\57196641_1..jpeg)
+ERROR 2015-04-17 02:16:25 - OCR: Resource/OCR/20150416/UPC_2015-04-16_d7d14dc8a516/57196641_1..jpeg Fail
+ERROR 2015-04-17 02:16:25 - Failed to open file.
+ERROR 2015-04-17 02:16:25 -    at CacheImage.FTPHelper.Download(String path, String outputFile) in d:\Projects\Clore\_new\CacheImage\CacheImage\CacheImage\FTP\FTPHelper.cs:line 91
+   at CacheImage.Program.Main(String[] args) in d:\Projects\Clore\_new\CacheImage\CacheImage\CacheImage\Program.cs:line 84
+INFO  2015-04-17 02:17:59 - File download requested is existed -> ignore (D:\Projects\Projects\NexGen\NexGen\bin\Debug\cache\IMG\20150416\UPC_2015-04-16_d7d14dc8a516\57196641_1..jpeg)
+ERROR 2015-04-17 02:18:00 - OCR: Resource/OCR/20150416/UPC_2015-04-16_d7d14dc8a516/57196641_1..jpeg Fail
+ERROR 2015-04-17 02:18:00 - Failed to open file.
+ERROR 2015-04-17 02:18:00 -    at CacheImage.FTPHelper.Download(String path, String outputFile) in d:\Projects\Clore\_new\CacheImage\CacheImage\CacheImage\FTP\FTPHelper.cs:line 91
+   at CacheImage.Program.Main(String[] args) in d:\Projects\Clore\_new\CacheImage\CacheImage\CacheImage\Program.cs:line 84
+INFO  2015-04-17 02:19:20 - File download requested is existed -> ignore (D:\Projects\Projects\NexGen\NexGen\bin\Debug\cache\IMG\20150416\UPC_2015-04-16_d7d14dc8a516\57196641_1..jpeg)
+ERROR 2015-04-17 02:19:21 - OCR: Resource/OCR/20150416/UPC_2015-04-16_d7d14dc8a516/57196641_1..jpeg Fail
+ERROR 2015-04-17 02:19:21 - Failed to open file.
+ERROR 2015-04-17 02:19:21 -    at CacheImage.FTPHelper.Download(String path, String outputFile) in d:\Projects\Clore\_new\CacheImage\CacheImage\CacheImage\FTP\FTPHelper.cs:line 91
+   at CacheImage.Program.Main(String[] args) in d:\Projects\Clore\_new\CacheImage\CacheImage\CacheImage\Program.cs:line 84

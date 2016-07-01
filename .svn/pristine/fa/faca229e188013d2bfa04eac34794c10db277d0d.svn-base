@@ -1,0 +1,136 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!--
+This file is used by the publish/package process of your Web project. You can customize the behavior of this process
+by editing this MSBuild file. In order to learn more about this please visit http://go.microsoft.com/fwlink/?LinkID=208121. 
+-->
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <TimeStampOfAssociatedLegacyPublishXmlFile />
+    <_PublishTargetUrl>D:\Projects\Projects\NexGen\publishService</_PublishTargetUrl>
+  </PropertyGroup>
+  <ItemGroup>
+    <File Include="bin/DataObject.dll">
+      <publishTime>10/09/2015 15:10:14</publishTime>
+    </File>
+    <File Include="bin/de/DevExpress.Data.v14.2.resources.dll">
+      <publishTime>03/25/2015 08:57:46</publishTime>
+    </File>
+    <File Include="bin/de/DevExpress.Data.v15.1.resources.dll">
+      <publishTime>09/07/2015 13:18:21</publishTime>
+    </File>
+    <File Include="bin/de/DevExpress.Xpo.v14.2.resources.dll">
+      <publishTime>03/25/2015 08:58:00</publishTime>
+    </File>
+    <File Include="bin/de/DevExpress.Xpo.v15.1.resources.dll">
+      <publishTime>09/07/2015 13:18:32</publishTime>
+    </File>
+    <File Include="bin/de/Npgsql.resources.dll">
+      <publishTime>03/27/2015 15:01:36</publishTime>
+    </File>
+    <File Include="bin/DevExpress.Data.v14.2.dll">
+      <publishTime>03/25/2015 08:57:46</publishTime>
+    </File>
+    <File Include="bin/DevExpress.Data.v15.1.dll">
+      <publishTime>09/07/2015 13:18:21</publishTime>
+    </File>
+    <File Include="bin/DevExpress.Xpo.v14.2.dll">
+      <publishTime>03/25/2015 08:58:00</publishTime>
+    </File>
+    <File Include="bin/DevExpress.Xpo.v15.1.dll">
+      <publishTime>09/07/2015 13:18:32</publishTime>
+    </File>
+    <File Include="bin/DocumentFormat.OpenXml.dll">
+      <publishTime>11/05/2014 09:38:02</publishTime>
+    </File>
+    <File Include="bin/es/DevExpress.Data.v14.2.resources.dll">
+      <publishTime>03/25/2015 08:57:46</publishTime>
+    </File>
+    <File Include="bin/es/DevExpress.Data.v15.1.resources.dll">
+      <publishTime>09/07/2015 13:18:21</publishTime>
+    </File>
+    <File Include="bin/es/DevExpress.Xpo.v14.2.resources.dll">
+      <publishTime>03/25/2015 08:58:00</publishTime>
+    </File>
+    <File Include="bin/es/DevExpress.Xpo.v15.1.resources.dll">
+      <publishTime>09/07/2015 13:18:32</publishTime>
+    </File>
+    <File Include="bin/es/Npgsql.resources.dll">
+      <publishTime>03/27/2015 15:01:36</publishTime>
+    </File>
+    <File Include="bin/fi/Npgsql.resources.dll">
+      <publishTime>03/27/2015 15:01:36</publishTime>
+    </File>
+    <File Include="bin/fr/Npgsql.resources.dll">
+      <publishTime>03/27/2015 15:01:36</publishTime>
+    </File>
+    <File Include="bin/ja/DevExpress.Data.v14.2.resources.dll">
+      <publishTime>03/25/2015 08:57:46</publishTime>
+    </File>
+    <File Include="bin/ja/DevExpress.Data.v15.1.resources.dll">
+      <publishTime>09/07/2015 13:18:21</publishTime>
+    </File>
+    <File Include="bin/ja/DevExpress.Xpo.v14.2.resources.dll">
+      <publishTime>03/25/2015 08:58:00</publishTime>
+    </File>
+    <File Include="bin/ja/DevExpress.Xpo.v15.1.resources.dll">
+      <publishTime>09/07/2015 13:18:32</publishTime>
+    </File>
+    <File Include="bin/ja/Npgsql.resources.dll">
+      <publishTime>03/27/2015 15:01:36</publishTime>
+    </File>
+    <File Include="bin/Libs.dll">
+      <publishTime>08/14/2015 11:06:42</publishTime>
+    </File>
+    <File Include="bin/log4net.dll">
+      <publishTime>03/25/2015 15:55:35</publishTime>
+    </File>
+    <File Include="bin/Mono.Security.dll">
+      <publishTime>03/27/2015 15:01:36</publishTime>
+    </File>
+    <File Include="bin/NexGenFlow.dll">
+      <publishTime>10/09/2015 15:10:14</publishTime>
+    </File>
+    <File Include="bin/NexGenService.dll">
+      <publishTime>10/09/2015 15:10:15</publishTime>
+    </File>
+    <File Include="bin/Npgsql.dll">
+      <publishTime>03/27/2015 15:01:36</publishTime>
+    </File>
+    <File Include="bin/ru/DevExpress.Data.v14.2.resources.dll">
+      <publishTime>03/25/2015 08:57:46</publishTime>
+    </File>
+    <File Include="bin/ru/DevExpress.Data.v15.1.resources.dll">
+      <publishTime>09/07/2015 13:18:21</publishTime>
+    </File>
+    <File Include="bin/ru/DevExpress.Xpo.v14.2.resources.dll">
+      <publishTime>03/25/2015 08:58:00</publishTime>
+    </File>
+    <File Include="bin/ru/DevExpress.Xpo.v15.1.resources.dll">
+      <publishTime>09/07/2015 13:18:32</publishTime>
+    </File>
+    <File Include="bin/zh-CN/Npgsql.resources.dll">
+      <publishTime>03/27/2015 15:01:36</publishTime>
+    </File>
+    <File Include="CommonService.svc">
+      <publishTime>03/26/2015 08:32:04</publishTime>
+    </File>
+    <File Include="packages.config">
+      <publishTime>03/25/2015 17:13:36</publishTime>
+    </File>
+    <File Include="Service1.svc">
+      <publishTime>03/25/2015 17:05:15</publishTime>
+    </File>
+    <File Include="svManage_Document.svc">
+      <publishTime>03/26/2015 14:09:32</publishTime>
+    </File>
+    <File Include="svManage_Download_File.svc">
+      <publishTime>03/26/2015 13:59:58</publishTime>
+    </File>
+    <File Include="svUploadFile.svc">
+      <publishTime>03/26/2015 15:48:42</publishTime>
+    </File>
+    <File Include="Web.config">
+      <publishTime>10/09/2015 15:11:03</publishTime>
+    </File>
+  </ItemGroup>
+</Project>

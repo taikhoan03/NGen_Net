@@ -1,0 +1,17 @@
+ERROR 2015-04-10 02:58:29 - Input string was not in a correct format.
+ERROR 2015-04-10 02:58:29 -    at System.Number.ParseDouble(String value, NumberStyles options, NumberFormatInfo numfmt)
+   at NexGen.UserConctrol.doc_rsd_input.GetRecord() in d:\Projects\Projects\NexGen\NexGen\UserConctrol\doc_rsd_input.cs:line 127
+ERROR 2015-04-10 03:03:57 - Input string was not in a correct format.
+ERROR 2015-04-10 03:03:57 -    at System.Number.ParseDouble(String value, NumberStyles options, NumberFormatInfo numfmt)
+   at NexGen.UserConctrol.doc_rsd_input.GetRecord() in d:\Projects\Projects\NexGen\NexGen\UserConctrol\doc_rsd_input.cs:line 127
+ERROR 2015-04-10 03:08:44 - Input string was not in a correct format.
+ERROR 2015-04-10 03:08:44 -    at System.Number.ParseDouble(String value, NumberStyles options, NumberFormatInfo numfmt)
+   at NexGen.UserConctrol.doc_rsd_input.GetRecord() in d:\Projects\Projects\NexGen\NexGen\UserConctrol\doc_rsd_input.cs:line 127
+ERROR 2015-04-10 03:15:48 - Index was out of range. Must be non-negative and less than the size of the collection.
+Parameter name: index
+ERROR 2015-04-10 03:15:48 -    at System.Collections.Generic.List`1.get_Item(Int32 index)
+   at NexGen.RecordList.<.ctor>b__1(Object sender, DataGridViewCellEventArgs e) in d:\Projects\Projects\NexGen\NexGen\RecordList.cs:line 184
+ERROR 2015-04-10 03:49:21 - Input string was not in a correct format.
+ERROR 2015-04-10 03:49:21 -    at System.Number.ParseDouble(String value, NumberStyles options, NumberFormatInfo numfmt)
+   at System.Double.Parse(String s, NumberStyles style, NumberFormatInfo info)
+   at NexGen.UserConctrol.doc_rsd_input.GetRecord() in d:\Projects\Projects\NexGen\NexGen\UserConctrol\doc_rsd_input.cs:line 127

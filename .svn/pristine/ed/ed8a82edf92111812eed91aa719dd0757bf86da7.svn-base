@@ -1,0 +1,92 @@
+INFO  2015-07-17 01:39:14 - DataObject.User
+INFO  2015-07-17 01:39:17 - Create Folder: D:\Projects\Projects\NexGen\NexGen\bin\Release\cache\IMG\20150717\UPC_2015-07-17_369ff525cebd\
+INFO  2015-07-17 01:39:17 - Download file: D:\Projects\Projects\NexGen\NexGen\bin\Release\cache\IMG\20150717\UPC_2015-07-17_369ff525cebd\27353660_1..jpg success
+INFO  2015-07-17 01:39:17 - Create Folder: D:\Projects\Projects\NexGen\NexGen\bin\Release\cache\OCR\20150717\UPC_2015-07-17_369ff525cebd\
+INFO  2015-07-17 01:39:17 - Download file: D:\Projects\Projects\NexGen\NexGen\bin\Release\cache\OCR\20150717\UPC_2015-07-17_369ff525cebd\27353660_1..xml success
+INFO  2015-07-17 01:39:17 - Download file: D:\Projects\Projects\NexGen\NexGen\bin\Release\cache\IMG\20150717\UPC_2015-07-17_369ff525cebd\27353660_2..jpg success
+INFO  2015-07-17 01:39:17 - Download file: D:\Projects\Projects\NexGen\NexGen\bin\Release\cache\OCR\20150717\UPC_2015-07-17_369ff525cebd\27353660_2..xml success
+ERROR 2015-07-17 01:39:20 - Object reference not set to an instance of an object.
+ERROR 2015-07-17 01:39:20 -    at NexGen.From_Keyer.pboxImage_MouseUp(Object sender, MouseEventArgs e) in d:\Projects\Projects\NexGen\NexGen\From_Keyer.cs:line 993
+INFO  2015-07-17 01:49:16 - DataObject.User
+INFO  2015-07-17 01:49:18 - Download file: D:\Projects\Projects\NexGen\NexGen\bin\Release\cache\IMG\20150717\UPC_2015-07-17_369ff525cebd\27378983_1..jpg success
+INFO  2015-07-17 01:49:18 - Download file: D:\Projects\Projects\NexGen\NexGen\bin\Release\cache\OCR\20150717\UPC_2015-07-17_369ff525cebd\27378983_1..xml success
+INFO  2015-07-17 01:51:23 - DataObject.User
+INFO  2015-07-17 01:51:26 - File download requested is existed -> ignore (D:\Projects\Projects\NexGen\NexGen\bin\Release\cache\IMG\20150717\UPC_2015-07-17_369ff525cebd\27378983_1..jpg)
+INFO  2015-07-17 01:57:01 - DataObject.User
+INFO  2015-07-17 01:57:04 - Download file: D:\Projects\Projects\NexGen\NexGen\bin\Release\cache\IMG\20150717\UPC_2015-07-17_369ff525cebd\27451752_1..jpeg success
+INFO  2015-07-17 01:57:04 - Download file: D:\Projects\Projects\NexGen\NexGen\bin\Release\cache\OCR\20150717\UPC_2015-07-17_369ff525cebd\27451752_1..xml success
+INFO  2015-07-17 02:00:27 - DataObject.User
+INFO  2015-07-17 02:00:30 - Download file: D:\Projects\Projects\NexGen\NexGen\bin\Release\cache\IMG\20150717\UPC_2015-07-17_369ff525cebd\27508178_1..jpeg success
+INFO  2015-07-17 02:00:30 - Download file: D:\Projects\Projects\NexGen\NexGen\bin\Release\cache\OCR\20150717\UPC_2015-07-17_369ff525cebd\27508178_1..xml success
+INFO  2015-07-17 02:02:55 - DataObject.User
+INFO  2015-07-17 02:02:58 - Download file: D:\Projects\Projects\NexGen\NexGen\bin\Release\cache\IMG\20150717\UPC_2015-07-17_369ff525cebd\27593190_1..jpeg success
+INFO  2015-07-17 02:02:58 - Download file: D:\Projects\Projects\NexGen\NexGen\bin\Release\cache\OCR\20150717\UPC_2015-07-17_369ff525cebd\27593190_1..xml success
+INFO  2015-07-17 02:02:58 - Download file: D:\Projects\Projects\NexGen\NexGen\bin\Release\cache\IMG\20150717\UPC_2015-07-17_369ff525cebd\27593190_2..jpeg success
+INFO  2015-07-17 02:02:58 - Download file: D:\Projects\Projects\NexGen\NexGen\bin\Release\cache\OCR\20150717\UPC_2015-07-17_369ff525cebd\27593190_2..xml success
+ERROR 2015-07-17 02:04:21 - Input string was not in a correct format.
+ERROR 2015-07-17 02:04:21 -    at System.Number.ParseDouble(String value, NumberStyles options, NumberFormatInfo numfmt)
+   at NexGen.UserConctrol.doc_upc_input.GetRecord() in d:\Projects\Projects\NexGen\NexGen\UserConctrol\doc_upc_input.cs:line 123
+INFO  2015-07-17 02:06:44 - DataObject.User
+INFO  2015-07-17 02:06:46 - Download file: D:\Projects\Projects\NexGen\NexGen\bin\Release\cache\IMG\20150717\UPC_2015-07-17_369ff525cebd\27635665_1..jpg success
+INFO  2015-07-17 02:06:46 - Download file: D:\Projects\Projects\NexGen\NexGen\bin\Release\cache\OCR\20150717\UPC_2015-07-17_369ff525cebd\27635665_1..xml success
+INFO  2015-07-17 02:07:45 - DataObject.User
+INFO  2015-07-17 02:07:48 - Download file: D:\Projects\Projects\NexGen\NexGen\bin\Release\cache\IMG\20150717\UPC_2015-07-17_369ff525cebd\27664117_1..jpeg success
+INFO  2015-07-17 02:07:48 - Download file: D:\Projects\Projects\NexGen\NexGen\bin\Release\cache\OCR\20150717\UPC_2015-07-17_369ff525cebd\27664117_1..xml success
+INFO  2015-07-17 02:08:31 - File download requested is existed -> ignore (D:\Projects\Projects\NexGen\NexGen\bin\Release\cache\IMG\20150717\UPC_2015-07-17_369ff525cebd\27664117_1..jpeg)
+INFO  2015-07-17 02:09:22 - DataObject.User
+INFO  2015-07-17 02:09:25 - File download requested is existed -> ignore (D:\Projects\Projects\NexGen\NexGen\bin\Release\cache\IMG\20150717\UPC_2015-07-17_369ff525cebd\27664117_1..jpeg)
+INFO  2015-07-17 02:12:51 - DataObject.User
+INFO  2015-07-17 02:12:54 - Download file: D:\Projects\Projects\NexGen\NexGen\bin\Release\cache\IMG\20150717\UPC_2015-07-17_369ff525cebd\27722866_1..jpeg success
+INFO  2015-07-17 02:12:54 - Download file: D:\Projects\Projects\NexGen\NexGen\bin\Release\cache\OCR\20150717\UPC_2015-07-17_369ff525cebd\27722866_1..xml success
+ERROR 2015-07-17 02:12:59 - Object reference not set to an instance of an object.
+ERROR 2015-07-17 02:12:59 -    at NexGen.From_Keyer.pboxImage_MouseUp(Object sender, MouseEventArgs e) in d:\Projects\Projects\NexGen\NexGen\From_Keyer.cs:line 998
+INFO  2015-07-17 02:13:44 - DataObject.User
+INFO  2015-07-17 02:13:46 - Download file: D:\Projects\Projects\NexGen\NexGen\bin\Release\cache\IMG\20150717\UPC_2015-07-17_369ff525cebd\27736583_1..jpg success
+INFO  2015-07-17 02:13:46 - Download file: D:\Projects\Projects\NexGen\NexGen\bin\Release\cache\OCR\20150717\UPC_2015-07-17_369ff525cebd\27736583_1..xml success
+INFO  2015-07-17 02:13:46 - Download file: D:\Projects\Projects\NexGen\NexGen\bin\Release\cache\IMG\20150717\UPC_2015-07-17_369ff525cebd\27736583_2..jpg success
+INFO  2015-07-17 02:13:46 - Download file: D:\Projects\Projects\NexGen\NexGen\bin\Release\cache\OCR\20150717\UPC_2015-07-17_369ff525cebd\27736583_2..xml success
+ERROR 2015-07-17 02:14:02 - Object reference not set to an instance of an object.
+ERROR 2015-07-17 02:14:02 -    at NexGen.From_Keyer.pboxImage_MouseUp(Object sender, MouseEventArgs e) in d:\Projects\Projects\NexGen\NexGen\From_Keyer.cs:line 998
+ERROR 2015-07-17 02:14:06 - Object reference not set to an instance of an object.
+ERROR 2015-07-17 02:14:06 -    at NexGen.From_Keyer.pboxImage_MouseUp(Object sender, MouseEventArgs e) in d:\Projects\Projects\NexGen\NexGen\From_Keyer.cs:line 998
+INFO  2015-07-17 02:14:36 - DataObject.User
+INFO  2015-07-17 02:14:38 - File download requested is existed -> ignore (D:\Projects\Projects\NexGen\NexGen\bin\Release\cache\IMG\20150717\UPC_2015-07-17_369ff525cebd\27736583_1..jpg)
+INFO  2015-07-17 02:14:38 - File download requested is existed -> ignore (D:\Projects\Projects\NexGen\NexGen\bin\Release\cache\IMG\20150717\UPC_2015-07-17_369ff525cebd\27736583_2..jpg)
+INFO  2015-07-17 02:16:16 - DataObject.User
+INFO  2015-07-17 02:16:18 - Download file: D:\Projects\Projects\NexGen\NexGen\bin\Release\cache\IMG\20150717\UPC_2015-07-17_369ff525cebd\27751177_1..jpg success
+INFO  2015-07-17 02:16:18 - Download file: D:\Projects\Projects\NexGen\NexGen\bin\Release\cache\OCR\20150717\UPC_2015-07-17_369ff525cebd\27751177_1..xml success
+ERROR 2015-07-17 02:16:25 - Object reference not set to an instance of an object.
+ERROR 2015-07-17 02:16:25 -    at NexGen.From_Keyer.pboxImage_MouseUp(Object sender, MouseEventArgs e) in d:\Projects\Projects\NexGen\NexGen\From_Keyer.cs:line 998
+ERROR 2015-07-17 02:16:28 - Object reference not set to an instance of an object.
+ERROR 2015-07-17 02:16:28 -    at NexGen.From_Keyer.pboxImage_MouseUp(Object sender, MouseEventArgs e) in d:\Projects\Projects\NexGen\NexGen\From_Keyer.cs:line 998
+ERROR 2015-07-17 02:16:34 - Object reference not set to an instance of an object.
+ERROR 2015-07-17 02:16:34 -    at NexGen.From_Keyer.pboxImage_MouseUp(Object sender, MouseEventArgs e) in d:\Projects\Projects\NexGen\NexGen\From_Keyer.cs:line 998
+ERROR 2015-07-17 02:16:37 - Object reference not set to an instance of an object.
+ERROR 2015-07-17 02:16:37 -    at NexGen.From_Keyer.pboxImage_MouseUp(Object sender, MouseEventArgs e) in d:\Projects\Projects\NexGen\NexGen\From_Keyer.cs:line 998
+INFO  2015-07-17 02:19:50 - DataObject.User
+INFO  2015-07-17 02:19:52 - Download file: D:\Projects\Projects\NexGen\NexGen\bin\Release\cache\IMG\20150717\UPC_2015-07-17_369ff525cebd\27810441_1..jpg success
+INFO  2015-07-17 02:19:52 - Download file: D:\Projects\Projects\NexGen\NexGen\bin\Release\cache\OCR\20150717\UPC_2015-07-17_369ff525cebd\27810441_1..xml success
+INFO  2015-07-17 02:20:23 - DataObject.User
+INFO  2015-07-17 02:20:26 - File download requested is existed -> ignore (D:\Projects\Projects\NexGen\NexGen\bin\Release\cache\IMG\20150717\UPC_2015-07-17_369ff525cebd\27810441_1..jpg)
+INFO  2015-07-17 02:21:06 - DataObject.User
+INFO  2015-07-17 02:21:09 - File download requested is existed -> ignore (D:\Projects\Projects\NexGen\NexGen\bin\Release\cache\IMG\20150717\UPC_2015-07-17_369ff525cebd\27810441_1..jpg)
+ERROR 2015-07-17 02:21:21 - Object reference not set to an instance of an object.
+ERROR 2015-07-17 02:21:21 -    at NexGen.From_Keyer.pboxImage_MouseUp(Object sender, MouseEventArgs e) in d:\Projects\Projects\NexGen\NexGen\From_Keyer.cs:line 998
+INFO  2015-07-17 02:21:45 - DataObject.User
+INFO  2015-07-17 02:21:47 - File download requested is existed -> ignore (D:\Projects\Projects\NexGen\NexGen\bin\Release\cache\IMG\20150717\UPC_2015-07-17_369ff525cebd\27810441_1..jpg)
+INFO  2015-07-17 02:33:27 - DataObject.User
+INFO  2015-07-17 02:33:29 - Download file: D:\Projects\Projects\NexGen\NexGen\bin\Release\cache\IMG\20150717\UPC_2015-07-17_369ff525cebd\27825251_1..jpeg success
+INFO  2015-07-17 02:33:29 - Download file: D:\Projects\Projects\NexGen\NexGen\bin\Release\cache\OCR\20150717\UPC_2015-07-17_369ff525cebd\27825251_1..xml success
+INFO  2015-07-17 02:34:31 - DataObject.User
+INFO  2015-07-17 02:34:34 - Download file: D:\Projects\Projects\NexGen\NexGen\bin\Release\cache\IMG\20150717\UPC_2015-07-17_369ff525cebd\27829985_1..jpeg success
+INFO  2015-07-17 02:34:34 - Download file: D:\Projects\Projects\NexGen\NexGen\bin\Release\cache\OCR\20150717\UPC_2015-07-17_369ff525cebd\27829985_1..xml success
+INFO  2015-07-17 02:35:47 - DataObject.User
+INFO  2015-07-17 02:35:50 - Download file: D:\Projects\Projects\NexGen\NexGen\bin\Release\cache\IMG\20150717\UPC_2015-07-17_369ff525cebd\27844165_1..jpeg success
+INFO  2015-07-17 02:35:50 - Download file: D:\Projects\Projects\NexGen\NexGen\bin\Release\cache\OCR\20150717\UPC_2015-07-17_369ff525cebd\27844165_1..xml success
+INFO  2015-07-17 02:37:59 - DataObject.User
+INFO  2015-07-17 02:38:01 - Download file: D:\Projects\Projects\NexGen\NexGen\bin\Release\cache\IMG\20150717\UPC_2015-07-17_369ff525cebd\27851035_1..jpg success
+INFO  2015-07-17 02:38:01 - Download file: D:\Projects\Projects\NexGen\NexGen\bin\Release\cache\OCR\20150717\UPC_2015-07-17_369ff525cebd\27851035_1..xml success
+INFO  2015-07-17 02:40:52 - DataObject.User
+INFO  2015-07-17 02:40:54 - File download requested is existed -> ignore (D:\Projects\Projects\NexGen\NexGen\bin\Release\cache\IMG\20150717\UPC_2015-07-17_369ff525cebd\27851035_1..jpg)
+ERROR 2015-07-17 02:40:57 - Object reference not set to an instance of an object.
+ERROR 2015-07-17 02:40:57 -    at NexGen.From_Keyer.pboxImage_MouseUp(Object sender, MouseEventArgs e) in d:\Projects\Projects\NexGen\NexGen\From_Keyer.cs:line 998

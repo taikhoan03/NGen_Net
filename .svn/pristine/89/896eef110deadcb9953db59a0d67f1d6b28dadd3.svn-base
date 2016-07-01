@@ -1,0 +1,37 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<objects xmlns="http://www.springframework.net">
+  
+  <object id="Combobox_Doctype" type="NexGen.Controls.Combobox_Doctype,NexGen">
+    <property name="_arraySource">
+      <list>
+        <value>RSD</value>
+        <value>RIN</value>
+        <value>UPC</value>
+      </list>
+    </property>
+    <!--<property name="PathToSave" value="D:\"/>-->
+
+  </object>
+  <object id="Combobox_ItemType" type="NexGen.Controls.Combobox_ItemType,NexGen">
+    <property name="_arraySource">
+      <list>
+        <value>Item</value>
+        <value>Coupon</value>
+        <value>Void</value>
+      </list>
+    </property>
+  </object>
+  <object id="Combobox_Remark" type="NexGen.Controls.Combobox_Remark,NexGen">
+    <property name="_arraySource">
+      <list>
+        <value>NO_TXN_DATE</value>
+        <value>DOCTORED</value>
+        <value>BLURRY</value>
+        <value>NOT_ENGLISH</value>
+        <value>NOT_FULL_RECEIPT</value>
+        <value>NOT_RECEIPT</value>
+        <value>GAS ONLY</value>
+      </list>
+    </property>
+  </object>
+</objects>

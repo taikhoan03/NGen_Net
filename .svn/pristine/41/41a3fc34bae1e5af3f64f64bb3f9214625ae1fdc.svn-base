@@ -1,0 +1,230 @@
+ERROR 2015-04-17 02:07:25 - OCR Error:cache\OCR\20150416/UPC_2015-04-16_d7d14dc8a516/57196641_1..xml
+ERROR 2015-04-17 02:07:25 - Could not find file 'D:\Projects\Projects\NexGen\NexGen\bin\Debug\cache\OCR\20150416\UPC_2015-04-16_d7d14dc8a516\57196641_1..xml'.
+ERROR 2015-04-17 02:07:25 -    at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   at System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize, FileOptions options, String msgPath, Boolean bFromProxy)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize)
+   at System.Xml.XmlDownloadManager.GetStream(Uri uri, ICredentials credentials, IWebProxy proxy, RequestCachePolicy cachePolicy)
+   at System.Xml.XmlUrlResolver.GetEntity(Uri absoluteUri, String role, Type ofObjectToReturn)
+   at System.Xml.XmlTextReaderImpl.OpenUrlDelegate(Object xmlResolver)
+   at System.Threading.CompressedStack.runTryCode(Object userData)
+   at System.Runtime.CompilerServices.RuntimeHelpers.ExecuteCodeWithGuaranteedCleanup(TryCode code, CleanupCode backoutCode, Object userData)
+   at System.Threading.CompressedStack.Run(CompressedStack compressedStack, ContextCallback callback, Object state)
+   at System.Xml.XmlTextReaderImpl.OpenUrl()
+   at System.Xml.XmlTextReaderImpl.Read()
+   at System.Xml.XmlLoader.Load(XmlDocument doc, XmlReader reader, Boolean preserveWhitespace)
+   at System.Xml.XmlDocument.Load(XmlReader reader)
+   at System.Xml.XmlDocument.Load(String filename)
+   at NexGen.From_Keyer.GetOCRDoc(String imagepath) in d:\Projects\Projects\NexGen\NexGen\From_Keyer.cs:line 371
+ERROR 2015-04-17 02:07:26 - OCR parse errors
+ERROR 2015-04-17 02:07:33 - Object reference not set to an instance of an object.
+ERROR 2015-04-17 02:07:33 -    at NexGen.From_Keyer.pboxImage_MouseDown(Object sender, MouseEventArgs e) in d:\Projects\Projects\NexGen\NexGen\From_Keyer.cs:line 757
+ERROR 2015-04-17 02:07:33 - Object reference not set to an instance of an object.
+ERROR 2015-04-17 02:07:33 -    at NexGen.From_Keyer.pboxImage_MouseUp(Object sender, MouseEventArgs e) in d:\Projects\Projects\NexGen\NexGen\From_Keyer.cs:line 789
+ERROR 2015-04-17 02:07:34 - Object reference not set to an instance of an object.
+ERROR 2015-04-17 02:07:34 -    at NexGen.From_Keyer.pboxImage_MouseDown(Object sender, MouseEventArgs e) in d:\Projects\Projects\NexGen\NexGen\From_Keyer.cs:line 757
+ERROR 2015-04-17 02:07:34 - Object reference not set to an instance of an object.
+ERROR 2015-04-17 02:07:34 -    at NexGen.From_Keyer.pboxImage_MouseUp(Object sender, MouseEventArgs e) in d:\Projects\Projects\NexGen\NexGen\From_Keyer.cs:line 789
+ERROR 2015-04-17 02:07:34 - Object reference not set to an instance of an object.
+ERROR 2015-04-17 02:07:34 -    at NexGen.From_Keyer.pboxImage_MouseDown(Object sender, MouseEventArgs e) in d:\Projects\Projects\NexGen\NexGen\From_Keyer.cs:line 757
+ERROR 2015-04-17 02:07:34 - Object reference not set to an instance of an object.
+ERROR 2015-04-17 02:07:34 -    at NexGen.From_Keyer.pboxImage_MouseUp(Object sender, MouseEventArgs e) in d:\Projects\Projects\NexGen\NexGen\From_Keyer.cs:line 789
+ERROR 2015-04-17 02:07:40 - Object reference not set to an instance of an object.
+ERROR 2015-04-17 02:07:40 -    at NexGen.From_Keyer.pboxImage_MouseDown(Object sender, MouseEventArgs e) in d:\Projects\Projects\NexGen\NexGen\From_Keyer.cs:line 757
+ERROR 2015-04-17 02:10:59 - OCR Error:cache\OCR\20150416/UPC_2015-04-16_d7d14dc8a516/57196641_1..xml
+ERROR 2015-04-17 02:10:59 - Could not find file 'D:\Projects\Projects\NexGen\NexGen\bin\Debug\cache\OCR\20150416\UPC_2015-04-16_d7d14dc8a516\57196641_1..xml'.
+ERROR 2015-04-17 02:10:59 -    at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   at System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize, FileOptions options, String msgPath, Boolean bFromProxy)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize)
+   at System.Xml.XmlDownloadManager.GetStream(Uri uri, ICredentials credentials, IWebProxy proxy, RequestCachePolicy cachePolicy)
+   at System.Xml.XmlUrlResolver.GetEntity(Uri absoluteUri, String role, Type ofObjectToReturn)
+   at System.Xml.XmlTextReaderImpl.OpenUrlDelegate(Object xmlResolver)
+   at System.Threading.CompressedStack.runTryCode(Object userData)
+   at System.Runtime.CompilerServices.RuntimeHelpers.ExecuteCodeWithGuaranteedCleanup(TryCode code, CleanupCode backoutCode, Object userData)
+   at System.Threading.CompressedStack.Run(CompressedStack compressedStack, ContextCallback callback, Object state)
+   at System.Xml.XmlTextReaderImpl.OpenUrl()
+   at System.Xml.XmlTextReaderImpl.Read()
+   at System.Xml.XmlLoader.Load(XmlDocument doc, XmlReader reader, Boolean preserveWhitespace)
+   at System.Xml.XmlDocument.Load(XmlReader reader)
+   at System.Xml.XmlDocument.Load(String filename)
+   at NexGen.From_Keyer.GetOCRDoc(String imagepath) in d:\Projects\Projects\NexGen\NexGen\From_Keyer.cs:line 370
+ERROR 2015-04-17 02:11:00 - OCR parse errors
+ERROR 2015-04-17 02:11:24 - Object reference not set to an instance of an object.
+ERROR 2015-04-17 02:11:24 -    at NexGen.From_Keyer.pboxImage_MouseDown(Object sender, MouseEventArgs e) in d:\Projects\Projects\NexGen\NexGen\From_Keyer.cs:line 756
+ERROR 2015-04-17 02:11:33 - Object reference not set to an instance of an object.
+ERROR 2015-04-17 02:11:33 -    at NexGen.From_Keyer.pboxImage_MouseUp(Object sender, MouseEventArgs e) in d:\Projects\Projects\NexGen\NexGen\From_Keyer.cs:line 789
+ERROR 2015-04-17 02:11:38 - Object reference not set to an instance of an object.
+ERROR 2015-04-17 02:11:38 -    at NexGen.From_Keyer.pboxImage_MouseDown(Object sender, MouseEventArgs e) in d:\Projects\Projects\NexGen\NexGen\From_Keyer.cs:line 756
+ERROR 2015-04-17 02:13:05 - OCR Error:cache\OCR\20150416/UPC_2015-04-16_d7d14dc8a516/57196641_1..xml
+ERROR 2015-04-17 02:13:05 - Could not find file 'D:\Projects\Projects\NexGen\NexGen\bin\Debug\cache\OCR\20150416\UPC_2015-04-16_d7d14dc8a516\57196641_1..xml'.
+ERROR 2015-04-17 02:13:05 -    at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   at System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize, FileOptions options, String msgPath, Boolean bFromProxy)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize)
+   at System.Xml.XmlDownloadManager.GetStream(Uri uri, ICredentials credentials, IWebProxy proxy, RequestCachePolicy cachePolicy)
+   at System.Xml.XmlUrlResolver.GetEntity(Uri absoluteUri, String role, Type ofObjectToReturn)
+   at System.Xml.XmlTextReaderImpl.OpenUrlDelegate(Object xmlResolver)
+   at System.Threading.CompressedStack.runTryCode(Object userData)
+   at System.Runtime.CompilerServices.RuntimeHelpers.ExecuteCodeWithGuaranteedCleanup(TryCode code, CleanupCode backoutCode, Object userData)
+   at System.Threading.CompressedStack.Run(CompressedStack compressedStack, ContextCallback callback, Object state)
+   at System.Xml.XmlTextReaderImpl.OpenUrl()
+   at System.Xml.XmlTextReaderImpl.Read()
+   at System.Xml.XmlLoader.Load(XmlDocument doc, XmlReader reader, Boolean preserveWhitespace)
+   at System.Xml.XmlDocument.Load(XmlReader reader)
+   at System.Xml.XmlDocument.Load(String filename)
+   at NexGen.From_Keyer.GetOCRDoc(String imagepath) in d:\Projects\Projects\NexGen\NexGen\From_Keyer.cs:line 370
+ERROR 2015-04-17 02:13:06 - OCR parse errors
+ERROR 2015-04-17 02:13:08 - Object reference not set to an instance of an object.
+ERROR 2015-04-17 02:13:08 -    at NexGen.From_Keyer.pboxImage_MouseDown(Object sender, MouseEventArgs e) in d:\Projects\Projects\NexGen\NexGen\From_Keyer.cs:line 756
+ERROR 2015-04-17 02:13:17 - Object reference not set to an instance of an object.
+ERROR 2015-04-17 02:13:17 -    at NexGen.From_Keyer.pboxImage_MouseDown(Object sender, MouseEventArgs e) in d:\Projects\Projects\NexGen\NexGen\From_Keyer.cs:line 756
+ERROR 2015-04-17 02:13:25 - Object reference not set to an instance of an object.
+ERROR 2015-04-17 02:13:25 -    at NexGen.From_Keyer.pboxImage_MouseDown(Object sender, MouseEventArgs e) in d:\Projects\Projects\NexGen\NexGen\From_Keyer.cs:line 756
+ERROR 2015-04-17 02:14:18 - OCR Error:cache\OCR\20150416/UPC_2015-04-16_d7d14dc8a516/57196641_1..xml
+ERROR 2015-04-17 02:14:18 - Could not find file 'D:\Projects\Projects\NexGen\NexGen\bin\Debug\cache\OCR\20150416\UPC_2015-04-16_d7d14dc8a516\57196641_1..xml'.
+ERROR 2015-04-17 02:14:18 -    at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   at System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize, FileOptions options, String msgPath, Boolean bFromProxy)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize)
+   at System.Xml.XmlDownloadManager.GetStream(Uri uri, ICredentials credentials, IWebProxy proxy, RequestCachePolicy cachePolicy)
+   at System.Xml.XmlUrlResolver.GetEntity(Uri absoluteUri, String role, Type ofObjectToReturn)
+   at System.Xml.XmlTextReaderImpl.OpenUrlDelegate(Object xmlResolver)
+   at System.Threading.CompressedStack.runTryCode(Object userData)
+   at System.Runtime.CompilerServices.RuntimeHelpers.ExecuteCodeWithGuaranteedCleanup(TryCode code, CleanupCode backoutCode, Object userData)
+   at System.Threading.CompressedStack.Run(CompressedStack compressedStack, ContextCallback callback, Object state)
+   at System.Xml.XmlTextReaderImpl.OpenUrl()
+   at System.Xml.XmlTextReaderImpl.Read()
+   at System.Xml.XmlLoader.Load(XmlDocument doc, XmlReader reader, Boolean preserveWhitespace)
+   at System.Xml.XmlDocument.Load(XmlReader reader)
+   at System.Xml.XmlDocument.Load(String filename)
+   at NexGen.From_Keyer.GetOCRDoc(String imagepath) in d:\Projects\Projects\NexGen\NexGen\From_Keyer.cs:line 370
+ERROR 2015-04-17 02:14:19 - OCR parse errors
+ERROR 2015-04-17 02:14:20 - Object reference not set to an instance of an object.
+ERROR 2015-04-17 02:14:20 -    at NexGen.From_Keyer.pboxImage_MouseDown(Object sender, MouseEventArgs e) in d:\Projects\Projects\NexGen\NexGen\From_Keyer.cs:line 756
+ERROR 2015-04-17 02:14:24 - Object reference not set to an instance of an object.
+ERROR 2015-04-17 02:14:24 -    at NexGen.From_Keyer.pboxImage_MouseDown(Object sender, MouseEventArgs e) in d:\Projects\Projects\NexGen\NexGen\From_Keyer.cs:line 756
+ERROR 2015-04-17 02:14:27 - Object reference not set to an instance of an object.
+ERROR 2015-04-17 02:14:27 -    at NexGen.From_Keyer.pboxImage_MouseDown(Object sender, MouseEventArgs e) in d:\Projects\Projects\NexGen\NexGen\From_Keyer.cs:line 756
+ERROR 2015-04-17 02:14:34 - Object reference not set to an instance of an object.
+ERROR 2015-04-17 02:14:34 -    at NexGen.From_Keyer.pboxImage_MouseDown(Object sender, MouseEventArgs e) in d:\Projects\Projects\NexGen\NexGen\From_Keyer.cs:line 756
+ERROR 2015-04-17 02:14:37 - Object reference not set to an instance of an object.
+ERROR 2015-04-17 02:14:37 -    at NexGen.From_Keyer.pboxImage_MouseDown(Object sender, MouseEventArgs e) in d:\Projects\Projects\NexGen\NexGen\From_Keyer.cs:line 756
+ERROR 2015-04-17 02:14:44 - Object reference not set to an instance of an object.
+ERROR 2015-04-17 02:14:44 -    at NexGen.From_Keyer.pboxImage_MouseDown(Object sender, MouseEventArgs e) in d:\Projects\Projects\NexGen\NexGen\From_Keyer.cs:line 756
+ERROR 2015-04-17 02:15:27 - OCR Error:cache\OCR\20150416/UPC_2015-04-16_d7d14dc8a516/57196641_1..xml
+ERROR 2015-04-17 02:15:27 - Could not find file 'D:\Projects\Projects\NexGen\NexGen\bin\Debug\cache\OCR\20150416\UPC_2015-04-16_d7d14dc8a516\57196641_1..xml'.
+ERROR 2015-04-17 02:15:27 -    at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   at System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize, FileOptions options, String msgPath, Boolean bFromProxy)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize)
+   at System.Xml.XmlDownloadManager.GetStream(Uri uri, ICredentials credentials, IWebProxy proxy, RequestCachePolicy cachePolicy)
+   at System.Xml.XmlUrlResolver.GetEntity(Uri absoluteUri, String role, Type ofObjectToReturn)
+   at System.Xml.XmlTextReaderImpl.OpenUrlDelegate(Object xmlResolver)
+   at System.Threading.CompressedStack.runTryCode(Object userData)
+   at System.Runtime.CompilerServices.RuntimeHelpers.ExecuteCodeWithGuaranteedCleanup(TryCode code, CleanupCode backoutCode, Object userData)
+   at System.Threading.CompressedStack.Run(CompressedStack compressedStack, ContextCallback callback, Object state)
+   at System.Xml.XmlTextReaderImpl.OpenUrl()
+   at System.Xml.XmlTextReaderImpl.Read()
+   at System.Xml.XmlLoader.Load(XmlDocument doc, XmlReader reader, Boolean preserveWhitespace)
+   at System.Xml.XmlDocument.Load(XmlReader reader)
+   at System.Xml.XmlDocument.Load(String filename)
+   at NexGen.From_Keyer.GetOCRDoc(String imagepath) in d:\Projects\Projects\NexGen\NexGen\From_Keyer.cs:line 370
+ERROR 2015-04-17 02:15:28 - OCR parse errors
+ERROR 2015-04-17 02:15:29 - Object reference not set to an instance of an object.
+ERROR 2015-04-17 02:15:29 -    at NexGen.From_Keyer.pboxImage_MouseDown(Object sender, MouseEventArgs e) in d:\Projects\Projects\NexGen\NexGen\From_Keyer.cs:line 756
+ERROR 2015-04-17 02:15:32 - Object reference not set to an instance of an object.
+ERROR 2015-04-17 02:15:32 -    at NexGen.From_Keyer.pboxImage_MouseDown(Object sender, MouseEventArgs e) in d:\Projects\Projects\NexGen\NexGen\From_Keyer.cs:line 756
+ERROR 2015-04-17 02:15:36 - Object reference not set to an instance of an object.
+ERROR 2015-04-17 02:15:36 -    at NexGen.From_Keyer.pboxImage_MouseDown(Object sender, MouseEventArgs e) in d:\Projects\Projects\NexGen\NexGen\From_Keyer.cs:line 756
+ERROR 2015-04-17 02:16:25 - OCR Error:cache\OCR\20150416/UPC_2015-04-16_d7d14dc8a516/57196641_1..xml
+ERROR 2015-04-17 02:16:25 - Could not find file 'D:\Projects\Projects\NexGen\NexGen\bin\Debug\cache\OCR\20150416\UPC_2015-04-16_d7d14dc8a516\57196641_1..xml'.
+ERROR 2015-04-17 02:16:25 -    at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   at System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize, FileOptions options, String msgPath, Boolean bFromProxy)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize)
+   at System.Xml.XmlDownloadManager.GetStream(Uri uri, ICredentials credentials, IWebProxy proxy, RequestCachePolicy cachePolicy)
+   at System.Xml.XmlUrlResolver.GetEntity(Uri absoluteUri, String role, Type ofObjectToReturn)
+   at System.Xml.XmlTextReaderImpl.OpenUrlDelegate(Object xmlResolver)
+   at System.Threading.CompressedStack.runTryCode(Object userData)
+   at System.Runtime.CompilerServices.RuntimeHelpers.ExecuteCodeWithGuaranteedCleanup(TryCode code, CleanupCode backoutCode, Object userData)
+   at System.Threading.CompressedStack.Run(CompressedStack compressedStack, ContextCallback callback, Object state)
+   at System.Xml.XmlTextReaderImpl.OpenUrl()
+   at System.Xml.XmlTextReaderImpl.Read()
+   at System.Xml.XmlLoader.Load(XmlDocument doc, XmlReader reader, Boolean preserveWhitespace)
+   at System.Xml.XmlDocument.Load(XmlReader reader)
+   at System.Xml.XmlDocument.Load(String filename)
+   at NexGen.From_Keyer.GetOCRDoc(String imagepath) in d:\Projects\Projects\NexGen\NexGen\From_Keyer.cs:line 370
+ERROR 2015-04-17 02:16:26 - OCR parse errors
+ERROR 2015-04-17 02:16:29 - Object reference not set to an instance of an object.
+ERROR 2015-04-17 02:16:29 -    at NexGen.From_Keyer.pboxImage_MouseDown(Object sender, MouseEventArgs e) in d:\Projects\Projects\NexGen\NexGen\From_Keyer.cs:line 756
+ERROR 2015-04-17 02:16:35 - Object reference not set to an instance of an object.
+ERROR 2015-04-17 02:16:35 -    at NexGen.From_Keyer.pboxImage_MouseDown(Object sender, MouseEventArgs e) in d:\Projects\Projects\NexGen\NexGen\From_Keyer.cs:line 756
+ERROR 2015-04-17 02:16:52 - Object reference not set to an instance of an object.
+ERROR 2015-04-17 02:16:52 -    at NexGen.From_Keyer.pboxImage_MouseDown(Object sender, MouseEventArgs e) in d:\Projects\Projects\NexGen\NexGen\From_Keyer.cs:line 756
+ERROR 2015-04-17 02:16:55 - Object reference not set to an instance of an object.
+ERROR 2015-04-17 02:16:55 -    at NexGen.From_Keyer.pboxImage_MouseDown(Object sender, MouseEventArgs e) in d:\Projects\Projects\NexGen\NexGen\From_Keyer.cs:line 756
+ERROR 2015-04-17 02:16:59 - Object reference not set to an instance of an object.
+ERROR 2015-04-17 02:16:59 -    at NexGen.From_Keyer.pboxImage_MouseDown(Object sender, MouseEventArgs e) in d:\Projects\Projects\NexGen\NexGen\From_Keyer.cs:line 756
+ERROR 2015-04-17 02:17:03 - Object reference not set to an instance of an object.
+ERROR 2015-04-17 02:17:03 -    at NexGen.From_Keyer.pboxImage_MouseDown(Object sender, MouseEventArgs e) in d:\Projects\Projects\NexGen\NexGen\From_Keyer.cs:line 756
+ERROR 2015-04-17 02:18:00 - OCR Error:cache\OCR\20150416/UPC_2015-04-16_d7d14dc8a516/57196641_1..xml
+ERROR 2015-04-17 02:18:00 - Could not find file 'D:\Projects\Projects\NexGen\NexGen\bin\Debug\cache\OCR\20150416\UPC_2015-04-16_d7d14dc8a516\57196641_1..xml'.
+ERROR 2015-04-17 02:18:00 -    at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   at System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize, FileOptions options, String msgPath, Boolean bFromProxy)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize)
+   at System.Xml.XmlDownloadManager.GetStream(Uri uri, ICredentials credentials, IWebProxy proxy, RequestCachePolicy cachePolicy)
+   at System.Xml.XmlUrlResolver.GetEntity(Uri absoluteUri, String role, Type ofObjectToReturn)
+   at System.Xml.XmlTextReaderImpl.OpenUrlDelegate(Object xmlResolver)
+   at System.Threading.CompressedStack.runTryCode(Object userData)
+   at System.Runtime.CompilerServices.RuntimeHelpers.ExecuteCodeWithGuaranteedCleanup(TryCode code, CleanupCode backoutCode, Object userData)
+   at System.Threading.CompressedStack.Run(CompressedStack compressedStack, ContextCallback callback, Object state)
+   at System.Xml.XmlTextReaderImpl.OpenUrl()
+   at System.Xml.XmlTextReaderImpl.Read()
+   at System.Xml.XmlLoader.Load(XmlDocument doc, XmlReader reader, Boolean preserveWhitespace)
+   at System.Xml.XmlDocument.Load(XmlReader reader)
+   at System.Xml.XmlDocument.Load(String filename)
+   at NexGen.From_Keyer.GetOCRDoc(String imagepath) in d:\Projects\Projects\NexGen\NexGen\From_Keyer.cs:line 370
+ERROR 2015-04-17 02:18:01 - OCR parse errors
+ERROR 2015-04-17 02:18:02 - Object reference not set to an instance of an object.
+ERROR 2015-04-17 02:18:02 -    at NexGen.From_Keyer.pboxImage_MouseDown(Object sender, MouseEventArgs e) in d:\Projects\Projects\NexGen\NexGen\From_Keyer.cs:line 756
+ERROR 2015-04-17 02:18:06 - Object reference not set to an instance of an object.
+ERROR 2015-04-17 02:18:06 -    at NexGen.From_Keyer.pboxImage_MouseDown(Object sender, MouseEventArgs e) in d:\Projects\Projects\NexGen\NexGen\From_Keyer.cs:line 756
+ERROR 2015-04-17 02:18:09 - Object reference not set to an instance of an object.
+ERROR 2015-04-17 02:18:09 -    at NexGen.From_Keyer.pboxImage_MouseDown(Object sender, MouseEventArgs e) in d:\Projects\Projects\NexGen\NexGen\From_Keyer.cs:line 756
+ERROR 2015-04-17 02:19:21 - OCR Error:cache\OCR\20150416/UPC_2015-04-16_d7d14dc8a516/57196641_1..xml
+ERROR 2015-04-17 02:19:21 - Could not find file 'D:\Projects\Projects\NexGen\NexGen\bin\Debug\cache\OCR\20150416\UPC_2015-04-16_d7d14dc8a516\57196641_1..xml'.
+ERROR 2015-04-17 02:19:21 -    at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   at System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize, FileOptions options, String msgPath, Boolean bFromProxy)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize)
+   at System.Xml.XmlDownloadManager.GetStream(Uri uri, ICredentials credentials, IWebProxy proxy, RequestCachePolicy cachePolicy)
+   at System.Xml.XmlUrlResolver.GetEntity(Uri absoluteUri, String role, Type ofObjectToReturn)
+   at System.Xml.XmlTextReaderImpl.OpenUrlDelegate(Object xmlResolver)
+   at System.Threading.CompressedStack.runTryCode(Object userData)
+   at System.Runtime.CompilerServices.RuntimeHelpers.ExecuteCodeWithGuaranteedCleanup(TryCode code, CleanupCode backoutCode, Object userData)
+   at System.Threading.CompressedStack.Run(CompressedStack compressedStack, ContextCallback callback, Object state)
+   at System.Xml.XmlTextReaderImpl.OpenUrl()
+   at System.Xml.XmlTextReaderImpl.Read()
+   at System.Xml.XmlLoader.Load(XmlDocument doc, XmlReader reader, Boolean preserveWhitespace)
+   at System.Xml.XmlDocument.Load(XmlReader reader)
+   at System.Xml.XmlDocument.Load(String filename)
+   at NexGen.From_Keyer.GetOCRDoc(String imagepath) in d:\Projects\Projects\NexGen\NexGen\From_Keyer.cs:line 370
+ERROR 2015-04-17 02:19:22 - OCR parse errors
+ERROR 2015-04-17 02:19:27 - Object reference not set to an instance of an object.
+ERROR 2015-04-17 02:19:27 -    at NexGen.From_Keyer.pboxImage_MouseDown(Object sender, MouseEventArgs e) in d:\Projects\Projects\NexGen\NexGen\From_Keyer.cs:line 756
+ERROR 2015-04-17 02:19:32 - Object reference not set to an instance of an object.
+ERROR 2015-04-17 02:19:32 -    at NexGen.From_Keyer.pboxImage_MouseDown(Object sender, MouseEventArgs e) in d:\Projects\Projects\NexGen\NexGen\From_Keyer.cs:line 756
+ERROR 2015-04-17 02:19:37 - Object reference not set to an instance of an object.
+ERROR 2015-04-17 02:19:37 -    at NexGen.From_Keyer.pboxImage_MouseDown(Object sender, MouseEventArgs e) in d:\Projects\Projects\NexGen\NexGen\From_Keyer.cs:line 756
+ERROR 2015-04-17 02:19:43 - Object reference not set to an instance of an object.
+ERROR 2015-04-17 02:19:43 -    at NexGen.From_Keyer.pboxImage_MouseDown(Object sender, MouseEventArgs e) in d:\Projects\Projects\NexGen\NexGen\From_Keyer.cs:line 756
+ERROR 2015-04-17 02:20:20 - Object reference not set to an instance of an object.
+ERROR 2015-04-17 02:20:20 -    at NexGen.From_Keyer.pboxImage_MouseDown(Object sender, MouseEventArgs e) in d:\Projects\Projects\NexGen\NexGen\From_Keyer.cs:line 756
+ERROR 2015-04-17 02:20:40 - Object reference not set to an instance of an object.
+ERROR 2015-04-17 02:20:40 -    at NexGen.From_Keyer.pboxImage_MouseDown(Object sender, MouseEventArgs e) in d:\Projects\Projects\NexGen\NexGen\From_Keyer.cs:line 756
+ERROR 2015-04-17 02:20:48 - Object reference not set to an instance of an object.
+ERROR 2015-04-17 02:20:48 -    at NexGen.From_Keyer.pboxImage_MouseDown(Object sender, MouseEventArgs e) in d:\Projects\Projects\NexGen\NexGen\From_Keyer.cs:line 756
+ERROR 2015-04-17 02:20:56 - Object reference not set to an instance of an object.
+ERROR 2015-04-17 02:20:56 -    at NexGen.From_Keyer.pboxImage_MouseDown(Object sender, MouseEventArgs e) in d:\Projects\Projects\NexGen\NexGen\From_Keyer.cs:line 756

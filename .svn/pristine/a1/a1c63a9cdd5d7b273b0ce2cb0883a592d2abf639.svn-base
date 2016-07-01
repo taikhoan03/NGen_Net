@@ -1,0 +1,18 @@
+INFO  2015-05-07 11:32:09 - DataObject.User
+INFO  2015-05-07 11:33:55 - DataObject.User
+INFO  2015-05-07 11:34:37 - DataObject.User
+INFO  2015-05-07 11:37:02 - DataObject.User
+INFO  2015-05-07 11:39:29 - DataObject.User
+INFO  2015-05-07 11:41:00 - DataObject.User
+INFO  2015-05-07 11:42:32 - DataObject.User
+INFO  2015-05-07 11:43:42 - DataObject.User
+INFO  2015-05-07 01:47:40 - DataObject.User
+INFO  2015-05-07 01:52:03 - DataObject.User
+INFO  2015-05-07 01:59:30 - DataObject.User
+INFO  2015-05-07 02:06:36 - DataObject.User
+ERROR 2015-05-07 02:07:17 - Input string was not in a correct format.
+ERROR 2015-05-07 02:07:17 -    at System.Number.ParseDouble(String value, NumberStyles options, NumberFormatInfo numfmt)
+   at System.Double.Parse(String s, NumberStyles style, NumberFormatInfo info)
+   at NexGen.UserConctrol.doc_rin_input.GetRecord() in d:\Projects\Projects\NexGen\NexGen\UserConctrol\doc_rin_input.cs:line 122
+INFO  2015-05-07 10:38:49 - 
+INFO  2015-05-07 10:40:43 - DataObject.User

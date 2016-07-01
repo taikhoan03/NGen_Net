@@ -1,0 +1,555 @@
+﻿namespace NexGen
+{
+    partial class From_Keyer
+    {
+        /// <summary>
+        /// Required designer variable.
+        /// </summary>
+        private System.ComponentModel.IContainer components = null;
+
+        /// <summary>
+        /// Clean up any resources being used.
+        /// </summary>
+        /// <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        protected override void Dispose(bool disposing)
+        {
+            if (disposing && (components != null))
+            {
+                components.Dispose();
+            }
+            base.Dispose(disposing);
+        }
+
+        #region Windows Form Designer generated code
+
+        /// <summary>
+        /// Required method for Designer support - do not modify
+        /// the contents of this method with the code editor.
+        /// </summary>
+        private void InitializeComponent()
+        {
+            this.panel1 = new System.Windows.Forms.Panel();
+            this.pboxImage = new System.Windows.Forms.PictureBox();
+            this.panel2 = new System.Windows.Forms.Panel();
+            this.txtTotalToCheck = new System.Windows.Forms.TextBox();
+            this.lblTax = new System.Windows.Forms.Label();
+            this.lblCount = new System.Windows.Forms.Label();
+            this.lblTimer = new System.Windows.Forms.Label();
+            this.txtTransactionTime = new System.Windows.Forms.TextBox();
+            this.label6 = new System.Windows.Forms.Label();
+            this.lblTotalToCheck = new System.Windows.Forms.Label();
+            this.label4 = new System.Windows.Forms.Label();
+            this.lblMessage = new System.Windows.Forms.Label();
+            this.lblTotal = new System.Windows.Forms.Label();
+            this.label5 = new System.Windows.Forms.Label();
+            this.panelDiscard = new System.Windows.Forms.Panel();
+            this.label3 = new System.Windows.Forms.Label();
+            this.btnCancelDiscard = new System.Windows.Forms.Button();
+            this.btnOKDiscard = new System.Windows.Forms.Button();
+            this.lblRecordInfo = new System.Windows.Forms.Label();
+            this.btnDiscard = new System.Windows.Forms.Button();
+            this.btnUpdate = new System.Windows.Forms.Button();
+            this.btnSave = new System.Windows.Forms.Button();
+            this.btnAdd = new System.Windows.Forms.Button();
+            this.txtTransactionDate = new System.Windows.Forms.TextBox();
+            this.label2 = new System.Windows.Forms.Label();
+            this.btnShowList = new System.Windows.Forms.Button();
+            this.panel3 = new System.Windows.Forms.Panel();
+            this.label1 = new System.Windows.Forms.Label();
+            this.chkAddRuler = new System.Windows.Forms.CheckBox();
+            this.panelButtonImg = new System.Windows.Forms.Panel();
+            this.lblCounter = new System.Windows.Forms.Label();
+            this.lblImageName = new System.Windows.Forms.TextBox();
+            this.chkTopList = new System.Windows.Forms.CheckBox();
+            this.rotateRight = new System.Windows.Forms.Button();
+            this.lblPackageName = new System.Windows.Forms.Label();
+            this.cboxRemarks = new NexGen.Controls.Combobox_Remark();
+            this.cboxTransactionType = new NexGen.Controls.Combobox_Doctype();
+            this.label7 = new System.Windows.Forms.Label();
+            this.txtComment = new System.Windows.Forms.TextBox();
+            this.panel1.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pboxImage)).BeginInit();
+            this.panel2.SuspendLayout();
+            this.panelDiscard.SuspendLayout();
+            this.SuspendLayout();
+            // 
+            // panel1
+            // 
+            this.panel1.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left)));
+            this.panel1.AutoScroll = true;
+            this.panel1.BackColor = System.Drawing.SystemColors.ActiveCaption;
+            this.panel1.Controls.Add(this.pboxImage);
+            this.panel1.Location = new System.Drawing.Point(12, 81);
+            this.panel1.Name = "panel1";
+            this.panel1.Size = new System.Drawing.Size(1200, 732);
+            this.panel1.TabIndex = 0;
+            // 
+            // pboxImage
+            // 
+            this.pboxImage.Location = new System.Drawing.Point(0, 0);
+            this.pboxImage.Name = "pboxImage";
+            this.pboxImage.Size = new System.Drawing.Size(691, 454);
+            this.pboxImage.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pboxImage.TabIndex = 0;
+            this.pboxImage.TabStop = false;
+            this.pboxImage.MouseEnter += new System.EventHandler(this.pboxImage_MouseEnter);
+            this.pboxImage.MouseLeave += new System.EventHandler(this.pboxImage_MouseLeave);
+            // 
+            // panel2
+            // 
+            this.panel2.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
+            this.panel2.Controls.Add(this.txtComment);
+            this.panel2.Controls.Add(this.label7);
+            this.panel2.Controls.Add(this.txtTotalToCheck);
+            this.panel2.Controls.Add(this.lblTax);
+            this.panel2.Controls.Add(this.lblCount);
+            this.panel2.Controls.Add(this.lblTimer);
+            this.panel2.Controls.Add(this.txtTransactionTime);
+            this.panel2.Controls.Add(this.label6);
+            this.panel2.Controls.Add(this.lblTotalToCheck);
+            this.panel2.Controls.Add(this.label4);
+            this.panel2.Controls.Add(this.lblMessage);
+            this.panel2.Controls.Add(this.lblTotal);
+            this.panel2.Controls.Add(this.label5);
+            this.panel2.Controls.Add(this.panelDiscard);
+            this.panel2.Controls.Add(this.lblRecordInfo);
+            this.panel2.Controls.Add(this.btnDiscard);
+            this.panel2.Controls.Add(this.btnUpdate);
+            this.panel2.Controls.Add(this.btnSave);
+            this.panel2.Controls.Add(this.btnAdd);
+            this.panel2.Controls.Add(this.txtTransactionDate);
+            this.panel2.Controls.Add(this.label2);
+            this.panel2.Controls.Add(this.btnShowList);
+            this.panel2.Controls.Add(this.panel3);
+            this.panel2.Controls.Add(this.cboxTransactionType);
+            this.panel2.Controls.Add(this.label1);
+            this.panel2.Font = new System.Drawing.Font("Microsoft Sans Serif", 11F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.panel2.Location = new System.Drawing.Point(1218, 81);
+            this.panel2.Name = "panel2";
+            this.panel2.Size = new System.Drawing.Size(667, 822);
+            this.panel2.TabIndex = 1;
+            // 
+            // txtTotalToCheck
+            // 
+            this.txtTotalToCheck.Location = new System.Drawing.Point(267, 535);
+            this.txtTotalToCheck.Name = "txtTotalToCheck";
+            this.txtTotalToCheck.Size = new System.Drawing.Size(221, 28);
+            this.txtTotalToCheck.TabIndex = 49;
+            // 
+            // lblTax
+            // 
+            this.lblTax.AutoSize = true;
+            this.lblTax.Font = new System.Drawing.Font("Microsoft Sans Serif", 11F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblTax.ForeColor = System.Drawing.Color.Blue;
+            this.lblTax.Location = new System.Drawing.Point(194, 510);
+            this.lblTax.Name = "lblTax";
+            this.lblTax.Size = new System.Drawing.Size(67, 24);
+            this.lblTax.TabIndex = 55;
+            this.lblTax.Text = "lblTax";
+            // 
+            // lblCount
+            // 
+            this.lblCount.AutoSize = true;
+            this.lblCount.Location = new System.Drawing.Point(411, 487);
+            this.lblCount.Name = "lblCount";
+            this.lblCount.Size = new System.Drawing.Size(65, 24);
+            this.lblCount.TabIndex = 18;
+            this.lblCount.Text = "Count:";
+            // 
+            // lblTimer
+            // 
+            this.lblTimer.AutoSize = true;
+            this.lblTimer.Location = new System.Drawing.Point(341, 25);
+            this.lblTimer.Name = "lblTimer";
+            this.lblTimer.Size = new System.Drawing.Size(60, 24);
+            this.lblTimer.TabIndex = 17;
+            this.lblTimer.Text = "label6";
+            // 
+            // txtTransactionTime
+            // 
+            this.txtTransactionTime.Location = new System.Drawing.Point(406, 57);
+            this.txtTransactionTime.Name = "txtTransactionTime";
+            this.txtTransactionTime.Size = new System.Drawing.Size(152, 28);
+            this.txtTransactionTime.TabIndex = 6;
+            // 
+            // label6
+            // 
+            this.label6.AutoSize = true;
+            this.label6.Location = new System.Drawing.Point(342, 59);
+            this.label6.Name = "label6";
+            this.label6.Size = new System.Drawing.Size(58, 24);
+            this.label6.TabIndex = 17;
+            this.label6.Text = "Time:";
+            // 
+            // lblTotalToCheck
+            // 
+            this.lblTotalToCheck.AutoSize = true;
+            this.lblTotalToCheck.Font = new System.Drawing.Font("Microsoft Sans Serif", 11F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Underline))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblTotalToCheck.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(0)))));
+            this.lblTotalToCheck.Location = new System.Drawing.Point(512, 535);
+            this.lblTotalToCheck.Name = "lblTotalToCheck";
+            this.lblTotalToCheck.Size = new System.Drawing.Size(152, 24);
+            this.lblTotalToCheck.TabIndex = 16;
+            this.lblTotalToCheck.Text = "ResultToCheck";
+            this.lblTotalToCheck.Visible = false;
+            // 
+            // label4
+            // 
+            this.label4.AutoSize = true;
+            this.label4.Font = new System.Drawing.Font("Microsoft Sans Serif", 11F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label4.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(0)))));
+            this.label4.Location = new System.Drawing.Point(191, 535);
+            this.label4.Name = "label4";
+            this.label4.Size = new System.Drawing.Size(62, 24);
+            this.label4.TabIndex = 15;
+            this.label4.Text = "Total:";
+            // 
+            // lblMessage
+            // 
+            this.lblMessage.AutoSize = true;
+            this.lblMessage.ForeColor = System.Drawing.Color.Red;
+            this.lblMessage.Location = new System.Drawing.Point(63, 461);
+            this.lblMessage.Name = "lblMessage";
+            this.lblMessage.Size = new System.Drawing.Size(106, 24);
+            this.lblMessage.TabIndex = 14;
+            this.lblMessage.Text = "lblMessage";
+            // 
+            // lblTotal
+            // 
+            this.lblTotal.AutoSize = true;
+            this.lblTotal.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
+            this.lblTotal.Location = new System.Drawing.Point(289, 487);
+            this.lblTotal.Name = "lblTotal";
+            this.lblTotal.Size = new System.Drawing.Size(61, 24);
+            this.lblTotal.TabIndex = 13;
+            this.lblTotal.Text = "[Total]";
+            // 
+            // label5
+            // 
+            this.label5.AutoSize = true;
+            this.label5.Font = new System.Drawing.Font("Microsoft Sans Serif", 11F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label5.Location = new System.Drawing.Point(191, 487);
+            this.label5.Name = "label5";
+            this.label5.Size = new System.Drawing.Size(99, 24);
+            this.label5.TabIndex = 12;
+            this.label5.Text = "SubTotal:";
+            // 
+            // panelDiscard
+            // 
+            this.panelDiscard.Controls.Add(this.cboxRemarks);
+            this.panelDiscard.Controls.Add(this.label3);
+            this.panelDiscard.Controls.Add(this.btnCancelDiscard);
+            this.panelDiscard.Controls.Add(this.btnOKDiscard);
+            this.panelDiscard.Location = new System.Drawing.Point(32, 637);
+            this.panelDiscard.Name = "panelDiscard";
+            this.panelDiscard.Size = new System.Drawing.Size(526, 118);
+            this.panelDiscard.TabIndex = 11;
+            this.panelDiscard.Visible = false;
+            // 
+            // label3
+            // 
+            this.label3.AutoSize = true;
+            this.label3.Location = new System.Drawing.Point(17, 24);
+            this.label3.Name = "label3";
+            this.label3.Size = new System.Drawing.Size(80, 24);
+            this.label3.TabIndex = 6;
+            this.label3.Text = "Remark:";
+            // 
+            // btnCancelDiscard
+            // 
+            this.btnCancelDiscard.Font = new System.Drawing.Font("Microsoft Sans Serif", 8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnCancelDiscard.Location = new System.Drawing.Point(195, 81);
+            this.btnCancelDiscard.Name = "btnCancelDiscard";
+            this.btnCancelDiscard.Size = new System.Drawing.Size(75, 23);
+            this.btnCancelDiscard.TabIndex = 57;
+            this.btnCancelDiscard.Text = "Cancel";
+            this.btnCancelDiscard.UseVisualStyleBackColor = true;
+            this.btnCancelDiscard.Click += new System.EventHandler(this.btnCancelDiscard_Click);
+            // 
+            // btnOKDiscard
+            // 
+            this.btnOKDiscard.Font = new System.Drawing.Font("Microsoft Sans Serif", 8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnOKDiscard.Location = new System.Drawing.Point(58, 81);
+            this.btnOKDiscard.Name = "btnOKDiscard";
+            this.btnOKDiscard.Size = new System.Drawing.Size(75, 23);
+            this.btnOKDiscard.TabIndex = 56;
+            this.btnOKDiscard.Text = "OK";
+            this.btnOKDiscard.UseVisualStyleBackColor = true;
+            this.btnOKDiscard.Click += new System.EventHandler(this.btnOKDiscard_Click);
+            // 
+            // lblRecordInfo
+            // 
+            this.lblRecordInfo.AutoSize = true;
+            this.lblRecordInfo.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.lblRecordInfo.Location = new System.Drawing.Point(49, 492);
+            this.lblRecordInfo.Name = "lblRecordInfo";
+            this.lblRecordInfo.Size = new System.Drawing.Size(79, 26);
+            this.lblRecordInfo.TabIndex = 10;
+            this.lblRecordInfo.Text = "Record:";
+            // 
+            // btnDiscard
+            // 
+            this.btnDiscard.Font = new System.Drawing.Font("Microsoft Sans Serif", 8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnDiscard.Location = new System.Drawing.Point(76, 604);
+            this.btnDiscard.Name = "btnDiscard";
+            this.btnDiscard.Size = new System.Drawing.Size(75, 23);
+            this.btnDiscard.TabIndex = 54;
+            this.btnDiscard.Text = "Discard";
+            this.btnDiscard.UseVisualStyleBackColor = true;
+            this.btnDiscard.Click += new System.EventHandler(this.btnDiscard_Click);
+            // 
+            // btnUpdate
+            // 
+            this.btnUpdate.Font = new System.Drawing.Font("Microsoft Sans Serif", 8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnUpdate.Location = new System.Drawing.Point(381, 574);
+            this.btnUpdate.Name = "btnUpdate";
+            this.btnUpdate.Size = new System.Drawing.Size(75, 23);
+            this.btnUpdate.TabIndex = 53;
+            this.btnUpdate.Text = "Update";
+            this.btnUpdate.UseVisualStyleBackColor = true;
+            this.btnUpdate.Click += new System.EventHandler(this.btnUpdate_Click);
+            // 
+            // btnSave
+            // 
+            this.btnSave.Font = new System.Drawing.Font("Microsoft Sans Serif", 8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnSave.Location = new System.Drawing.Point(284, 574);
+            this.btnSave.Name = "btnSave";
+            this.btnSave.Size = new System.Drawing.Size(75, 23);
+            this.btnSave.TabIndex = 52;
+            this.btnSave.Text = "SAVE";
+            this.btnSave.UseVisualStyleBackColor = true;
+            this.btnSave.Click += new System.EventHandler(this.btnSave_Click);
+            // 
+            // btnAdd
+            // 
+            this.btnAdd.Font = new System.Drawing.Font("Microsoft Sans Serif", 8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnAdd.Location = new System.Drawing.Point(183, 574);
+            this.btnAdd.Name = "btnAdd";
+            this.btnAdd.Size = new System.Drawing.Size(75, 23);
+            this.btnAdd.TabIndex = 51;
+            this.btnAdd.Text = "Add";
+            this.btnAdd.UseVisualStyleBackColor = true;
+            this.btnAdd.Click += new System.EventHandler(this.btnAdd_Click);
+            // 
+            // txtTransactionDate
+            // 
+            this.txtTransactionDate.Location = new System.Drawing.Point(180, 57);
+            this.txtTransactionDate.Name = "txtTransactionDate";
+            this.txtTransactionDate.Size = new System.Drawing.Size(141, 28);
+            this.txtTransactionDate.TabIndex = 5;
+            // 
+            // label2
+            // 
+            this.label2.AutoSize = true;
+            this.label2.Location = new System.Drawing.Point(23, 57);
+            this.label2.Name = "label2";
+            this.label2.Size = new System.Drawing.Size(156, 24);
+            this.label2.TabIndex = 4;
+            this.label2.Text = "Transaction Date:";
+            // 
+            // btnShowList
+            // 
+            this.btnShowList.Font = new System.Drawing.Font("Microsoft Sans Serif", 8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnShowList.Location = new System.Drawing.Point(76, 574);
+            this.btnShowList.Name = "btnShowList";
+            this.btnShowList.Size = new System.Drawing.Size(75, 23);
+            this.btnShowList.TabIndex = 50;
+            this.btnShowList.Text = "Show list";
+            this.btnShowList.UseVisualStyleBackColor = true;
+            this.btnShowList.Click += new System.EventHandler(this.btnShowList_Click);
+            // 
+            // panel3
+            // 
+            this.panel3.Location = new System.Drawing.Point(3, 91);
+            this.panel3.Name = "panel3";
+            this.panel3.Size = new System.Drawing.Size(661, 307);
+            this.panel3.TabIndex = 7;
+            // 
+            // label1
+            // 
+            this.label1.AutoSize = true;
+            this.label1.Location = new System.Drawing.Point(20, 25);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(155, 24);
+            this.label1.TabIndex = 0;
+            this.label1.Text = "Tracsaction Type";
+            // 
+            // chkAddRuler
+            // 
+            this.chkAddRuler.AutoSize = true;
+            this.chkAddRuler.Checked = true;
+            this.chkAddRuler.CheckState = System.Windows.Forms.CheckState.Checked;
+            this.chkAddRuler.Location = new System.Drawing.Point(1305, 45);
+            this.chkAddRuler.Name = "chkAddRuler";
+            this.chkAddRuler.Size = new System.Drawing.Size(92, 21);
+            this.chkAddRuler.TabIndex = 4;
+            this.chkAddRuler.Text = "Click ruler";
+            this.chkAddRuler.UseVisualStyleBackColor = true;
+            this.chkAddRuler.CheckedChanged += new System.EventHandler(this.chkAddRuler_CheckedChanged);
+            // 
+            // panelButtonImg
+            // 
+            this.panelButtonImg.Location = new System.Drawing.Point(81, 22);
+            this.panelButtonImg.Name = "panelButtonImg";
+            this.panelButtonImg.Size = new System.Drawing.Size(851, 40);
+            this.panelButtonImg.TabIndex = 19;
+            // 
+            // lblCounter
+            // 
+            this.lblCounter.AutoSize = true;
+            this.lblCounter.Location = new System.Drawing.Point(1492, 45);
+            this.lblCounter.Name = "lblCounter";
+            this.lblCounter.Size = new System.Drawing.Size(72, 17);
+            this.lblCounter.TabIndex = 20;
+            this.lblCounter.Text = "lblCounter";
+            // 
+            // lblImageName
+            // 
+            this.lblImageName.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.lblImageName.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblImageName.Location = new System.Drawing.Point(994, 36);
+            this.lblImageName.Name = "lblImageName";
+            this.lblImageName.ReadOnly = true;
+            this.lblImageName.Size = new System.Drawing.Size(218, 23);
+            this.lblImageName.TabIndex = 21;
+            this.lblImageName.TabStop = false;
+            // 
+            // chkTopList
+            // 
+            this.chkTopList.AutoSize = true;
+            this.chkTopList.Location = new System.Drawing.Point(1305, 18);
+            this.chkTopList.Name = "chkTopList";
+            this.chkTopList.Size = new System.Drawing.Size(100, 21);
+            this.chkTopList.TabIndex = 22;
+            this.chkTopList.Text = "OnTop List";
+            this.chkTopList.UseVisualStyleBackColor = true;
+            this.chkTopList.CheckedChanged += new System.EventHandler(this.chkTopList_CheckedChanged);
+            // 
+            // rotateRight
+            // 
+            this.rotateRight.Location = new System.Drawing.Point(1137, 36);
+            this.rotateRight.Name = "rotateRight";
+            this.rotateRight.Size = new System.Drawing.Size(75, 23);
+            this.rotateRight.TabIndex = 23;
+            this.rotateRight.Text = "->";
+            this.rotateRight.UseVisualStyleBackColor = true;
+            this.rotateRight.Click += new System.EventHandler(this.rotateRight_Click);
+            // 
+            // lblPackageName
+            // 
+            this.lblPackageName.AutoSize = true;
+            this.lblPackageName.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblPackageName.Location = new System.Drawing.Point(1492, 18);
+            this.lblPackageName.Name = "lblPackageName";
+            this.lblPackageName.Size = new System.Drawing.Size(113, 17);
+            this.lblPackageName.TabIndex = 24;
+            this.lblPackageName.Text = "package name";
+            // 
+            // cboxRemarks
+            // 
+            this.cboxRemarks.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
+            this.cboxRemarks.FormattingEnabled = true;
+            this.cboxRemarks.Location = new System.Drawing.Point(103, 21);
+            this.cboxRemarks.Name = "cboxRemarks";
+            this.cboxRemarks.Size = new System.Drawing.Size(266, 30);
+            this.cboxRemarks.TabIndex = 55;
+            // 
+            // cboxTransactionType
+            // 
+            this.cboxTransactionType.Enabled = false;
+            this.cboxTransactionType.FormattingEnabled = true;
+            this.cboxTransactionType.Location = new System.Drawing.Point(180, 26);
+            this.cboxTransactionType.Name = "cboxTransactionType";
+            this.cboxTransactionType.Size = new System.Drawing.Size(141, 30);
+            this.cboxTransactionType.TabIndex = 1;
+            this.cboxTransactionType.SelectedIndexChanged += new System.EventHandler(this.cboxTransactionType_SelectedIndexChanged);
+            // 
+            // label7
+            // 
+            this.label7.AutoSize = true;
+            this.label7.Location = new System.Drawing.Point(49, 405);
+            this.label7.Name = "label7";
+            this.label7.Size = new System.Drawing.Size(191, 24);
+            this.label7.TabIndex = 56;
+            this.label7.Text = "Comment on this Doc";
+            // 
+            // txtComment
+            // 
+            this.txtComment.Font = new System.Drawing.Font("Microsoft Sans Serif", 11F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtComment.ForeColor = System.Drawing.Color.Red;
+            this.txtComment.Location = new System.Drawing.Point(267, 405);
+            this.txtComment.Name = "txtComment";
+            this.txtComment.Size = new System.Drawing.Size(376, 28);
+            this.txtComment.TabIndex = 57;
+            // 
+            // From_Keyer
+            // 
+            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
+            this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.ClientSize = new System.Drawing.Size(1906, 933);
+            this.Controls.Add(this.lblPackageName);
+            this.Controls.Add(this.rotateRight);
+            this.Controls.Add(this.chkTopList);
+            this.Controls.Add(this.lblImageName);
+            this.Controls.Add(this.lblCounter);
+            this.Controls.Add(this.panelButtonImg);
+            this.Controls.Add(this.chkAddRuler);
+            this.Controls.Add(this.panel2);
+            this.Controls.Add(this.panel1);
+            this.Name = "From_Keyer";
+            this.Text = "From_Keyer";
+            this.panel1.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.pboxImage)).EndInit();
+            this.panel2.ResumeLayout(false);
+            this.panel2.PerformLayout();
+            this.panelDiscard.ResumeLayout(false);
+            this.panelDiscard.PerformLayout();
+            this.ResumeLayout(false);
+            this.PerformLayout();
+
+        }
+
+        #endregion
+
+        private System.Windows.Forms.Panel panel1;
+        private System.Windows.Forms.PictureBox pboxImage;
+        private System.Windows.Forms.Panel panel2;
+        private System.Windows.Forms.Label label1;
+        private Controls.Combobox_Doctype cboxTransactionType;
+        private System.Windows.Forms.Panel panel3;
+        private System.Windows.Forms.Button btnShowList;
+        private System.Windows.Forms.TextBox txtTransactionDate;
+        private System.Windows.Forms.Label label2;
+        private System.Windows.Forms.Button btnAdd;
+        private System.Windows.Forms.Button btnSave;
+        private System.Windows.Forms.Button btnUpdate;
+        private System.Windows.Forms.Button btnDiscard;
+        private System.Windows.Forms.Label lblRecordInfo;
+        private System.Windows.Forms.Panel panelDiscard;
+        private System.Windows.Forms.Button btnOKDiscard;
+        private System.Windows.Forms.Button btnCancelDiscard;
+        private System.Windows.Forms.Label lblTotal;
+        private System.Windows.Forms.Label label5;
+        private System.Windows.Forms.Label lblMessage;
+        private System.Windows.Forms.CheckBox chkAddRuler;
+        private System.Windows.Forms.Label label3;
+        private Controls.Combobox_Remark cboxRemarks;
+        private System.Windows.Forms.Label lblTotalToCheck;
+        private System.Windows.Forms.Label label4;
+        private System.Windows.Forms.Label lblTimer;
+        private System.Windows.Forms.TextBox txtTransactionTime;
+        private System.Windows.Forms.Label label6;
+        private System.Windows.Forms.Label lblCount;
+        private System.Windows.Forms.Panel panelButtonImg;
+        private System.Windows.Forms.Label lblTax;
+        private System.Windows.Forms.TextBox txtTotalToCheck;
+        private System.Windows.Forms.Label lblCounter;
+        private System.Windows.Forms.TextBox lblImageName;
+        private System.Windows.Forms.CheckBox chkTopList;
+        private System.Windows.Forms.Button rotateRight;
+        private System.Windows.Forms.Label lblPackageName;
+        private System.Windows.Forms.Label label7;
+        private System.Windows.Forms.TextBox txtComment;
+    }
+}

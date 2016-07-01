@@ -1,0 +1,26 @@
+INFO  2015-04-20 10:41:52 - File download requested is existed -> ignore (D:\Projects\Projects\NexGen\NexGen\bin\Debug\cache\IMG\20150409\NexGen_test_1doc_2img4\12714245_1..jpg)
+INFO  2015-04-20 10:41:52 - File download requested is existed -> ignore (D:\Projects\Projects\NexGen\NexGen\bin\Debug\cache\OCR\20150409\NexGen_test_1doc_2img4\12714245_1..xml)
+INFO  2015-04-20 10:42:15 - Create Folder: D:\Projects\Projects\NexGen\NexGen\bin\Debug\cache\IMG\20150418\RSD_2015-04-17_c5ad7b9703d7\
+INFO  2015-04-20 10:42:15 - Download file: D:\Projects\Projects\NexGen\NexGen\bin\Debug\cache\IMG\20150418\RSD_2015-04-17_c5ad7b9703d7\57232835_1..jpeg success
+INFO  2015-04-20 10:42:15 - Create Folder: D:\Projects\Projects\NexGen\NexGen\bin\Debug\cache\OCR\20150418\RSD_2015-04-17_c5ad7b9703d7\
+INFO  2015-04-20 10:42:15 - Download file: D:\Projects\Projects\NexGen\NexGen\bin\Debug\cache\OCR\20150418\RSD_2015-04-17_c5ad7b9703d7\57232835_1..xml success
+INFO  2015-04-20 10:43:01 - File download requested is existed -> ignore (D:\Projects\Projects\NexGen\NexGen\bin\Debug\cache\IMG\20150418\RSD_2015-04-17_c5ad7b9703d7\57232835_1..jpeg)
+INFO  2015-04-20 10:43:01 - File download requested is existed -> ignore (D:\Projects\Projects\NexGen\NexGen\bin\Debug\cache\OCR\20150418\RSD_2015-04-17_c5ad7b9703d7\57232835_1..xml)
+INFO  2015-04-20 03:39:16 - Download file: D:\Projects\Projects\NexGen\NexGen\bin\Debug\cache\IMG\20150418\RSD_2015-04-17_c5ad7b9703d7\57235749_1..jpeg success
+INFO  2015-04-20 03:39:16 - Download file: D:\Projects\Projects\NexGen\NexGen\bin\Debug\cache\OCR\20150418\RSD_2015-04-17_c5ad7b9703d7\57235749_1..xml success
+INFO  2015-04-20 03:39:23 - Download file: D:\Projects\Projects\NexGen\NexGen\bin\Debug\cache\IMG\20150418\RSD_2015-04-17_c5ad7b9703d7\57235749_2..jpeg success
+INFO  2015-04-20 03:39:23 - Download file: D:\Projects\Projects\NexGen\NexGen\bin\Debug\cache\OCR\20150418\RSD_2015-04-17_c5ad7b9703d7\57235749_2..xml success
+INFO  2015-04-20 03:39:29 - Download file: D:\Projects\Projects\NexGen\NexGen\bin\Debug\cache\IMG\20150418\RSD_2015-04-17_c5ad7b9703d7\57235749_3..jpeg success
+INFO  2015-04-20 03:39:30 - Download file: D:\Projects\Projects\NexGen\NexGen\bin\Debug\cache\OCR\20150418\RSD_2015-04-17_c5ad7b9703d7\57235749_3..xml success
+INFO  2015-04-20 09:49:30 - File download requested is existed -> ignore (D:\Projects\Projects\NexGen\NexGen\bin\Debug\cache\IMG\20150418\RSD_2015-04-17_c5ad7b9703d7\57235749_1..jpeg)
+INFO  2015-04-20 09:49:30 - File download requested is existed -> ignore (D:\Projects\Projects\NexGen\NexGen\bin\Debug\cache\OCR\20150418\RSD_2015-04-17_c5ad7b9703d7\57235749_1..xml)
+INFO  2015-04-20 09:49:36 - File download requested is existed -> ignore (D:\Projects\Projects\NexGen\NexGen\bin\Debug\cache\IMG\20150418\RSD_2015-04-17_c5ad7b9703d7\57235749_2..jpeg)
+INFO  2015-04-20 09:49:36 - File download requested is existed -> ignore (D:\Projects\Projects\NexGen\NexGen\bin\Debug\cache\OCR\20150418\RSD_2015-04-17_c5ad7b9703d7\57235749_2..xml)
+INFO  2015-04-20 09:49:42 - File download requested is existed -> ignore (D:\Projects\Projects\NexGen\NexGen\bin\Debug\cache\IMG\20150418\RSD_2015-04-17_c5ad7b9703d7\57235749_3..jpeg)
+INFO  2015-04-20 09:49:42 - File download requested is existed -> ignore (D:\Projects\Projects\NexGen\NexGen\bin\Debug\cache\OCR\20150418\RSD_2015-04-17_c5ad7b9703d7\57235749_3..xml)
+INFO  2015-04-20 09:50:57 - File download requested is existed -> ignore (D:\Projects\Projects\NexGen\NexGen\bin\Debug\cache\IMG\20150418\RSD_2015-04-17_c5ad7b9703d7\57235749_1..jpeg)
+INFO  2015-04-20 09:50:57 - File download requested is existed -> ignore (D:\Projects\Projects\NexGen\NexGen\bin\Debug\cache\OCR\20150418\RSD_2015-04-17_c5ad7b9703d7\57235749_1..xml)
+INFO  2015-04-20 09:51:03 - File download requested is existed -> ignore (D:\Projects\Projects\NexGen\NexGen\bin\Debug\cache\IMG\20150418\RSD_2015-04-17_c5ad7b9703d7\57235749_2..jpeg)
+INFO  2015-04-20 09:51:03 - File download requested is existed -> ignore (D:\Projects\Projects\NexGen\NexGen\bin\Debug\cache\OCR\20150418\RSD_2015-04-17_c5ad7b9703d7\57235749_2..xml)
+INFO  2015-04-20 09:51:09 - File download requested is existed -> ignore (D:\Projects\Projects\NexGen\NexGen\bin\Debug\cache\IMG\20150418\RSD_2015-04-17_c5ad7b9703d7\57235749_3..jpeg)
+INFO  2015-04-20 09:51:09 - File download requested is existed -> ignore (D:\Projects\Projects\NexGen\NexGen\bin\Debug\cache\OCR\20150418\RSD_2015-04-17_c5ad7b9703d7\57235749_3..xml)

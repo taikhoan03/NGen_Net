@@ -1,0 +1,11 @@
+INFO  2015-09-11 05:13:52 - DataObject.User
+INFO  2015-09-11 05:13:54 - Create Folder: D:\Projects\Projects\NexGen\SVN\NexGen\bin\Release\cache\IMG\20150911\UPC_2015-09-11_768281a1946c\
+INFO  2015-09-11 05:13:54 - Download file: D:\Projects\Projects\NexGen\SVN\NexGen\bin\Release\cache\IMG\20150911\UPC_2015-09-11_768281a1946c\60385455_1..jpeg success
+INFO  2015-09-11 05:13:54 - Create Folder: D:\Projects\Projects\NexGen\SVN\NexGen\bin\Release\cache\OCR\20150911\UPC_2015-09-11_768281a1946c\
+INFO  2015-09-11 05:13:54 - Download file: D:\Projects\Projects\NexGen\SVN\NexGen\bin\Release\cache\OCR\20150911\UPC_2015-09-11_768281a1946c\60385455_1..xml success
+ERROR 2015-09-11 05:14:33 - Input string was not in a correct format.
+ERROR 2015-09-11 05:14:33 -    at System.Number.ParseDouble(String value, NumberStyles options, NumberFormatInfo numfmt)
+   at System.Convert.ToDouble(String value)
+   at NexGen.UserConctrol.doc_upc_input.GetRecord() in D:\Projects\Projects\NexGen\SVN\NexGen\UserConctrol\doc_upc_input.cs:line 78
+INFO  2015-09-11 05:15:06 - Download file: D:\Projects\Projects\NexGen\SVN\NexGen\bin\Release\cache\IMG\20150911\UPC_2015-09-11_768281a1946c\60595730_1..jpeg success
+INFO  2015-09-11 05:15:06 - Download file: D:\Projects\Projects\NexGen\SVN\NexGen\bin\Release\cache\OCR\20150911\UPC_2015-09-11_768281a1946c\60595730_1..xml success

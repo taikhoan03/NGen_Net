@@ -1,0 +1,72 @@
+INFO  2015-06-03 10:23:56 NexGenService.CommonService:line 25 - service start
+INFO  2015-06-03 10:23:57 NexGenFlow.Manage.User:line 23 - User [phuhuu.lac] login success.
+INFO  2015-06-03 10:38:00 NexGenService.CommonService:line 25 - service start
+INFO  2015-06-03 10:38:00 NexGenFlow.Manage.User:line 23 - User [phuhuu.lac] login success.
+INFO  2015-06-03 10:41:15 NexGenService.CommonService:line 25 - service start
+INFO  2015-06-03 10:41:15 NexGenFlow.Manage.User:line 23 - User [phuhuu.lac] login success.
+INFO  2015-06-03 10:42:58 NexGenService.CommonService:line 25 - service start
+INFO  2015-06-03 10:42:59 NexGenFlow.Manage.User:line 23 - User [phuhuu.lac] login success.
+INFO  2015-06-03 10:48:18 NexGenService.CommonService:line 25 - service start
+INFO  2015-06-03 10:48:19 NexGenFlow.Manage.User:line 23 - User [phuhuu.lac] login success.
+INFO  2015-06-03 10:49:10 NexGenService.CommonService:line 25 - service start
+INFO  2015-06-03 10:49:11 NexGenFlow.Manage.User:line 23 - User [phuhuu.lac] login success.
+INFO  2015-06-03 10:57:35 NexGenService.CommonService:line 25 - service start
+INFO  2015-06-03 10:57:36 NexGenFlow.Manage.User:line 23 - User [phuhuu.lac] login success.
+ERROR 2015-06-03 10:57:45 NexGenFlow.Manage.UserAction:line 42 - Can not Execute Command: WITH updated AS (update plan_doc_keyer set lockedby='phuhuu.lac', lockeddate=now() where docid=(( select    d.id  from    document d  join    package pac              on pac.id=d.packageid  join plan_doc_keyer pl 	on pl.docid=d.id where    (             pl.lockedby='phuhuu.lac'                         and (                pl.is_deleted=false                                or pl.is_deleted is null                          )                          and (                pl.lockedfinish is null                                or pl.lockedfinish=false                          )                    )              order by          pac.priority limit 1 )   union all (    select       d.id        from       document d      join       plan_doc_keyer pl                          on d.id=pl.docid              join       package pac                          on pac.id=d.packageid              where       (          pl.lockedby is null                          and (             pl.is_deleted=false                                or pl.is_deleted is null                          )                    )         order by       pac.priority,       banner_id limit 1     )     limit 1) RETURNING id); select * from document where id = (SELECT id FROM updated); 	ERROR: 42601: syntax error at or near ";"
+ERROR 2015-06-03 10:57:45 NexGenFlow.Manage.UserAction:line 43 -    at System.Activities.WorkflowApplication.Invoke(Activity activity, IDictionary`2 inputs, WorkflowInstanceExtensionManager extensions, TimeSpan timeout)
+   at System.Activities.WorkflowInvoker.Invoke(Activity workflow, IDictionary`2 inputs, TimeSpan timeout, WorkflowInstanceExtensionManager extensions)
+   at System.Activities.WorkflowInvoker.Invoke(Activity workflow, IDictionary`2 inputs)
+   at Libs.DBExtMethods.ExecuteReader[T](Database objDB, String command, Boolean CloseConnectionOnDone)
+   at NexGenFlow.Manage.UserAction.Get_doc_for_keyer(String username) in d:\Projects\Projects\NexGen\NexGenFlow\Manage\UserAction.cs:line 38
+ERROR 2015-06-03 11:00:47 NexGenFlow.Manage.UserAction:line 42 - Can not Execute Command: WITH updated AS (update plan_doc_keyer set lockedby='phuhuu.lac', lockeddate=now() where docid=(( select    d.id  from    document d  join    package pac              on pac.id=d.packageid  join plan_doc_keyer pl 	on pl.docid=d.id where    (             pl.lockedby='phuhuu.lac'                         and (                pl.is_deleted=false                                or pl.is_deleted is null                          )                          and (                pl.lockedfinish is null                                or pl.lockedfinish=false                          )                    )              order by          pac.priority limit 1 )   union all (    select       d.id        from       document d      join       plan_doc_keyer pl                          on d.id=pl.docid              join       package pac                          on pac.id=d.packageid              where       (          pl.lockedby is null                          and (             pl.is_deleted=false                                or pl.is_deleted is null                          )                    )         order by       pac.priority,       banner_id limit 1     )     limit 1) RETURNING id); select * from document where id = (SELECT id FROM updated); 	ERROR: 42601: syntax error at or near ";"
+ERROR 2015-06-03 11:00:47 NexGenFlow.Manage.UserAction:line 43 -    at System.Activities.WorkflowApplication.Invoke(Activity activity, IDictionary`2 inputs, WorkflowInstanceExtensionManager extensions, TimeSpan timeout)
+   at System.Activities.WorkflowInvoker.Invoke(Activity workflow, IDictionary`2 inputs, TimeSpan timeout, WorkflowInstanceExtensionManager extensions)
+   at System.Activities.WorkflowInvoker.Invoke(Activity workflow, IDictionary`2 inputs)
+   at Libs.DBExtMethods.ExecuteReader[T](Database objDB, String command, Boolean CloseConnectionOnDone)
+   at NexGenFlow.Manage.UserAction.Get_doc_for_keyer(String username) in d:\Projects\Projects\NexGen\NexGenFlow\Manage\UserAction.cs:line 38
+INFO  2015-06-03 11:02:18 NexGenService.CommonService:line 25 - service start
+INFO  2015-06-03 11:02:19 NexGenFlow.Manage.User:line 23 - User [phuhuu.lac] login success.
+INFO  2015-06-03 11:06:55 NexGenService.CommonService:line 25 - service start
+INFO  2015-06-03 11:06:55 NexGenFlow.Manage.User:line 23 - User [phuhuu.lac] login success.
+INFO  2015-06-03 11:13:12 NexGenService.CommonService:line 25 - service start
+INFO  2015-06-03 11:13:13 NexGenFlow.Manage.User:line 23 - User [phuhuu.lac] login success.
+INFO  2015-06-03 11:32:15 NexGenService.CommonService:line 25 - service start
+INFO  2015-06-03 11:32:15 NexGenFlow.Manage.User:line 23 - User [phuhuu.lac] login success.
+INFO  2015-06-03 11:33:49 NexGenService.CommonService:line 25 - service start
+INFO  2015-06-03 11:33:49 NexGenFlow.Manage.User:line 23 - User [phuhuu.lac] login success.
+INFO  2015-06-03 11:37:45 NexGenService.CommonService:line 26 - service start
+INFO  2015-06-03 11:37:45 NexGenFlow.Manage.User:line 24 - User [phuhuu.lac] login success.
+INFO  2015-06-03 11:38:52 NexGenService.CommonService:line 25 - service start
+INFO  2015-06-03 11:38:53 NexGenFlow.Manage.User:line 23 - User [phuhuu.lac] login success.
+INFO  2015-06-03 12:04:53 NexGenService.CommonService:line 25 - service start
+INFO  2015-06-03 12:07:11 NexGenService.CommonService:line 25 - service start
+INFO  2015-06-03 12:08:53 NexGenService.CommonService:line 25 - service start
+INFO  2015-06-03 12:08:57 NexGenFlow.Manage.User:line 23 - User [thanhthuy] login success.
+INFO  2015-06-03 12:18:42 NexGenService.CommonService:line 25 - service start
+INFO  2015-06-03 12:18:42 NexGenFlow.Manage.User:line 23 - User [thanhthuy] login success.
+INFO  2015-06-03 12:19:30 NexGenFlow.Manage.PackageImport:line 55 - Import new Package: ID=23
+INFO  2015-06-03 12:19:30 NexGenFlow.Manage.PackageImport:line 94 - This doc is null: <?xml version="1.0" encoding="utf-16"?>
+<DocInfo xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:nil="true" />
+ERROR 2015-06-03 12:19:32 NexGenFlow.Manage.PackageImport:line 116 - System.Exception: No record moved from [document] to [plan_doc_keyer]
+   at NexGenFlow.Manage.PackageImport.Insert(PackageImport downloadfile, String[] FileList, List`1 docinfos, String Username, String csv_file) in d:\Projects\Projects\NexGen\NexGenFlow\Manage\PackageImport.cs:line 106
+INFO  2015-06-03 12:59:25 NexGenService.CommonService:line 25 - service start
+INFO  2015-06-03 12:59:25 NexGenFlow.Manage.User:line 23 - User [thanhthuy] login success.
+INFO  2015-06-03 01:00:46 NexGenFlow.Manage.PackageImport:line 94 - This doc is null: <?xml version="1.0" encoding="utf-16"?>
+<DocInfo xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:nil="true" />
+ERROR 2015-06-03 01:02:50 NexGenFlow.Manage.PackageImport:line 116 - System.Exception: No record moved from [document] to [plan_doc_keyer]
+   at NexGenFlow.Manage.PackageImport.Insert(PackageImport downloadfile, String[] FileList, List`1 docinfos, String Username, String csv_file) in d:\Projects\Projects\NexGen\NexGenFlow\Manage\PackageImport.cs:line 106
+INFO  2015-06-03 01:03:04 NexGenService.CommonService:line 25 - service start
+INFO  2015-06-03 01:03:05 NexGenFlow.Manage.User:line 23 - User [thanhthuy] login success.
+INFO  2015-06-03 01:08:15 NexGenFlow.Manage.PackageImport:line 94 - This doc is null: <?xml version="1.0" encoding="utf-16"?>
+<DocInfo xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:nil="true" />
+INFO  2015-06-03 01:09:52 NexGenService.CommonService:line 25 - service start
+INFO  2015-06-03 01:09:53 NexGenFlow.Manage.User:line 23 - User [thanhthuy] login success.
+INFO  2015-06-03 01:11:17 NexGenFlow.Manage.PackageImport:line 94 - This doc is null: <?xml version="1.0" encoding="utf-16"?>
+<DocInfo xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:nil="true" />
+INFO  2015-06-03 01:12:19 NexGenService.CommonService:line 25 - service start
+INFO  2015-06-03 01:12:20 NexGenFlow.Manage.User:line 23 - User [thanhthuy] login success.
+INFO  2015-06-03 01:25:07 NexGenService.CommonService:line 25 - service start
+INFO  2015-06-03 01:25:32 NexGenService.CommonService:line 25 - service start
+INFO  2015-06-03 01:25:33 NexGenFlow.Manage.User:line 23 - User [phuhuu.lac] login success.
+INFO  2015-06-03 01:41:13 NexGenService.CommonService:line 26 - service start
+INFO  2015-06-03 01:41:16 NexGenFlow.Manage.User:line 24 - User [phuhuu.lac] login success.

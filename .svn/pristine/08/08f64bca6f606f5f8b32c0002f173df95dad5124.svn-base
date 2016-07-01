@@ -1,0 +1,10 @@
+INFO  2015-06-04 03:23:12 - DataObject.User
+INFO  2015-06-04 03:23:26 - Create Folder: D:\Projects\Projects\NexGen\NexGen\bin\Debug\cache\IMG\20150604\RSD_2015-06-04_553ccb9f3281\
+INFO  2015-06-04 03:23:26 - Download file: D:\Projects\Projects\NexGen\NexGen\bin\Debug\cache\IMG\20150604\RSD_2015-06-04_553ccb9f3281\65793026_1..jpg success
+INFO  2015-06-04 03:23:26 - Create Folder: D:\Projects\Projects\NexGen\NexGen\bin\Debug\cache\OCR\20150604\RSD_2015-06-04_553ccb9f3281\
+INFO  2015-06-04 03:23:26 - Download file: D:\Projects\Projects\NexGen\NexGen\bin\Debug\cache\OCR\20150604\RSD_2015-06-04_553ccb9f3281\65793026_1..xml success
+INFO  2015-06-04 03:25:43 - DataObject.User
+INFO  2015-06-04 03:25:57 - Download file: D:\Projects\Projects\NexGen\NexGen\bin\Debug\cache\IMG\20150604\RSD_2015-06-04_553ccb9f3281\65794432_1..jpg success
+INFO  2015-06-04 03:25:57 - Download file: D:\Projects\Projects\NexGen\NexGen\bin\Debug\cache\OCR\20150604\RSD_2015-06-04_553ccb9f3281\65794432_1..xml success
+INFO  2015-06-04 03:26:56 - DataObject.User
+INFO  2015-06-04 03:27:06 - File download requested is existed -> ignore (D:\Projects\Projects\NexGen\NexGen\bin\Debug\cache\IMG\20150604\RSD_2015-06-04_553ccb9f3281\65794432_1..jpg)

@@ -1,0 +1,37 @@
+INFO  2015-10-09 01:32:06 - DataObject.User
+INFO  2015-10-09 01:41:11 - DataObject.User
+INFO  2015-10-09 01:41:24 - Create Folder: D:\Projects\Projects\NexGen\SVN\NexGen\bin\Debug\cache\IMG\20151009\UPC_2015-10-09_aa7a1fd5aced\
+INFO  2015-10-09 01:41:24 - Download file: D:\Projects\Projects\NexGen\SVN\NexGen\bin\Debug\cache\IMG\20151009\UPC_2015-10-09_aa7a1fd5aced\60986797_1..jpg success
+INFO  2015-10-09 01:41:24 - Create Folder: D:\Projects\Projects\NexGen\SVN\NexGen\bin\Debug\cache\OCR\20151009\UPC_2015-10-09_aa7a1fd5aced\
+ERROR 2015-10-09 01:41:24 - OCR Error:cache\OCR\20151009/UPC_2015-10-09_aa7a1fd5aced/60986797_1..xml
+ERROR 2015-10-09 01:41:24 - Could not find file 'D:\Projects\Projects\NexGen\SVN\NexGen\bin\Debug\cache\OCR\20151009\UPC_2015-10-09_aa7a1fd5aced\60986797_1..xml'.
+ERROR 2015-10-09 01:41:24 -    at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   at System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize)
+   at System.Xml.XmlDownloadManager.GetStream(Uri uri, ICredentials credentials, IWebProxy proxy, RequestCachePolicy cachePolicy)
+   at System.Xml.XmlUrlResolver.GetEntity(Uri absoluteUri, String role, Type ofObjectToReturn)
+   at System.Xml.XmlTextReaderImpl.OpenUrlDelegate(Object xmlResolver)
+   at System.Runtime.CompilerServices.RuntimeHelpers.ExecuteCodeWithGuaranteedCleanup(TryCode code, CleanupCode backoutCode, Object userData)
+   at System.Threading.CompressedStack.Run(CompressedStack compressedStack, ContextCallback callback, Object state)
+   at System.Xml.XmlTextReaderImpl.OpenUrl()
+   at System.Xml.XmlTextReaderImpl.Read()
+   at System.Xml.XmlLoader.Load(XmlDocument doc, XmlReader reader, Boolean preserveWhitespace)
+   at System.Xml.XmlDocument.Load(XmlReader reader)
+   at System.Xml.XmlDocument.Load(String filename)
+   at NexGen.From_Keyer.GetOCRDoc(String imagepath) in D:\Projects\Projects\NexGen\SVN\NexGen\From_Keyer.cs:line 448
+ERROR 2015-10-09 01:41:24 - OCR parse errors
+INFO  2015-10-09 02:00:38 - DataObject.User
+INFO  2015-10-09 02:02:39 - DataObject.User
+INFO  2015-10-09 02:05:02 - DataObject.User
+INFO  2015-10-09 02:06:53 - DataObject.User
+INFO  2015-10-09 02:21:35 - DataObject.User
+INFO  2015-10-09 02:23:36 - DataObject.User
+INFO  2015-10-09 02:24:40 - DataObject.User
+INFO  2015-10-09 02:33:30 - DataObject.User
+INFO  2015-10-09 02:39:16 - DataObject.User
+INFO  2015-10-09 02:39:56 - DataObject.User
+INFO  2015-10-09 02:40:56 - DataObject.User
+INFO  2015-10-09 02:43:41 - DataObject.User
+INFO  2015-10-09 02:55:02 - DataObject.User
+INFO  2015-10-09 02:55:42 - DataObject.User
+INFO  2015-10-09 02:59:45 - DataObject.User

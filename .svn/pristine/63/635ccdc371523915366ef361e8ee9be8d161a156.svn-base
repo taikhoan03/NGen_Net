@@ -1,0 +1,22 @@
+INFO  2015-04-07 09:24:30 NexGenService.CommonService:line 25 - service start
+INFO  2015-04-07 09:24:30 NexGenFlow.Manage.User:line 23 - User [aa] login success.
+INFO  2015-04-07 09:36:35 NexGenService.CommonService:line 25 - service start
+INFO  2015-04-07 09:36:35 NexGenFlow.Manage.User:line 23 - User [aa] login success.
+INFO  2015-04-07 09:38:42 NexGenService.CommonService:line 25 - service start
+INFO  2015-04-07 09:38:43 NexGenFlow.Manage.User:line 23 - User [phuhuu] login success.
+INFO  2015-04-07 03:27:30 NexGenService.CommonService:line 25 - service start
+INFO  2015-04-07 03:27:31 NexGenFlow.Manage.User:line 23 - User [phuhuu] login success.
+INFO  2015-04-07 03:37:24 NexGenService.CommonService:line 25 - service start
+INFO  2015-04-07 03:37:24 NexGenFlow.Manage.User:line 23 - User [phuhuu] login success.
+INFO  2015-04-07 03:40:41 NexGenService.CommonService:line 25 - service start
+INFO  2015-04-07 03:40:42 NexGenFlow.Manage.User:line 23 - User [phuhuu] login success.
+INFO  2015-04-07 03:55:45 NexGenService.CommonService:line 26 - service start
+INFO  2015-04-07 03:55:45 NexGenFlow.Manage.User:line 24 - User [phuhuu] login success.
+INFO  2015-04-07 04:16:45 NexGenService.CommonService:line 26 - service start
+INFO  2015-04-07 04:16:46 NexGenFlow.Manage.User:line 24 - User [phuhuu] login success.
+INFO  2015-04-07 04:17:16 NexGenService.CommonService:line 26 - service start
+INFO  2015-04-07 04:17:16 NexGenFlow.Manage.User:line 24 - User [phuhuu] login success.
+INFO  2015-04-07 04:17:45 NexGenService.CommonService:line 26 - service start
+INFO  2015-04-07 04:17:45 NexGenFlow.Manage.User:line 24 - User [thanhthuy] login success.
+INFO  2015-04-07 04:19:10 NexGenService.CommonService:line 26 - service start
+INFO  2015-04-07 04:19:11 NexGenFlow.Manage.User:line 24 - User [trunghieu] login success.

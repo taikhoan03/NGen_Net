@@ -1,0 +1,19 @@
+INFO  2015-09-07 02:05:51 NexGenService.CommonService:line 25 - service start
+INFO  2015-09-07 02:05:51 NexGenFlow.Manage.User:line 23 - User [test] login success.
+INFO  2015-09-07 02:21:29 NexGenService.CommonService:line 25 - service start
+INFO  2015-09-07 02:21:29 NexGenFlow.Manage.User:line 23 - User [test] login success.
+INFO  2015-09-07 05:26:20 NexGenService.CommonService:line 25 - service start
+INFO  2015-09-07 05:26:20 NexGenFlow.Manage.User:line 23 - User [test] login success.
+INFO  2015-09-07 05:27:17 NexGenFlow.Manage.User:line 23 - User [test] login success.
+INFO  2015-09-07 05:28:49 NexGenService.CommonService:line 25 - service start
+INFO  2015-09-07 05:28:50 NexGenFlow.Manage.User:line 23 - User [test] login success.
+INFO  2015-09-07 05:29:36 NexGenFlow.Manage.User:line 23 - User [test] login success.
+INFO  2015-09-07 05:31:05 NexGenFlow.Manage.User:line 23 - User [test] login success.
+INFO  2015-09-07 05:45:55 NexGenService.CommonService:line 25 - service start
+INFO  2015-09-07 06:08:52 NexGenService.CommonService:line 25 - service start
+INFO  2015-09-07 06:08:53 NexGenFlow.Manage.User:line 23 - User [test] login success.
+INFO  2015-09-07 06:14:58 NexGenService.CommonService:line 25 - service start
+INFO  2015-09-07 06:14:58 NexGenFlow.Manage.User:line 23 - User [test] login success.
+INFO  2015-09-07 06:16:13 NexGenFlow.Manage.User:line 23 - User [test] login success.
+INFO  2015-09-07 11:04:11 NexGenService.CommonService:line 25 - service start
+INFO  2015-09-07 11:04:38 NexGenFlow.Manage.User:line 23 - User [test] login success.

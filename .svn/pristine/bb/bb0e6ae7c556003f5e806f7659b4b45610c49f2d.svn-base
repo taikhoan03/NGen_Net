@@ -1,0 +1,19 @@
+INFO  2015-04-16 03:04:32 - Create Folder: D:\Projects\Projects\NexGen\NexGen\bin\Debug\cache\IMG\20150416\UPC_2015-04-16_d7d14dc8a516\
+INFO  2015-04-16 03:04:32 - Download file: D:\Projects\Projects\NexGen\NexGen\bin\Debug\cache\IMG\20150416\UPC_2015-04-16_d7d14dc8a516\57190517_1..jpeg success
+INFO  2015-04-16 03:04:32 - Create Folder: D:\Projects\Projects\NexGen\NexGen\bin\Debug\cache\OCR\20150416\UPC_2015-04-16_d7d14dc8a516\
+ERROR 2015-04-16 03:04:33 - OCR: Resource/OCR/20150416/UPC_2015-04-16_d7d14dc8a516/57190517_1..jpeg Fail
+ERROR 2015-04-16 03:04:33 - Failed to open file.
+ERROR 2015-04-16 03:04:33 -    at CacheImage.FTPHelper.Download(String path, String outputFile) in d:\Projects\Clore\_new\CacheImage\CacheImage\CacheImage\FTP\FTPHelper.cs:line 91
+   at CacheImage.Program.Main(String[] args) in d:\Projects\Clore\_new\CacheImage\CacheImage\CacheImage\Program.cs:line 84
+INFO  2015-04-16 03:08:19 - Download file: D:\Projects\Projects\NexGen\NexGen\bin\Debug\cache\IMG\20150416\UPC_2015-04-16_d7d14dc8a516\57190520_1..jpg success
+INFO  2015-04-16 03:08:19 - Download file: D:\Projects\Projects\NexGen\NexGen\bin\Debug\cache\OCR\20150416\UPC_2015-04-16_d7d14dc8a516\57190520_1..xml success
+INFO  2015-04-16 03:08:26 - Download file: D:\Projects\Projects\NexGen\NexGen\bin\Debug\cache\IMG\20150416\UPC_2015-04-16_d7d14dc8a516\57190520_2..jpg success
+INFO  2015-04-16 03:08:26 - Download file: D:\Projects\Projects\NexGen\NexGen\bin\Debug\cache\OCR\20150416\UPC_2015-04-16_d7d14dc8a516\57190520_2..xml success
+INFO  2015-04-16 03:30:10 - File download requested is existed -> ignore (D:\Projects\Projects\NexGen\NexGen\bin\Debug\cache\IMG\20150403\RIN_2015-03-26_40217ba096c4\24991294_1..jpg)
+INFO  2015-04-16 03:30:10 - File download requested is existed -> ignore (D:\Projects\Projects\NexGen\NexGen\bin\Debug\cache\OCR\20150403\RIN_2015-03-26_40217ba096c4\24991294_1..xml)
+INFO  2015-04-16 03:30:16 - File download requested is existed -> ignore (D:\Projects\Projects\NexGen\NexGen\bin\Debug\cache\IMG\20150403\RIN_2015-03-26_40217ba096c4\24991294_2..jpg)
+INFO  2015-04-16 03:30:16 - File download requested is existed -> ignore (D:\Projects\Projects\NexGen\NexGen\bin\Debug\cache\OCR\20150403\RIN_2015-03-26_40217ba096c4\24991294_2..xml)
+INFO  2015-04-16 03:30:46 - Download file: D:\Projects\Projects\NexGen\NexGen\bin\Debug\cache\IMG\20150416\UPC_2015-04-16_d7d14dc8a516\57190581_1..jpg success
+INFO  2015-04-16 03:30:46 - Download file: D:\Projects\Projects\NexGen\NexGen\bin\Debug\cache\OCR\20150416\UPC_2015-04-16_d7d14dc8a516\57190581_1..xml success
+INFO  2015-04-16 03:30:53 - Download file: D:\Projects\Projects\NexGen\NexGen\bin\Debug\cache\IMG\20150416\UPC_2015-04-16_d7d14dc8a516\57190581_2..jpg success
+INFO  2015-04-16 03:30:53 - Download file: D:\Projects\Projects\NexGen\NexGen\bin\Debug\cache\OCR\20150416\UPC_2015-04-16_d7d14dc8a516\57190581_2..xml success

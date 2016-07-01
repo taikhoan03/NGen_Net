@@ -1,0 +1,17 @@
+INFO  2015-09-07 06:05:40 - DataObject.User
+INFO  2015-09-07 06:05:43 - Create Folder: D:\Projects\Projects\NexGen\SVN\NexGen\bin\Release\cache\IMG\20150907\UPC_2015-09-06_a6e19c510c78\
+INFO  2015-09-07 06:05:43 - Download file: D:\Projects\Projects\NexGen\SVN\NexGen\bin\Release\cache\IMG\20150907\UPC_2015-09-06_a6e19c510c78\43597720_1..jpg success
+INFO  2015-09-07 06:05:43 - Create Folder: D:\Projects\Projects\NexGen\SVN\NexGen\bin\Release\cache\OCR\20150907\UPC_2015-09-06_a6e19c510c78\
+INFO  2015-09-07 06:05:43 - Download file: D:\Projects\Projects\NexGen\SVN\NexGen\bin\Release\cache\OCR\20150907\UPC_2015-09-06_a6e19c510c78\43597720_1..xml success
+ERROR 2015-09-07 06:05:54 - Input string was not in a correct format.
+ERROR 2015-09-07 06:05:54 -    at System.Number.ParseDouble(String value, NumberStyles options, NumberFormatInfo numfmt)
+   at System.Convert.ToDouble(String value)
+   at NexGen.UserConctrol.doc_upc_input.GetRecord() in D:\Projects\Projects\NexGen\SVN\NexGen\UserConctrol\doc_upc_input.cs:line 78
+ERROR 2015-09-07 06:05:54 - Input string was not in a correct format.
+ERROR 2015-09-07 06:05:54 -    at System.Number.ParseDouble(String value, NumberStyles options, NumberFormatInfo numfmt)
+   at System.Convert.ToDouble(String value)
+   at NexGen.UserConctrol.doc_upc_input.GetRecord() in D:\Projects\Projects\NexGen\SVN\NexGen\UserConctrol\doc_upc_input.cs:line 78
+ERROR 2015-09-07 06:05:55 - Input string was not in a correct format.
+ERROR 2015-09-07 06:05:55 -    at System.Number.ParseDouble(String value, NumberStyles options, NumberFormatInfo numfmt)
+   at System.Convert.ToDouble(String value)
+   at NexGen.UserConctrol.doc_upc_input.GetRecord() in D:\Projects\Projects\NexGen\SVN\NexGen\UserConctrol\doc_upc_input.cs:line 78

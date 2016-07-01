@@ -1,0 +1,24 @@
+INFO  2015-04-22 01:46:16 - File download requested is existed -> ignore (D:\Projects\Projects\NexGen\NexGen\bin\Debug\cache\IMG\20150407\RSD_2015-04-05_91f1758981ff\30660766_1..jpg)
+INFO  2015-04-22 01:46:16 - File download requested is existed -> ignore (D:\Projects\Projects\NexGen\NexGen\bin\Debug\cache\OCR\20150407\RSD_2015-04-05_91f1758981ff\30660766_1..xml)
+INFO  2015-04-22 01:46:22 - File download requested is existed -> ignore (D:\Projects\Projects\NexGen\NexGen\bin\Debug\cache\IMG\20150407\RSD_2015-04-05_91f1758981ff\30660766_2..jpg)
+INFO  2015-04-22 01:46:22 - File download requested is existed -> ignore (D:\Projects\Projects\NexGen\NexGen\bin\Debug\cache\OCR\20150407\RSD_2015-04-05_91f1758981ff\30660766_2..xml)
+INFO  2015-04-22 02:11:20 - Create Folder: D:\Projects\Projects\NexGen\NexGen\bin\Debug\cache\IMG\20150422\UPC_2015-04-16_d7d14dc8a516_Test001\
+INFO  2015-04-22 02:11:20 - Download file: D:\Projects\Projects\NexGen\NexGen\bin\Debug\cache\IMG\20150422\UPC_2015-04-16_d7d14dc8a516_Test001\57192238_1..jpg success
+INFO  2015-04-22 02:11:20 - Create Folder: D:\Projects\Projects\NexGen\NexGen\bin\Debug\cache\OCR\20150422\UPC_2015-04-16_d7d14dc8a516_Test001\
+INFO  2015-04-22 02:11:21 - Download file: D:\Projects\Projects\NexGen\NexGen\bin\Debug\cache\OCR\20150422\UPC_2015-04-16_d7d14dc8a516_Test001\57192238_1..xml success
+INFO  2015-04-22 02:11:27 - Download file: D:\Projects\Projects\NexGen\NexGen\bin\Debug\cache\IMG\20150422\UPC_2015-04-16_d7d14dc8a516_Test001\57192238_2..jpg success
+INFO  2015-04-22 02:11:27 - Download file: D:\Projects\Projects\NexGen\NexGen\bin\Debug\cache\OCR\20150422\UPC_2015-04-16_d7d14dc8a516_Test001\57192238_2..xml success
+INFO  2015-04-22 02:11:33 - Download file: D:\Projects\Projects\NexGen\NexGen\bin\Debug\cache\IMG\20150422\UPC_2015-04-16_d7d14dc8a516_Test001\57192238_3..jpg success
+INFO  2015-04-22 02:11:33 - Download file: D:\Projects\Projects\NexGen\NexGen\bin\Debug\cache\OCR\20150422\UPC_2015-04-16_d7d14dc8a516_Test001\57192238_3..xml success
+INFO  2015-04-22 02:12:46 - Download file: D:\Projects\Projects\NexGen\NexGen\bin\Debug\cache\IMG\20150422\UPC_2015-04-16_d7d14dc8a516_Test001\57192494_1..jpg success
+INFO  2015-04-22 02:12:46 - Download file: D:\Projects\Projects\NexGen\NexGen\bin\Debug\cache\OCR\20150422\UPC_2015-04-16_d7d14dc8a516_Test001\57192494_1..xml success
+INFO  2015-04-22 02:12:52 - Download file: D:\Projects\Projects\NexGen\NexGen\bin\Debug\cache\IMG\20150422\UPC_2015-04-16_d7d14dc8a516_Test001\57192494_2..jpg success
+INFO  2015-04-22 02:12:52 - Download file: D:\Projects\Projects\NexGen\NexGen\bin\Debug\cache\OCR\20150422\UPC_2015-04-16_d7d14dc8a516_Test001\57192494_2..xml success
+INFO  2015-04-22 02:12:59 - Download file: D:\Projects\Projects\NexGen\NexGen\bin\Debug\cache\IMG\20150422\UPC_2015-04-16_d7d14dc8a516_Test001\57192494_3..jpg success
+INFO  2015-04-22 02:12:59 - Download file: D:\Projects\Projects\NexGen\NexGen\bin\Debug\cache\OCR\20150422\UPC_2015-04-16_d7d14dc8a516_Test001\57192494_3..xml success
+INFO  2015-04-22 02:16:44 - File download requested is existed -> ignore (D:\Projects\Projects\NexGen\NexGen\bin\Debug\cache\IMG\20150422\UPC_2015-04-16_d7d14dc8a516_Test001\57192494_1..jpg)
+INFO  2015-04-22 02:16:44 - File download requested is existed -> ignore (D:\Projects\Projects\NexGen\NexGen\bin\Debug\cache\OCR\20150422\UPC_2015-04-16_d7d14dc8a516_Test001\57192494_1..xml)
+INFO  2015-04-22 02:16:49 - File download requested is existed -> ignore (D:\Projects\Projects\NexGen\NexGen\bin\Debug\cache\IMG\20150422\UPC_2015-04-16_d7d14dc8a516_Test001\57192494_2..jpg)
+INFO  2015-04-22 02:16:49 - File download requested is existed -> ignore (D:\Projects\Projects\NexGen\NexGen\bin\Debug\cache\OCR\20150422\UPC_2015-04-16_d7d14dc8a516_Test001\57192494_2..xml)
+INFO  2015-04-22 02:16:55 - File download requested is existed -> ignore (D:\Projects\Projects\NexGen\NexGen\bin\Debug\cache\IMG\20150422\UPC_2015-04-16_d7d14dc8a516_Test001\57192494_3..jpg)
+INFO  2015-04-22 02:16:55 - File download requested is existed -> ignore (D:\Projects\Projects\NexGen\NexGen\bin\Debug\cache\OCR\20150422\UPC_2015-04-16_d7d14dc8a516_Test001\57192494_3..xml)

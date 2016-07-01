@@ -1,0 +1,28 @@
+INFO  2015-06-02 12:08:44 - DataObject.User
+INFO  2015-06-02 12:08:50 - Create Folder: D:\Projects\Projects\NexGen\NexGen\bin\Release\cache\IMG\20150601\RSD_2015-06-01_a841c2fab9a7\
+INFO  2015-06-02 12:08:50 - Download file: D:\Projects\Projects\NexGen\NexGen\bin\Release\cache\IMG\20150601\RSD_2015-06-01_a841c2fab9a7\65264039_1..jpg success
+INFO  2015-06-02 12:08:50 - Create Folder: D:\Projects\Projects\NexGen\NexGen\bin\Release\cache\OCR\20150601\RSD_2015-06-01_a841c2fab9a7\
+INFO  2015-06-02 12:08:50 - Download file: D:\Projects\Projects\NexGen\NexGen\bin\Release\cache\OCR\20150601\RSD_2015-06-01_a841c2fab9a7\65264039_1..xml success
+INFO  2015-06-02 12:09:33 - DataObject.User
+INFO  2015-06-02 12:09:39 - File download requested is existed -> ignore (D:\Projects\Projects\NexGen\NexGen\bin\Release\cache\IMG\20150601\RSD_2015-06-01_a841c2fab9a7\65264039_1..jpg)
+ERROR 2015-06-02 12:09:44 - Input string was not in a correct format.
+ERROR 2015-06-02 12:09:44 -    at System.Number.ParseDouble(String value, NumberStyles options, NumberFormatInfo numfmt)
+   at System.Double.Parse(String s, NumberStyles style, NumberFormatInfo info)
+   at System.Double.Parse(String s, IFormatProvider provider)
+   at System.Convert.ToDouble(String value)
+   at NexGen.UserConctrol.doc_rsd_input.GetRecord() in d:\Projects\Projects\NexGen\NexGen\UserConctrol\doc_rsd_input.cs:line 127
+INFO  2015-06-02 12:13:01 - DataObject.User
+INFO  2015-06-02 12:13:04 - File download requested is existed -> ignore (D:\Projects\Projects\NexGen\NexGen\bin\Release\cache\IMG\20150601\RSD_2015-06-01_a841c2fab9a7\65264039_1..jpg)
+INFO  2015-06-02 12:42:36 - DataObject.User
+INFO  2015-06-02 12:42:38 - File download requested is existed -> ignore (D:\Projects\Projects\NexGen\NexGen\bin\Release\cache\IMG\20150601\RSD_2015-06-01_a841c2fab9a7\65264039_1..jpg)
+INFO  2015-06-02 01:28:08 - DataObject.User
+INFO  2015-06-02 01:30:25 - DataObject.User
+INFO  2015-06-02 01:34:25 - DataObject.User
+INFO  2015-06-02 01:34:28 - Download file: D:\Projects\Projects\NexGen\NexGen\bin\Release\cache\IMG\20150601\RSD_2015-06-01_a841c2fab9a7\65264849_1..jpg success
+INFO  2015-06-02 01:34:28 - Download file: D:\Projects\Projects\NexGen\NexGen\bin\Release\cache\OCR\20150601\RSD_2015-06-01_a841c2fab9a7\65264849_1..xml success
+INFO  2015-06-02 01:34:28 - Download file: D:\Projects\Projects\NexGen\NexGen\bin\Release\cache\IMG\20150601\RSD_2015-06-01_a841c2fab9a7\65264849_2..jpg success
+INFO  2015-06-02 01:34:28 - Download file: D:\Projects\Projects\NexGen\NexGen\bin\Release\cache\OCR\20150601\RSD_2015-06-01_a841c2fab9a7\65264849_2..xml success
+INFO  2015-06-02 01:34:28 - Download file: D:\Projects\Projects\NexGen\NexGen\bin\Release\cache\IMG\20150601\RSD_2015-06-01_a841c2fab9a7\65264849_3..jpg success
+INFO  2015-06-02 01:34:28 - Download file: D:\Projects\Projects\NexGen\NexGen\bin\Release\cache\OCR\20150601\RSD_2015-06-01_a841c2fab9a7\65264849_3..xml success
+INFO  2015-06-02 01:34:28 - Download file: D:\Projects\Projects\NexGen\NexGen\bin\Release\cache\IMG\20150601\RSD_2015-06-01_a841c2fab9a7\65264849_4..jpg success
+INFO  2015-06-02 01:34:28 - Download file: D:\Projects\Projects\NexGen\NexGen\bin\Release\cache\OCR\20150601\RSD_2015-06-01_a841c2fab9a7\65264849_4..xml success

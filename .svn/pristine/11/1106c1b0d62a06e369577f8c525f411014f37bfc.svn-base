@@ -1,0 +1,224 @@
+INFO  2015-04-09 10:21:42 NexGenService.CommonService:line 25 - service start
+INFO  2015-04-09 10:21:43 NexGenFlow.Manage.User:line 23 - User [thanhthuy] login success.
+INFO  2015-04-09 10:27:32 NexGenService.CommonService:line 25 - service start
+INFO  2015-04-09 10:27:33 NexGenFlow.Manage.User:line 23 - User [thanhthuy] login success.
+INFO  2015-04-09 10:29:29 NexGenService.CommonService:line 25 - service start
+INFO  2015-04-09 10:29:30 NexGenFlow.Manage.User:line 23 - User [thanhthuy] login success.
+INFO  2015-04-09 10:32:20 NexGenService.CommonService:line 25 - service start
+INFO  2015-04-09 10:32:21 NexGenFlow.Manage.User:line 23 - User [thanhthuy] login success.
+INFO  2015-04-09 10:33:10 NexGenService.CommonService:line 25 - service start
+INFO  2015-04-09 10:33:10 NexGenFlow.Manage.User:line 23 - User [thanhthuy] login success.
+INFO  2015-04-09 10:34:49 NexGenService.CommonService:line 25 - service start
+INFO  2015-04-09 10:34:49 NexGenFlow.Manage.User:line 23 - User [thanhthuy] login success.
+INFO  2015-04-09 10:36:28 NexGenService.CommonService:line 25 - service start
+INFO  2015-04-09 10:36:28 NexGenFlow.Manage.User:line 23 - User [thanhthuy] login success.
+INFO  2015-04-09 11:34:58 NexGenService.CommonService:line 25 - service start
+INFO  2015-04-09 11:34:59 NexGenFlow.Manage.User:line 23 - User [thanhthuy] login success.
+INFO  2015-04-09 12:29:29 NexGenService.CommonService:line 25 - service start
+INFO  2015-04-09 12:29:30 NexGenFlow.Manage.User:line 23 - User [aa] login success.
+INFO  2015-04-09 12:30:20 NexGenFlow.Manage.PackageImport:line 55 - Import new Package: ID=20
+INFO  2015-04-09 12:30:20 NexGenFlow.Manage.PackageImport:line 73 - Insert Document in Package: filename10105738_1..png
+INFO  2015-04-09 12:30:20 NexGenFlow.Manage.PackageImport:line 73 - Insert Document in Package: filename10298131_1..png
+INFO  2015-04-09 12:30:20 NexGenFlow.Manage.PackageImport:line 73 - Insert Document in Package: filename12569541_1..png
+INFO  2015-04-09 12:30:20 NexGenFlow.Manage.PackageImport:line 73 - Insert Document in Package: filename12631115_1..jpg
+INFO  2015-04-09 12:30:20 NexGenFlow.Manage.PackageImport:line 73 - Insert Document in Package: filename12714245_1..jpg
+INFO  2015-04-09 12:30:20 NexGenFlow.Manage.PackageImport:line 73 - Insert Document in Package: filename13060137_1..png
+INFO  2015-04-09 12:30:20 NexGenFlow.Manage.PackageImport:line 73 - Insert Document in Package: filename13145442_1..jpg
+INFO  2015-04-09 12:30:20 NexGenFlow.Manage.PackageImport:line 73 - Insert Document in Package: filename13820419_1..png
+INFO  2015-04-09 12:30:20 NexGenFlow.Manage.PackageImport:line 73 - Insert Document in Package: filename13895489_1..jpg
+INFO  2015-04-09 12:30:20 NexGenFlow.Manage.PackageImport:line 73 - Insert Document in Package: filename14243775_1..png
+INFO  2015-04-09 12:30:20 NexGenFlow.Manage.PackageImport:line 73 - Insert Document in Package: filename14336376_1..jpg
+INFO  2015-04-09 12:30:20 NexGenFlow.Manage.PackageImport:line 73 - Insert Document in Package: filename24170496_1..jpeg
+INFO  2015-04-09 12:30:20 NexGenFlow.Manage.PackageImport:line 73 - Insert Document in Package: filename2948930_1..png
+INFO  2015-04-09 12:30:20 NexGenFlow.Manage.PackageImport:line 73 - Insert Document in Package: filename3048334_1..png
+INFO  2015-04-09 12:30:20 NexGenFlow.Manage.PackageImport:line 73 - Insert Document in Package: filename3052558_1..png
+INFO  2015-04-09 12:30:20 NexGenFlow.Manage.PackageImport:line 73 - Insert Document in Package: filename3150826_1..png
+INFO  2015-04-09 12:30:20 NexGenFlow.Manage.PackageImport:line 73 - Insert Document in Package: filename3171516_1..jpg
+INFO  2015-04-09 12:30:20 NexGenFlow.Manage.PackageImport:line 73 - Insert Document in Package: filename3211865_1..png
+INFO  2015-04-09 12:30:20 NexGenFlow.Manage.PackageImport:line 73 - Insert Document in Package: filename3254761_1..png
+INFO  2015-04-09 12:30:20 NexGenFlow.Manage.PackageImport:line 73 - Insert Document in Package: filename3477174_1..png
+INFO  2015-04-09 12:30:20 NexGenFlow.Manage.PackageImport:line 73 - Insert Document in Package: filename3541848_1..png
+INFO  2015-04-09 12:30:20 NexGenFlow.Manage.PackageImport:line 73 - Insert Document in Package: filename3541892_1..png
+INFO  2015-04-09 12:30:20 NexGenFlow.Manage.PackageImport:line 73 - Insert Document in Package: filename3906479_1..png
+INFO  2015-04-09 12:30:20 NexGenFlow.Manage.PackageImport:line 73 - Insert Document in Package: filename3906486_1..png
+INFO  2015-04-09 12:30:20 NexGenFlow.Manage.PackageImport:line 73 - Insert Document in Package: filename3945255_1..png
+INFO  2015-04-09 12:30:20 NexGenFlow.Manage.PackageImport:line 73 - Insert Document in Package: filename3986444_1..png
+INFO  2015-04-09 12:30:20 NexGenFlow.Manage.PackageImport:line 73 - Insert Document in Package: filename4158986_1..png
+INFO  2015-04-09 12:30:20 NexGenFlow.Manage.PackageImport:line 73 - Insert Document in Package: filename4283167_1..png
+INFO  2015-04-09 12:30:20 NexGenFlow.Manage.PackageImport:line 73 - Insert Document in Package: filename4829674_1..jpg
+INFO  2015-04-09 12:30:20 NexGenFlow.Manage.PackageImport:line 73 - Insert Document in Package: filename4950151_1..jpg
+INFO  2015-04-09 12:30:20 NexGenFlow.Manage.PackageImport:line 73 - Insert Document in Package: filename4950486_1..png
+INFO  2015-04-09 12:30:20 NexGenFlow.Manage.PackageImport:line 73 - Insert Document in Package: filename5830639_1..png
+INFO  2015-04-09 12:30:20 NexGenFlow.Manage.PackageImport:line 73 - Insert Document in Package: filename6179928_1..png
+INFO  2015-04-09 12:30:20 NexGenFlow.Manage.PackageImport:line 73 - Insert Document in Package: filename6226542_1..png
+INFO  2015-04-09 12:30:20 NexGenFlow.Manage.PackageImport:line 73 - Insert Document in Package: filename6245670_1..jpg
+INFO  2015-04-09 12:30:20 NexGenFlow.Manage.PackageImport:line 73 - Insert Document in Package: filename6337184_1..jpg
+INFO  2015-04-09 12:30:21 NexGenFlow.Manage.PackageImport:line 73 - Insert Document in Package: filename6509736_1..png
+INFO  2015-04-09 12:30:21 NexGenFlow.Manage.PackageImport:line 73 - Insert Document in Package: filename6509759_1..png
+INFO  2015-04-09 12:30:21 NexGenFlow.Manage.PackageImport:line 73 - Insert Document in Package: filename6895295_1..jpg
+INFO  2015-04-09 12:30:21 NexGenFlow.Manage.PackageImport:line 73 - Insert Document in Package: filename8498216_1..jpg
+INFO  2015-04-09 12:30:21 NexGenFlow.Manage.PackageImport:line 73 - Insert Document in Package: filename8506050_1..png
+INFO  2015-04-09 12:30:21 NexGenFlow.Manage.PackageImport:line 73 - Insert Document in Package: filename8930977_1..png
+INFO  2015-04-09 12:30:21 NexGenFlow.Manage.PackageImport:line 73 - Insert Document in Package: filename9032564_1..jpg
+INFO  2015-04-09 12:30:21 NexGenFlow.Manage.PackageImport:line 73 - Insert Document in Package: filename9628724_1..jpg
+INFO  2015-04-09 12:30:21 NexGenFlow.Manage.PackageImport:line 73 - Insert Document in Package: filename9652082_1..png
+INFO  2015-04-09 12:30:21 NexGenFlow.Manage.PackageImport:line 73 - Insert Document in Package: filename9668888_1..png
+INFO  2015-04-09 12:30:21 NexGenFlow.Manage.PackageImport:line 73 - Insert Document in Package: filename9703152_1..jpg
+INFO  2015-04-09 12:35:29 NexGenService.CommonService:line 25 - service start
+INFO  2015-04-09 12:35:29 NexGenFlow.Manage.User:line 23 - User [aa] login success.
+INFO  2015-04-09 12:36:16 NexGenFlow.Manage.PackageImport:line 55 - Import new Package: ID=20
+INFO  2015-04-09 12:36:16 NexGenFlow.Manage.PackageImport:line 73 - Insert Document in Package: filename10105738_1..png
+INFO  2015-04-09 12:36:16 NexGenFlow.Manage.PackageImport:line 73 - Insert Document in Package: filename10298131_1..png
+INFO  2015-04-09 12:36:16 NexGenFlow.Manage.PackageImport:line 73 - Insert Document in Package: filename12569541_1..png
+INFO  2015-04-09 12:36:16 NexGenFlow.Manage.PackageImport:line 73 - Insert Document in Package: filename12631115_1..jpg
+INFO  2015-04-09 12:36:16 NexGenFlow.Manage.PackageImport:line 73 - Insert Document in Package: filename12714245_1..jpg
+INFO  2015-04-09 12:36:16 NexGenFlow.Manage.PackageImport:line 73 - Insert Document in Package: filename13060137_1..png
+INFO  2015-04-09 12:36:16 NexGenFlow.Manage.PackageImport:line 73 - Insert Document in Package: filename13145442_1..jpg
+INFO  2015-04-09 12:36:16 NexGenFlow.Manage.PackageImport:line 73 - Insert Document in Package: filename13820419_1..png
+INFO  2015-04-09 12:36:16 NexGenFlow.Manage.PackageImport:line 73 - Insert Document in Package: filename13895489_1..jpg
+INFO  2015-04-09 12:36:16 NexGenFlow.Manage.PackageImport:line 73 - Insert Document in Package: filename14243775_1..png
+INFO  2015-04-09 12:36:16 NexGenFlow.Manage.PackageImport:line 73 - Insert Document in Package: filename14336376_1..jpg
+INFO  2015-04-09 12:36:16 NexGenFlow.Manage.PackageImport:line 73 - Insert Document in Package: filename24170496_1..jpeg
+INFO  2015-04-09 12:36:16 NexGenFlow.Manage.PackageImport:line 73 - Insert Document in Package: filename2948930_1..png
+INFO  2015-04-09 12:36:16 NexGenFlow.Manage.PackageImport:line 73 - Insert Document in Package: filename3048334_1..png
+INFO  2015-04-09 12:36:16 NexGenFlow.Manage.PackageImport:line 73 - Insert Document in Package: filename3052558_1..png
+INFO  2015-04-09 12:36:16 NexGenFlow.Manage.PackageImport:line 73 - Insert Document in Package: filename3150826_1..png
+INFO  2015-04-09 12:36:16 NexGenFlow.Manage.PackageImport:line 73 - Insert Document in Package: filename3171516_1..jpg
+INFO  2015-04-09 12:36:16 NexGenFlow.Manage.PackageImport:line 73 - Insert Document in Package: filename3211865_1..png
+INFO  2015-04-09 12:36:16 NexGenFlow.Manage.PackageImport:line 73 - Insert Document in Package: filename3254761_1..png
+INFO  2015-04-09 12:36:16 NexGenFlow.Manage.PackageImport:line 73 - Insert Document in Package: filename3477174_1..png
+INFO  2015-04-09 12:36:16 NexGenFlow.Manage.PackageImport:line 73 - Insert Document in Package: filename3541848_1..png
+INFO  2015-04-09 12:36:16 NexGenFlow.Manage.PackageImport:line 73 - Insert Document in Package: filename3541892_1..png
+INFO  2015-04-09 12:36:16 NexGenFlow.Manage.PackageImport:line 73 - Insert Document in Package: filename3906479_1..png
+INFO  2015-04-09 12:36:16 NexGenFlow.Manage.PackageImport:line 73 - Insert Document in Package: filename3906486_1..png
+INFO  2015-04-09 12:36:16 NexGenFlow.Manage.PackageImport:line 73 - Insert Document in Package: filename3945255_1..png
+INFO  2015-04-09 12:36:16 NexGenFlow.Manage.PackageImport:line 73 - Insert Document in Package: filename3986444_1..png
+INFO  2015-04-09 12:36:16 NexGenFlow.Manage.PackageImport:line 73 - Insert Document in Package: filename4158986_1..png
+INFO  2015-04-09 12:36:16 NexGenFlow.Manage.PackageImport:line 73 - Insert Document in Package: filename4283167_1..png
+INFO  2015-04-09 12:36:16 NexGenFlow.Manage.PackageImport:line 73 - Insert Document in Package: filename4829674_1..jpg
+INFO  2015-04-09 12:36:16 NexGenFlow.Manage.PackageImport:line 73 - Insert Document in Package: filename4950151_1..jpg
+INFO  2015-04-09 12:36:16 NexGenFlow.Manage.PackageImport:line 73 - Insert Document in Package: filename4950486_1..png
+INFO  2015-04-09 12:36:16 NexGenFlow.Manage.PackageImport:line 73 - Insert Document in Package: filename5830639_1..png
+INFO  2015-04-09 12:36:16 NexGenFlow.Manage.PackageImport:line 73 - Insert Document in Package: filename6179928_1..png
+INFO  2015-04-09 12:36:16 NexGenFlow.Manage.PackageImport:line 73 - Insert Document in Package: filename6226542_1..png
+INFO  2015-04-09 12:36:16 NexGenFlow.Manage.PackageImport:line 73 - Insert Document in Package: filename6245670_1..jpg
+INFO  2015-04-09 12:36:16 NexGenFlow.Manage.PackageImport:line 73 - Insert Document in Package: filename6337184_1..jpg
+INFO  2015-04-09 12:36:16 NexGenFlow.Manage.PackageImport:line 73 - Insert Document in Package: filename6509736_1..png
+INFO  2015-04-09 12:36:16 NexGenFlow.Manage.PackageImport:line 73 - Insert Document in Package: filename6509759_1..png
+INFO  2015-04-09 12:36:16 NexGenFlow.Manage.PackageImport:line 73 - Insert Document in Package: filename6895295_1..jpg
+INFO  2015-04-09 12:36:16 NexGenFlow.Manage.PackageImport:line 73 - Insert Document in Package: filename8498216_1..jpg
+INFO  2015-04-09 12:36:16 NexGenFlow.Manage.PackageImport:line 73 - Insert Document in Package: filename8506050_1..png
+INFO  2015-04-09 12:36:16 NexGenFlow.Manage.PackageImport:line 73 - Insert Document in Package: filename8930977_1..png
+INFO  2015-04-09 12:36:16 NexGenFlow.Manage.PackageImport:line 73 - Insert Document in Package: filename9032564_1..jpg
+INFO  2015-04-09 12:36:16 NexGenFlow.Manage.PackageImport:line 73 - Insert Document in Package: filename9628724_1..jpg
+INFO  2015-04-09 12:36:16 NexGenFlow.Manage.PackageImport:line 73 - Insert Document in Package: filename9652082_1..png
+INFO  2015-04-09 12:36:16 NexGenFlow.Manage.PackageImport:line 73 - Insert Document in Package: filename9668888_1..png
+INFO  2015-04-09 12:36:16 NexGenFlow.Manage.PackageImport:line 73 - Insert Document in Package: filename9703152_1..jpg
+INFO  2015-04-09 12:43:15 NexGenService.CommonService:line 25 - service start
+INFO  2015-04-09 12:43:15 NexGenFlow.Manage.User:line 23 - User [aa] login success.
+INFO  2015-04-09 12:48:52 NexGenService.CommonService:line 25 - service start
+INFO  2015-04-09 12:48:53 NexGenFlow.Manage.User:line 23 - User [thanhthuy] login success.
+INFO  2015-04-09 12:52:20 NexGenService.CommonService:line 25 - service start
+INFO  2015-04-09 12:52:21 NexGenFlow.Manage.User:line 23 - User [thanhthuy] login success.
+INFO  2015-04-09 12:53:55 NexGenService.CommonService:line 25 - service start
+INFO  2015-04-09 12:53:55 NexGenFlow.Manage.User:line 23 - User [aa] login success.
+INFO  2015-04-09 12:56:01 NexGenService.CommonService:line 25 - service start
+INFO  2015-04-09 12:56:01 NexGenFlow.Manage.User:line 23 - User [aa] login success.
+INFO  2015-04-09 01:12:29 NexGenService.CommonService:line 25 - service start
+INFO  2015-04-09 01:12:29 NexGenFlow.Manage.User:line 23 - User [aa] login success.
+INFO  2015-04-09 01:17:28 NexGenService.CommonService:line 25 - service start
+INFO  2015-04-09 01:17:29 NexGenFlow.Manage.User:line 23 - User [aa] login success.
+INFO  2015-04-09 01:21:39 NexGenService.CommonService:line 25 - service start
+INFO  2015-04-09 01:21:39 NexGenFlow.Manage.User:line 23 - User [aa] login success.
+INFO  2015-04-09 01:23:17 NexGenService.CommonService:line 25 - service start
+INFO  2015-04-09 01:23:17 NexGenFlow.Manage.User:line 23 - User [aa] login success.
+INFO  2015-04-09 03:05:57 NexGenService.CommonService:line 25 - service start
+INFO  2015-04-09 03:05:58 NexGenFlow.Manage.User:line 23 - User [aa] login success.
+INFO  2015-04-09 03:06:59 NexGenService.CommonService:line 25 - service start
+INFO  2015-04-09 03:06:59 NexGenFlow.Manage.User:line 23 - User [aa] login success.
+INFO  2015-04-09 03:17:59 NexGenService.CommonService:line 25 - service start
+INFO  2015-04-09 03:18:00 NexGenFlow.Manage.User:line 23 - User [aa] login success.
+ERROR 2015-04-09 03:18:32 NexGenFlow.Manage.Record_rin:line 72 - Value cannot be null.
+Parameter name: value
+ERROR 2015-04-09 03:18:32 NexGenFlow.Manage.Record_rin:line 73 -    at System.Number.ParseDouble(String value, NumberStyles options, NumberFormatInfo numfmt)
+   at System.Double.Parse(String s)
+   at NexGenFlow.Manage.Record_rin.Insert(Record_RIN record, Session session) in d:\Projects\Projects\NexGen\NexGenFlow\Manage\Record_rin.cs:line 62
+ERROR 2015-04-09 03:20:16 NexGenFlow.Manage.Record_rin:line 72 - Value cannot be null.
+Parameter name: value
+ERROR 2015-04-09 03:20:16 NexGenFlow.Manage.Record_rin:line 73 -    at System.Number.ParseDouble(String value, NumberStyles options, NumberFormatInfo numfmt)
+   at System.Double.Parse(String s)
+   at NexGenFlow.Manage.Record_rin.Insert(Record_RIN record, Session session) in d:\Projects\Projects\NexGen\NexGenFlow\Manage\Record_rin.cs:line 62
+INFO  2015-04-09 03:22:21 NexGenService.CommonService:line 25 - service start
+INFO  2015-04-09 03:22:21 NexGenFlow.Manage.User:line 23 - User [aa] login success.
+INFO  2015-04-09 05:36:15 NexGenService.CommonService:line 26 - service start
+INFO  2015-04-09 05:36:16 NexGenFlow.Manage.User:line 24 - User [trunghieu] login success.
+INFO  2015-04-09 05:45:11 NexGenService.CommonService:line 25 - service start
+INFO  2015-04-09 05:45:11 NexGenFlow.Manage.User:line 23 - User [aa] login success.
+INFO  2015-04-09 05:45:32 NexGenFlow.Manage.User:line 23 - User [aa] login success.
+INFO  2015-04-09 05:48:24 NexGenFlow.Manage.PackageImport:line 73 - Insert Document in Package: filename14341251_1..png
+INFO  2015-04-09 05:48:24 NexGenFlow.Manage.PackageImport:line 73 - Insert Document in Package: filename14341389_1..png
+INFO  2015-04-09 05:48:24 NexGenFlow.Manage.PackageImport:line 73 - Insert Document in Package: filename14385951_1..png
+INFO  2015-04-09 05:48:24 NexGenFlow.Manage.PackageImport:line 73 - Insert Document in Package: filename14563573_1..png
+INFO  2015-04-09 05:48:24 NexGenFlow.Manage.PackageImport:line 73 - Insert Document in Package: filename15017444_1..jpg
+INFO  2015-04-09 05:48:24 NexGenFlow.Manage.PackageImport:line 73 - Insert Document in Package: filename15021565_1..png
+INFO  2015-04-09 06:04:06 NexGenService.CommonService:line 26 - service start
+INFO  2015-04-09 06:04:06 NexGenFlow.Manage.User:line 24 - User [trunghieu] login success.
+INFO  2015-04-09 06:04:42 NexGenFlow.Manage.PackageImport:line 55 - Import new Package: ID=21
+ERROR 2015-04-09 06:04:42 NexGenFlow.Manage.PackageImport:line 93 - System.NullReferenceException: Object reference not set to an instance of an object.
+   at NexGenFlow.Manage.PackageImport.InsertDocument(PackageImport downloadfile, String File, DocInfo docinfo, String username) in d:\Projects\Projects\NexGen\NexGenFlow\Manage\PackageImport.cs:line 120
+   at NexGenFlow.Manage.PackageImport.Insert(PackageImport downloadfile, String[] FileList, List`1 docinfos, String Username, String csv_file) in d:\Projects\Projects\NexGen\NexGenFlow\Manage\PackageImport.cs:line 72
+INFO  2015-04-09 06:06:20 NexGenService.CommonService:line 25 - service start
+INFO  2015-04-09 06:06:21 NexGenFlow.Manage.User:line 23 - User [aa] login success.
+ERROR 2015-04-09 06:07:36 NexGenFlow.Manage.PackageImport:line 92 - System.NullReferenceException: Object reference not set to an instance of an object.
+   at NexGenFlow.Manage.PackageImport.InsertDocument(PackageImport downloadfile, String File, DocInfo docinfo, String username) in d:\Projects\Projects\NexGen\NexGenFlow\Manage\PackageImport.cs:line 124
+   at NexGenFlow.Manage.PackageImport.Insert(PackageImport downloadfile, String[] FileList, List`1 docinfos, String Username, String csv_file) in d:\Projects\Projects\NexGen\NexGenFlow\Manage\PackageImport.cs:line 72
+INFO  2015-04-09 06:07:56 NexGenService.CommonService:line 25 - service start
+INFO  2015-04-09 06:07:56 NexGenFlow.Manage.User:line 23 - User [aa] login success.
+ERROR 2015-04-09 06:10:50 NexGenFlow.Manage.PackageImport:line 92 - System.NullReferenceException: Object reference not set to an instance of an object.
+   at NexGenFlow.Manage.PackageImport.InsertDocument(PackageImport downloadfile, String File, DocInfo docinfo, String username) in d:\Projects\Projects\NexGen\NexGenFlow\Manage\PackageImport.cs:line 124
+   at NexGenFlow.Manage.PackageImport.Insert(PackageImport downloadfile, String[] FileList, List`1 docinfos, String Username, String csv_file) in d:\Projects\Projects\NexGen\NexGenFlow\Manage\PackageImport.cs:line 72
+INFO  2015-04-09 06:11:24 NexGenService.CommonService:line 25 - service start
+INFO  2015-04-09 06:11:24 NexGenFlow.Manage.User:line 23 - User [aa] login success.
+INFO  2015-04-09 06:15:39 NexGenService.CommonService:line 25 - service start
+INFO  2015-04-09 06:15:39 NexGenFlow.Manage.User:line 23 - User [aa] login success.
+INFO  2015-04-09 06:22:33 NexGenService.CommonService:line 25 - service start
+INFO  2015-04-09 06:22:34 NexGenFlow.Manage.User:line 23 - User [aa] login success.
+INFO  2015-04-09 06:23:28 NexGenFlow.Manage.PackageImport:line 73 - Insert Document in Package: filename24641397_1..jpeg
+INFO  2015-04-09 06:23:28 NexGenFlow.Manage.PackageImport:line 73 - Insert Document in Package: filename24643133_1..jpeg
+INFO  2015-04-09 06:23:30 NexGenFlow.Manage.PackageImport:line 73 - Insert Document in Package: filename24643488_1..jpg
+INFO  2015-04-09 06:23:30 NexGenFlow.Manage.PackageImport:line 73 - Insert Document in Package: filename24651380_1..jpeg
+INFO  2015-04-09 06:23:30 NexGenFlow.Manage.PackageImport:line 73 - Insert Document in Package: filename24656683_1..jpeg
+INFO  2015-04-09 06:23:30 NexGenFlow.Manage.PackageImport:line 73 - Insert Document in Package: filename24657976_1..jpeg
+INFO  2015-04-09 06:23:30 NexGenFlow.Manage.PackageImport:line 73 - Insert Document in Package: filename24661520_1..jpeg
+INFO  2015-04-09 06:23:30 NexGenFlow.Manage.PackageImport:line 73 - Insert Document in Package: filename24664854_1..jpeg
+INFO  2015-04-09 06:23:30 NexGenFlow.Manage.PackageImport:line 73 - Insert Document in Package: filename24678911_1..jpg
+INFO  2015-04-09 06:23:30 NexGenFlow.Manage.PackageImport:line 73 - Insert Document in Package: filename24679366_1..jpg
+INFO  2015-04-09 06:23:30 NexGenFlow.Manage.PackageImport:line 73 - Insert Document in Package: filename24680200_1..jpg
+INFO  2015-04-09 06:23:30 NexGenFlow.Manage.PackageImport:line 73 - Insert Document in Package: filename24681239_1..jpeg
+INFO  2015-04-09 06:23:30 NexGenFlow.Manage.PackageImport:line 73 - Insert Document in Package: filename24681308_1..jpeg
+INFO  2015-04-09 06:23:30 NexGenFlow.Manage.PackageImport:line 73 - Insert Document in Package: filename24682395_1..jpg
+INFO  2015-04-09 06:23:30 NexGenFlow.Manage.PackageImport:line 73 - Insert Document in Package: filename24685011_1..jpeg
+INFO  2015-04-09 06:23:30 NexGenFlow.Manage.PackageImport:line 73 - Insert Document in Package: filename24685624_1..jpg
+INFO  2015-04-09 06:23:30 NexGenFlow.Manage.PackageImport:line 73 - Insert Document in Package: filename24685786_1..jpg
+INFO  2015-04-09 06:23:30 NexGenFlow.Manage.PackageImport:line 73 - Insert Document in Package: filename24685909_1..jpg
+INFO  2015-04-09 06:23:30 NexGenFlow.Manage.PackageImport:line 73 - Insert Document in Package: filename24686051_1..jpg
+INFO  2015-04-09 06:23:30 NexGenFlow.Manage.PackageImport:line 73 - Insert Document in Package: filename24689439_1..jpeg
+INFO  2015-04-09 06:23:30 NexGenFlow.Manage.PackageImport:line 73 - Insert Document in Package: filename24692399_1..jpeg
+INFO  2015-04-09 06:23:30 NexGenFlow.Manage.PackageImport:line 73 - Insert Document in Package: filename24694925_1..jpg
+INFO  2015-04-09 06:23:30 NexGenFlow.Manage.PackageImport:line 73 - Insert Document in Package: filename24694984_1..jpg
+INFO  2015-04-09 06:23:30 NexGenFlow.Manage.PackageImport:line 73 - Insert Document in Package: filename24695244_1..jpeg
+INFO  2015-04-09 06:23:30 NexGenFlow.Manage.PackageImport:line 73 - Insert Document in Package: filename24696946_1..jpeg
+INFO  2015-04-09 06:23:30 NexGenFlow.Manage.PackageImport:line 73 - Insert Document in Package: filename24699166_1..jpeg
+INFO  2015-04-09 06:23:30 NexGenFlow.Manage.PackageImport:line 73 - Insert Document in Package: filename24701679_1..jpg
+INFO  2015-04-09 06:32:45 NexGenService.CommonService:line 25 - service start
+INFO  2015-04-09 06:32:46 NexGenFlow.Manage.User:line 23 - User [trunghieu] login success.
+INFO  2015-04-09 06:35:42 NexGenService.CommonService:line 25 - service start
+INFO  2015-04-09 06:35:43 NexGenFlow.Manage.User:line 23 - User [trunghieu] login success.
+INFO  2015-04-09 06:40:27 NexGenService.CommonService:line 25 - service start
+INFO  2015-04-09 06:40:27 NexGenFlow.Manage.User:line 23 - User [trunghieu] login success.
+INFO  2015-04-09 06:41:53 NexGenService.CommonService:line 25 - service start
+INFO  2015-04-09 06:41:53 NexGenFlow.Manage.User:line 23 - User [trunghieu] login success.
+INFO  2015-04-09 06:47:04 NexGenService.CommonService:line 25 - service start
+INFO  2015-04-09 06:47:05 NexGenFlow.Manage.User:line 23 - User [trunghieu] login success.
+INFO  2015-04-09 06:53:17 NexGenService.CommonService:line 25 - service start
+INFO  2015-04-09 06:53:17 NexGenFlow.Manage.User:line 23 - User [trunghieu] login success.

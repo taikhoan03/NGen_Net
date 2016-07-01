@@ -1,0 +1,104 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{44955D06-7C5A-41BD-8165-FCC4442A65B3}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>DataObject</RootNamespace>
+    <AssemblyName>DataObject</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="DocumentFormat.OpenXml, Version=2.0.5022.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\Clore\_new\DataObject\bin\Release\DocumentFormat.OpenXml.dll</HintPath>
+    </Reference>
+    <Reference Include="Ionic.Zip">
+      <HintPath>..\..\..\Clore\_new\DataObject\bin\Release\Ionic.Zip.dll</HintPath>
+    </Reference>
+    <Reference Include="Libs">
+      <HintPath>..\..\..\Clore\_new\DataObject\bin\Release\Libs.dll</HintPath>
+    </Reference>
+    <Reference Include="log4net">
+      <HintPath>..\packages\log4net.2.0.3\lib\net40-full\log4net.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+    <Reference Include="WindowsBase">
+      <Private>False</Private>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Class1.cs" />
+    <Compile Include="discard_doc.cs" />
+    <Compile Include="DocCounter.cs" />
+    <Compile Include="DocInfo.cs" />
+    <Compile Include="Document.cs" />
+    <Compile Include="DocumentStatus.cs" />
+    <Compile Include="doc_rin_rsd_2.cs" />
+    <Compile Include="doc_rin_2.cs" />
+    <Compile Include="doc_rsd_2.cs" />
+    <Compile Include="doc_upc__rsd_2.cs" />
+    <Compile Include="doc_upc_2.cs" />
+    <Compile Include="EVRData.cs" />
+    <Compile Include="MergedObject\DocumentExport.cs" />
+    <Compile Include="OCR\Entity.cs" />
+    <Compile Include="OCR\OCRCollectData.cs" />
+    <Compile Include="PackageImport.cs" />
+    <Compile Include="Plan_Doc_Keyer.cs" />
+    <Compile Include="plan_doc_keyer_2.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="QueryResult.cs" />
+    <Compile Include="Record_base.cs" />
+    <Compile Include="Record_RIN_RSD.cs" />
+    <Compile Include="Record_RIN.cs" />
+    <Compile Include="Record_RSD.cs" />
+    <Compile Include="Record_UPC_RSD.cs" />
+    <Compile Include="Record_UPC.cs" />
+    <Compile Include="User.cs" />
+    <Compile Include="Util\ApplicationCacheData.cs" />
+    <Compile Include="Util\CreateExcelFile.cs" />
+    <Compile Include="Util\Encrypt.cs" />
+    <Compile Include="Util\File.cs" />
+    <Compile Include="Util\MySortableList.cs" />
+    <Compile Include="Util\StringUlti.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="packages.config" />
+  </ItemGroup>
+  <ItemGroup />
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

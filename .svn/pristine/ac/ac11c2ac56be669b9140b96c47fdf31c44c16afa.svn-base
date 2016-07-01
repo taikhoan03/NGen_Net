@@ -1,0 +1,8 @@
+ERROR 2015-04-09 12:41:34 - Input string was not in a correct format.
+ERROR 2015-04-09 12:41:34 -    at System.Number.ParseDouble(String value, NumberStyles options, NumberFormatInfo numfmt)
+   at System.Double.Parse(String s, NumberStyles style, NumberFormatInfo info)
+   at NexGen.UserConctrol.doc_rin_input.GetRecord() in d:\Projects\Projects\NexGen\NexGen\UserConctrol\doc_rin_input.cs:line 122
+ERROR 2015-04-09 01:23:36 - Input string was not in a correct format.
+ERROR 2015-04-09 01:23:36 -    at System.Number.ParseDouble(String value, NumberStyles options, NumberFormatInfo numfmt)
+   at System.Double.Parse(String s, NumberStyles style, NumberFormatInfo info)
+   at NexGen.UserConctrol.doc_rin_input.GetRecord() in d:\Projects\Projects\NexGen\NexGen\UserConctrol\doc_rin_input.cs:line 122

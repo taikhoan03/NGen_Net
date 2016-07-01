@@ -1,0 +1,23 @@
+﻿
+<objects xmlns="http://www.springframework.net"
+         
+xmlns:db="http://www.springframework.net/database">
+  <db:provider id="DbProvider"
+      provider="Npgsql-2.0"
+      connectionString="XpoProvider=Postgres;Server=192.168.101.235;User Id=postgres;Password=@dminids@;Database=Clore_DB_Dev;Encoding=UNICODE;POOLING=True;CONNECTIONLIFETIME=15;MINPOOLSIZE=1;MAXPOOLSIZE=1024;"/>
+  <!--<object id="DBHelper" type="CacheImage.DBHelper,CacheImage" singleton="false">
+    
+    <property name="DBConnection" ref="DBConnection"/>
+  </object>
+  <object id="DBConnection" type="Npgsql.NpgsqlConnection, Npgsql, Version=2.0.11.0, Culture=neutral, PublicKeyToken=5d8b90d52f46fda7">
+    
+  </object>-->
+  <object id="adoTemplate" type="Spring.Data.Core.AdoTemplate, Spring.Data">
+    <property name="DbProvider" ref="DbProvider"/>
+  </object>
+  <!-- configuration of what values to substitute for ${ } variables listed above -->
+  <object name="appConfigPropertyHolder"
+          type="Spring.Objects.Factory.Config.PropertyPlaceholderConfigurer, Spring.Core">
+    <!--<property name="configSections" value="DatabaseConfiguration"/>-->
+  </object>
+</objects>

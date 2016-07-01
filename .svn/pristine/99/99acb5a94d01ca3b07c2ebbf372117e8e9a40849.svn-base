@@ -1,0 +1,33 @@
+INFO  2015-06-04 01:43:33 - DataObject.User
+INFO  2015-06-04 01:43:36 - Create Folder: D:\Projects\Projects\NexGen\NexGen\bin\Release\cache\IMG\20150604\RSD_2015-06-04_553ccb9f3281\
+INFO  2015-06-04 01:43:36 - Download file: D:\Projects\Projects\NexGen\NexGen\bin\Release\cache\IMG\20150604\RSD_2015-06-04_553ccb9f3281\65797879_1..jpeg success
+INFO  2015-06-04 01:43:36 - Create Folder: D:\Projects\Projects\NexGen\NexGen\bin\Release\cache\OCR\20150604\RSD_2015-06-04_553ccb9f3281\
+INFO  2015-06-04 01:43:36 - Download file: D:\Projects\Projects\NexGen\NexGen\bin\Release\cache\OCR\20150604\RSD_2015-06-04_553ccb9f3281\65797879_1..xml success
+INFO  2015-06-04 01:51:41 - DataObject.User
+INFO  2015-06-04 01:53:46 - DataObject.User
+INFO  2015-06-04 02:58:17 - DataObject.User
+INFO  2015-06-04 02:58:26 - Download file: D:\Projects\Projects\NexGen\NexGen\bin\Release\cache\IMG\20150604\RSD_2015-06-04_553ccb9f3281\65784785_1..jpeg success
+INFO  2015-06-04 02:58:26 - Download file: D:\Projects\Projects\NexGen\NexGen\bin\Release\cache\OCR\20150604\RSD_2015-06-04_553ccb9f3281\65784785_1..xml success
+INFO  2015-06-04 02:58:26 - Download file: D:\Projects\Projects\NexGen\NexGen\bin\Release\cache\IMG\20150604\RSD_2015-06-04_553ccb9f3281\65784785_2..jpeg success
+INFO  2015-06-04 02:58:26 - Download file: D:\Projects\Projects\NexGen\NexGen\bin\Release\cache\OCR\20150604\RSD_2015-06-04_553ccb9f3281\65784785_2..xml success
+INFO  2015-06-04 03:00:39 - DataObject.User
+INFO  2015-06-04 03:00:52 - File download requested is existed -> ignore (D:\Projects\Projects\NexGen\NexGen\bin\Release\cache\IMG\20150604\RSD_2015-06-04_553ccb9f3281\65784785_1..jpeg)
+INFO  2015-06-04 03:00:52 - File download requested is existed -> ignore (D:\Projects\Projects\NexGen\NexGen\bin\Release\cache\IMG\20150604\RSD_2015-06-04_553ccb9f3281\65784785_2..jpeg)
+INFO  2015-06-04 03:04:09 - DataObject.User
+INFO  2015-06-04 03:04:17 - File download requested is existed -> ignore (D:\Projects\Projects\NexGen\NexGen\bin\Release\cache\IMG\20150604\RSD_2015-06-04_553ccb9f3281\65784785_1..jpeg)
+INFO  2015-06-04 03:04:17 - File download requested is existed -> ignore (D:\Projects\Projects\NexGen\NexGen\bin\Release\cache\IMG\20150604\RSD_2015-06-04_553ccb9f3281\65784785_2..jpeg)
+INFO  2015-06-04 03:05:35 - DataObject.User
+INFO  2015-06-04 03:05:44 - File download requested is existed -> ignore (D:\Projects\Projects\NexGen\NexGen\bin\Release\cache\IMG\20150604\RSD_2015-06-04_553ccb9f3281\65784785_1..jpeg)
+INFO  2015-06-04 03:05:44 - File download requested is existed -> ignore (D:\Projects\Projects\NexGen\NexGen\bin\Release\cache\IMG\20150604\RSD_2015-06-04_553ccb9f3281\65784785_2..jpeg)
+INFO  2015-06-04 03:06:18 - DataObject.User
+INFO  2015-06-04 03:06:27 - File download requested is existed -> ignore (D:\Projects\Projects\NexGen\NexGen\bin\Release\cache\IMG\20150604\RSD_2015-06-04_553ccb9f3281\65784785_1..jpeg)
+INFO  2015-06-04 03:06:27 - File download requested is existed -> ignore (D:\Projects\Projects\NexGen\NexGen\bin\Release\cache\IMG\20150604\RSD_2015-06-04_553ccb9f3281\65784785_2..jpeg)
+INFO  2015-06-04 03:08:23 - DataObject.User
+INFO  2015-06-04 03:21:20 - File download requested is existed -> ignore (D:\Projects\Projects\NexGen\NexGen\bin\Release\cache\IMG\20150604\RSD_2015-06-04_553ccb9f3281\65784785_1..jpeg)
+INFO  2015-06-04 03:21:20 - File download requested is existed -> ignore (D:\Projects\Projects\NexGen\NexGen\bin\Release\cache\IMG\20150604\RSD_2015-06-04_553ccb9f3281\65784785_2..jpeg)
+INFO  2015-06-04 03:21:58 - DataObject.User
+INFO  2015-06-04 03:22:08 - Download file: D:\Projects\Projects\NexGen\NexGen\bin\Release\cache\IMG\20150604\RSD_2015-06-04_553ccb9f3281\65789301_1..jpg success
+INFO  2015-06-04 03:22:08 - Download file: D:\Projects\Projects\NexGen\NexGen\bin\Release\cache\OCR\20150604\RSD_2015-06-04_553ccb9f3281\65789301_1..xml success
+INFO  2015-06-04 03:39:03 - DataObject.User
+INFO  2015-06-04 03:39:06 - Download file: D:\Projects\Projects\NexGen\NexGen\bin\Release\cache\IMG\20150604\RSD_2015-06-04_553ccb9f3281\65799044_1..jpg success
+INFO  2015-06-04 03:39:06 - Download file: D:\Projects\Projects\NexGen\NexGen\bin\Release\cache\OCR\20150604\RSD_2015-06-04_553ccb9f3281\65799044_1..xml success

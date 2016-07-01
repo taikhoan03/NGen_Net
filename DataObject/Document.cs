@@ -1,0 +1,47 @@
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Xml.Serialization;
+namespace DataObject
+{
+    public class Document
+    {
+        public long Id { get; set; }
+        public int Packageid { get; set; }
+        public string Doc_name{get;set;}
+        public string Doc_path { get; set; }
+        public int Statusid { get; set; }
+        public string username { get; set; }
+
+        public DateTime Create_date { get; set; }
+        public DateTime Modified_date { get; set; }
+        public string Doctype { get; set; }
+
+        public string Transaction_type { get; set; }
+        public string Receipt_id { get; set; }
+        public string Banner_id { get; set; }
+        public double Total { get; set; }
+        public string Transaction_date { get; set; }
+        public string Transaction_time { get; set; }
+        public string Image_1 { get; set; }
+        public string Image_2 { get; set; }
+        public string Image_3 { get; set; }
+        public string Image_4 { get; set; }
+        public string Image_5 { get; set; }
+        public string Image_6 { get; set; }
+        public string Image_7 { get; set; }
+        public string Image_8 { get; set; }
+        public string Image_9 { get; set; }
+
+        public string Reset_by { get; set; }
+        public string Reset_comment { get; set; }
+        public static void ToExcel<T>(string filename, List<T> list)
+        {
+            System.IO.FileInfo file = new System.IO.FileInfo(filename);
+            file.Directory.Create(); // If the directory already exists, this method does nothing.
+            
+            Util.CreateExcelFile.CreateExcelDocument<T>(list, filename);
+        }
+    }
+}

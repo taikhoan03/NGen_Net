@@ -1,0 +1,707 @@
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Data;
+using DevExpress.Xpo;
+using DevExpress.Xpo.DB;
+using log4net;
+using DevExpress.Data.Filtering;
+
+//[assembly: log4net.Config.XmlConfigurator(Watch = true)]
+namespace NexGenFlow.Manage
+{
+    public class Document
+    {
+        private static readonly log4net.ILog log = log4net.LogManager.GetLogger(System.Reflection.MethodBase.GetCurrentMethod().DeclaringType);
+        public const string CONST_LOGGER_PREFIX = "[Manage_Document.{0}], ";
+
+        //public static Crunch_DataObject.Document SelectOne(int Status)
+        //{
+        //    XPCollection cl = new XPCollection(new Session(), typeof(Clore_DB.Document));
+        //    var _list = cl.Cast<Clore_DB.Document>();
+        //    return _list.Where(p => p.statusID == Status).Select(p => new Crunch_DataObject.Document
+        //    {
+        //        Id = p.ID,
+        //        FileId = p.fileID,
+        //        Doc_name = p.doc_name,
+        //        Doc_path = p.doc_path,
+        //        Description = p.description,
+        //        StatusID = p.statusID,
+        //        User_name = p.user_name,
+        //        Created_date = p.created_date,
+        //        Modified_date = p.modified_date,
+        //        Layout = p.layout,
+        //        Exported_date = p.exported_date,
+        //        CountyID = p.countyID,
+        //        Doc_title = p.doc_title,
+        //        Is_good_image = p.is_good_image,
+        //        Classified_by = p.classified_by,
+        //        Doc_type = p.doc_type,
+        //        Doc_damar = p.doc_damar,
+        //        Start_classify = p.start_classify,
+        //        End_classify = p.end_classify
+        //    }).FirstOrDefault();
+        //}
+
+        //public static Crunch_DataObject.Document GetDoc(int DocID)
+        //{
+        //    Session workingSession = new Session();
+        //    //XPCollection cl = new XPCollection(new Session(), typeof(Clore_DB.Document));
+
+        //    CriteriaOperator criteria = CriteriaOperator.Parse(string.Format("ID = {0} ", DocID));
+        //    XPCollection cl = new XPCollection(workingSession, typeof(Clore_DB.Document), criteria);
+
+        //    var _list = cl.Cast<Clore_DB.Document>();
+        //    return _list.Where(p => p.ID == DocID).Select(p => new Crunch_DataObject.Document
+        //    {
+        //        Id = p.ID,
+        //        FileId = p.fileID,
+        //        Doc_name = p.doc_name,
+        //        Doc_path = p.doc_path,
+        //        Description = p.description,
+        //        StatusID = p.statusID,
+        //        User_name = p.user_name,
+        //        Created_date = p.created_date,
+        //        Modified_date = p.modified_date,
+        //        Layout = p.layout,
+        //        Exported_date = p.exported_date,
+        //        CountyID = p.countyID,
+        //        Doc_title = p.doc_title,
+        //        Is_good_image = p.is_good_image,
+        //        Classified_by = p.classified_by,
+        //        Doc_type = p.doc_type,
+        //        Doc_damar = p.doc_damar,
+        //        Start_classify = p.start_classify,
+        //        End_classify = p.end_classify
+        //    }).FirstOrDefault();
+        //}
+
+        //public static List<NexGen.Document> GetListDoc(List<int> DocID)
+        //{
+        //    XPCollection cl = new XPCollection(new Session(), typeof(NexGen.Document));
+        //    var _list = cl.Cast<NexGen.Document>();
+        //    return _list.Where(p => DocID==p.id).Select(p => new NexGen.Document
+        //    {
+        //        //Id = p.ID,
+        //        //FileId = p.fileID,
+        //        //Doc_name = p.doc_name,
+        //        //Doc_path = p.doc_path,
+        //        //Description = p.description,
+        //        //StatusID = p.statusID,
+        //        //User_name = p.user_name,
+        //        //Created_date = p.created_date,
+        //        //Modified_date = p.modified_date,
+        //        //Layout = p.layout,
+        //        //Exported_date = p.exported_date,
+        //        //CountyID = p.countyID,
+        //        //Doc_title = p.doc_title,
+        //        //Is_good_image = p.is_good_image,
+        //        //Classified_by = p.classified_by,
+        //        //Doc_type = p.doc_type,
+        //        //Doc_damar = p.doc_damar,
+        //        //Start_classify = p.start_classify,
+        //        //End_classify = p.end_classify
+        //    }).ToList();
+        //}
+
+        //public static List<Crunch_DataObject.Document> Select(int Status)
+        //{
+        //    XPCollection cl = new XPCollection(new Session(), typeof(Clore_DB.Document));
+        //    var _list = cl.Cast<Clore_DB.Document>();
+        //    return _list.Where(p => p.statusID == Status).Select(p => new Crunch_DataObject.Document
+        //    {
+        //        Id = p.ID,
+        //        FileId = p.fileID,
+        //        Doc_name = p.doc_name,
+        //        Doc_path = p.doc_path,
+        //        Description = p.description,
+        //        StatusID = p.statusID,
+        //        User_name = p.user_name,
+        //        Created_date = p.created_date,
+        //        Modified_date = p.modified_date,
+        //        Layout = p.layout,
+        //        Exported_date = p.exported_date,
+        //        CountyID = p.countyID,
+        //        Doc_title = p.doc_title,
+        //        Is_good_image = p.is_good_image,
+        //        Classified_by = p.classified_by,
+        //        Doc_type = p.doc_type,
+        //        Doc_damar = p.doc_damar,
+        //        Start_classify = p.start_classify,
+        //        End_classify = p.end_classify
+        //    }).ToList();
+        //}
+
+        public List<DataObject.Document> SelectfromFile(int packageid)
+        {
+            CriteriaOperator criteria = CriteriaOperator.Parse("packageid = ? ", packageid);
+            XPCollection cl = new XPCollection(new Session(), typeof(NexGen.document), criteria);
+            //XPCollection cl = new XPCollection(new Session(), typeof(Clore_DB.Document));
+            var _list = cl.Cast<NexGen.document>();
+            return _list.Select(p => new DataObject.Document
+            {
+                Create_date = p.created_date,
+                Doc_name = p.doc_name,
+                Doc_path = p.doc_path,
+                Doctype = p.doctype,
+                Id = p.id,
+                Modified_date = p.modified_date,
+                Packageid = p.packageid,
+                Statusid = p.statusid,
+                username = p.username
+            }).ToList();
+        }
+
+        public bool Update(int ID, DataObject.Document doc)
+        {
+            try
+            {
+                Session workingSession = new Session();
+                CriteriaOperator criteria = CriteriaOperator.Parse(string.Format("ID = '{0}' ", ID));
+                XPCollection cl = new XPCollection(workingSession, typeof(NexGen.document), criteria);
+
+                var _list = cl.Cast<NexGen.document>();
+                var document = _list.FirstOrDefault();
+                //khong tim thay' du lieu de update
+                if (document == null)
+                {
+                    log.Error(string.Format(CONST_LOGGER_PREFIX, "UpdateToDB") + "The Document is NOT FOUND");
+                    return false;
+                }
+                document.created_date = doc.Create_date;
+                document.doc_name = doc.Doc_name;
+                document.doc_path = doc.Doc_path;
+                document.doctype = doc.Doctype;
+                document.id = doc.Id;
+                document.modified_date = doc.Modified_date;
+                document.packageid = doc.Packageid;
+                document.statusid = doc.Statusid;
+                document.username = doc.username;
+                document.Save();
+            }
+            catch (Exception ex)
+            {
+                log.Error(string.Format(CONST_LOGGER_PREFIX, "UpdateToDB") + ex.Message);
+                return false;
+            }
+            return true;
+        }
+
+        public bool UpdateStatus(List<int> ListID, int Status)
+        {
+            //try
+            //{
+            //    Session workingSession = new Session();
+            //    foreach (int ID in ListID)
+            //    {
+            //        CriteriaOperator criteria = CriteriaOperator.Parse(string.Format("ID = '{0}' ", ID));
+            //        XPCollection cl = new XPCollection(workingSession, typeof(NexGen.document), criteria);
+            //        var _list = cl.Cast<NexGen.document>();
+            //        var document = _list.FirstOrDefault();
+            //        //khong tim thay' du lieu de update
+            //        if (document == null)
+            //        {
+            //            log.Error(string.Format(CONST_LOGGER_PREFIX, "UpdateToDB") + "The Document is NOT FOUND");
+            //            return false;
+            //        }
+            //        //document.statusID = Status;
+            //        document.Save();
+            //    }
+            //}
+            //catch (Exception ex)
+            //{
+            //    log.Error(string.Format(CONST_LOGGER_PREFIX, "UpdateToDB") + ex.Message);
+            //    return false;
+            //}
+            return true;
+        }
+
+        public bool Insert(DataObject.Document document, Session session)
+        {
+            Session workingSession = session;
+            XPCollection cl = new XPCollection(workingSession, typeof(NexGen.document));
+            var DC = new NexGen.document(cl.Session);
+            DC.created_date = document.Create_date;
+            DC.doc_name = document.Doc_name;
+            DC.doc_path = document.Doc_path;
+            DC.doctype = document.Doctype;
+            DC.id = document.Id;
+            DC.modified_date = document.Modified_date;
+            DC.packageid = document.Packageid;
+            DC.statusid = document.Statusid;
+            DC.username = document.username;
+            DC.Save();
+            return true;
+        }
+
+        public bool Insert(List<DataObject.Document> documents)
+        {
+            using (UnitOfWork uow = new UnitOfWork())
+            {
+                foreach (var document in documents)
+                {
+                    var DC = new NexGen.document(uow);
+                    DC.created_date = document.Create_date;
+                    DC.doc_name = document.Doc_name;
+                    DC.doc_path = document.Doc_path;
+                    DC.doctype = document.Doctype;
+                    DC.id = document.Id;
+                    DC.modified_date = document.Modified_date;
+                    DC.packageid = document.Packageid;
+                    DC.statusid = document.Statusid;
+                    DC.username = document.username;
+
+                    //DC.Transaction_type = document.Transaction_type;
+                    DC.receipt_id = document.Receipt_id;
+                    DC.banner_id = document.Banner_id;
+                    DC.total = document.Total;
+                    DC.transaction_date = document.Transaction_date;
+                    DC.transaction_time = document.Transaction_time;
+                    //DC.Image_1 = document.Image_1;
+                    DC.image_2 = document.Image_2;
+                    DC.image_3 = document.Image_3;
+                    DC.image_4 = document.Image_4;
+                    DC.image_5 = document.Image_5;
+                    DC.image_6 = document.Image_6;
+                    DC.image_7 = document.Image_7;
+                    DC.image_8 = document.Image_8;
+                    DC.image_9 = document.Image_9;
+                    DC.Save();
+                }
+                uow.CommitChanges();
+            }
+            //Session workingSession = session;
+            //XPCollection cl = new XPCollection(workingSession, typeof(NexGen.document));
+            
+            return true;
+        }
+
+        public static bool Insert(DataObject.Document document)
+        {
+            //Session workingSession = new Session();
+            //XPCollection cl = new XPCollection(workingSession, typeof(NexGen.document));
+            try
+            {
+                var DC = new NexGen.document(new Session());
+                DC.created_date = document.Create_date;
+                DC.doc_name = document.Doc_name;
+                DC.doc_path = document.Doc_path;
+                DC.doctype = document.Doctype;
+                DC.id = document.Id;
+                DC.modified_date = document.Modified_date;
+                DC.packageid = document.Packageid;
+                DC.statusid = document.Statusid;
+                DC.username = document.username;
+
+                //DC.Transaction_type = document.Transaction_type;
+                DC.receipt_id = document.Receipt_id;
+                DC.banner_id = document.Banner_id;
+                DC.total = document.Total;
+                DC.transaction_date = document.Transaction_date;
+                DC.transaction_time = document.Transaction_time;
+                //DC.Image_1 = document.Image_1;
+                DC.image_2 = document.Image_2;
+                DC.image_3 = document.Image_3;
+                DC.image_4 = document.Image_4;
+                DC.image_5 = document.Image_5;
+                DC.image_6 = document.Image_6;
+                DC.image_7 = document.Image_7;
+                DC.image_8 = document.Image_8;
+                DC.image_9 = document.Image_9;
+                DC.Save();
+            }
+            catch (Exception ex)
+            {
+                log.Error(ex.Message);
+                log.Error(ex.StackTrace);
+                throw;
+            }
+            
+            return true;
+        }
+
+        public bool InsertToDB(DataObject.Document doc)
+        {
+            try
+            {
+                Insert(doc);
+            }
+            catch (Exception ex)
+            {
+                log.Error(string.Format(CONST_LOGGER_PREFIX, "InsertToDB") + ex.Message);
+                return false;
+            }
+            return true;
+        }
+
+        public List<DataObject.MergedObject.DocumentExport> Get_keyed_doc_by_package_export(int packageid)
+        {
+            Session session = new Session();
+            CriteriaOperator criteria = CriteriaOperator.Parse("id=?", packageid);
+            XPCollection cl = new XPCollection(session, typeof(NexGen.package), criteria);
+
+            var package = (cl.Cast<NexGen.package>()).FirstOrDefault();
+            if (package != null)
+            {
+                CriteriaOperator criteria_docs = CriteriaOperator.Parse("packageid=?", packageid);
+                XPCollection cl_docs = new XPCollection(session, typeof(NexGen.document), criteria_docs);
+
+                var docs = (cl_docs.Cast<NexGen.document>());
+                
+                if (docs != null)
+                {
+                    string str_condition = "(" + string.Join(",", docs.Select(p => p.id)) + ")";
+                    CriteriaOperator criteria_docs_rin = CriteriaOperator.Parse("docid in " + str_condition);
+
+                    XPCollection cl_discard_doc = new XPCollection(session, typeof(NexGen.discard_doc), criteria_docs_rin);
+
+                    var docs_discard = (cl_discard_doc.Cast<NexGen.discard_doc>());
+
+                    XPCollection cl_plan_docs = new XPCollection(session, typeof(NexGen.plan_doc_keyer), criteria_docs_rin);
+                    var docs_plan_docs = (cl_plan_docs.Cast<NexGen.plan_doc_keyer>());
+
+                    List<DataObject.MergedObject.DocumentExport> rs = new List<DataObject.MergedObject.DocumentExport>();
+
+                    XPCollection cl_docs_rin = new XPCollection(session, typeof(NexGen.doc_rin), criteria_docs_rin);
+
+                    var docs_rin = (cl_docs_rin.Cast<NexGen.doc_rin>());
+                    XPCollection cl_docs_rsd = new XPCollection(session, typeof(NexGen.doc_rsd), criteria_docs_rin);
+
+                    var docs_rsd = (cl_docs_rsd.Cast<NexGen.doc_rsd>());
+                    //var aa = docs_rsd.GroupBy(p => p.docid).Count();
+                    XPCollection cl_docs_upc = new XPCollection(session, typeof(NexGen.doc_upc), criteria_docs_rin);
+
+                    var docs_upc = (cl_docs_upc.Cast<NexGen.doc_upc>());
+                    foreach (var doc in docs)
+                    {
+                        var discard_doc = docs_discard.Where(p => p.docid == doc.id).FirstOrDefault();
+                        if (discard_doc != null)
+                        {
+                            DataObject.MergedObject.DocumentExport record = new DataObject.MergedObject.DocumentExport();
+                            //record.Id = doc.id;
+                            record.Banner_id = doc.banner_id;
+                            record.Create_date = doc.created_date;
+                            record.Doc_name = doc.doc_name;
+                            record.Doc_path = doc.doc_path;
+                            record.Doctype = doc.doctype;
+                            record.Image_2 = doc.image_2;
+                            record.Image_3 = doc.image_3;
+                            record.Image_4 = doc.image_4;
+                            record.Image_5 = doc.image_5;
+                            record.Image_6 = doc.image_6;
+                            record.Image_7 = doc.image_7;
+                            record.Image_8 = doc.image_8;
+                            record.Image_9 = doc.image_9;
+
+                            //record.Item_type = item.type;
+                            record.Packageid = doc.packageid;
+                            //record.Per_Item = item.per_item;
+                            //record.Price = item.price;
+                            //record.Qty = item.qty;
+                            record.Receipt_id = doc.receipt_id;
+                            
+                            record.Rejection_reason = discard_doc.remarks;
+                            //record.Rin = item.item_number;
+                            //record.Item_type = item.item_type;
+                            record.Sr_no = 1;
+                            record.Total = doc.total;
+                            record.Transaction_date = doc.transaction_date;
+                            record.Transaction_time = doc.transaction_time;
+                            record.Transaction_type = package.doctype;
+                            //record.Item_number = item.item_number;
+                            rs.Add(record);
+                        }
+                        else
+                        {
+                            if (package.doctype == DataObject.EVRData.Transaction_type_RIN)
+                            {
+                                var docs_rin_sub = docs_rin.Where(p => p.docid == doc.id).OrderBy(p => int.Parse(p.sr_no));
+                                foreach (var item in docs_rin_sub)
+                                {
+                                    //var doc = docs.Where(p => p.id == item.docid).FirstOrDefault();
+                                    if (doc != null)
+                                    {
+                                        DataObject.MergedObject.DocumentExport record = new DataObject.MergedObject.DocumentExport();
+                                    
+                                        record.Id = item.docid;
+                                        record.Banner_id = doc.banner_id;
+                                        record.Create_date = doc.created_date;
+                                        record.Doc_name = doc.doc_name;
+                                        record.Doc_path = doc.doc_path;
+                                        record.Doctype = doc.doctype;
+                                        record.Image_2 = doc.image_2;
+                                        record.Image_3 = doc.image_3;
+                                        record.Image_4 = doc.image_4;
+                                        record.Image_5 = doc.image_5;
+                                        record.Image_6 = doc.image_6;
+                                        record.Image_7 = doc.image_7;
+                                        record.Image_8 = doc.image_8;
+                                        record.Image_9 = doc.image_9;
+
+                                        record.Item_type = item.type;
+                                        record.Packageid = doc.packageid;
+                                        record.Per_Item = item.per_item;
+                                        record.Price = item.price;
+                                        record.Qty = item.qty;
+                                        record.Receipt_id = doc.receipt_id;
+                                        //if (discard_doc != null)
+                                        //    record.Rejection_reason = discard_doc.remarks;
+                                        record.Rin = item.item_number;
+                                        record.Item_type = item.item_type;
+                                        record.Sr_no = int.Parse(item.sr_no);
+                                        record.Total = doc.total;
+                                        record.Transaction_date = doc.transaction_date;
+                                        record.Transaction_time = doc.transaction_time;
+                                        record.Transaction_type = package.doctype;
+                                        record.Item_number = item.item_number;
+                                        //record.username=item
+                                        var user_key_this_doc = docs_plan_docs.Where(p => p.docid == item.docid).FirstOrDefault();
+                                        if (user_key_this_doc != null)
+                                            record.Worker_id = user_key_this_doc.lockedby;
+                                        record.Rejection_reason = item.remarks;
+                                        rs.Add(record);
+                                    }
+                                }
+                            }
+                            else if (package.doctype == DataObject.EVRData.Transaction_type_RSD)
+                            {
+                                var docs_rsd_sub = docs_rsd.Where(p => p.docid == doc.id).OrderBy(p => int.Parse(p.sr_no));
+                                foreach (var item in docs_rsd_sub)
+                                {
+                                    //var doc = docs.Where(p => p.id == item.docid).FirstOrDefault();
+                                    if (doc != null)
+                                    {
+                                        DataObject.MergedObject.DocumentExport record = new DataObject.MergedObject.DocumentExport();
+                                        record.Id = item.docid;
+                                        record.Banner_id = doc.banner_id;
+                                        record.Create_date = doc.created_date;
+                                        record.Doc_name = doc.doc_name;
+                                        record.Doc_path = doc.doc_path;
+                                        record.Doctype = doc.doctype;
+                                        record.Image_2 = doc.image_2;
+                                        record.Image_3 = doc.image_3;
+                                        record.Image_4 = doc.image_4;
+                                        record.Image_5 = doc.image_5;
+                                        record.Image_6 = doc.image_6;
+                                        record.Image_7 = doc.image_7;
+                                        record.Image_8 = doc.image_8;
+                                        record.Image_9 = doc.image_9;
+
+                                        record.Item_type = item.type;
+                                        record.Packageid = doc.packageid;
+                                        record.Per_Item = item.per_item;
+                                        record.Price = item.price;
+                                        record.Qty = item.qty;
+                                        record.Receipt_id = doc.receipt_id;
+                                        //if (discard_doc != null)
+                                        //    record.Rejection_reason = discard_doc.remarks;
+                                        record.Rsd = item.description;
+                                        record.Item_type = item.item_type;
+                                        record.Sr_no = int.Parse(item.sr_no);
+                                        record.Total = doc.total;
+                                        record.Transaction_date = doc.transaction_date;
+                                        record.Transaction_time = doc.transaction_time;
+                                        record.Transaction_type = package.doctype;
+                                        //record.Item_number = item.item_number;
+                                        //record.username=item
+                                        var user_key_this_doc = docs_plan_docs.Where(p => p.docid == item.docid).FirstOrDefault();
+                                        if (user_key_this_doc != null)
+                                            record.Worker_id = user_key_this_doc.lockedby;
+                                        record.Rejection_reason = item.remarks;
+                                        rs.Add(record);
+                                    }
+                                }
+                            }
+                            else if (package.doctype == DataObject.EVRData.Transaction_type_UPC)
+                            {
+                                var docs_upc_sub = docs_upc.Where(p => p.docid == doc.id).OrderBy(p => int.Parse(p.sr_no));
+                                foreach (var item in docs_upc_sub)
+                                {
+                                    //var doc = docs.Where(p => p.id == item.docid).FirstOrDefault();
+                                    if (doc != null)
+                                    {
+                                        DataObject.MergedObject.DocumentExport record = new DataObject.MergedObject.DocumentExport();
+                                        record.Id = item.docid;
+                                        record.Banner_id = doc.banner_id;
+                                        record.Create_date = doc.created_date;
+                                        record.Doc_name = doc.doc_name;
+                                        record.Doc_path = doc.doc_path;
+                                        record.Doctype = doc.doctype;
+                                        record.Image_2 = doc.image_2;
+                                        record.Image_3 = doc.image_3;
+                                        record.Image_4 = doc.image_4;
+                                        record.Image_5 = doc.image_5;
+                                        record.Image_6 = doc.image_6;
+                                        record.Image_7 = doc.image_7;
+                                        record.Image_8 = doc.image_8;
+                                        record.Image_9 = doc.image_9;
+
+                                        record.Item_type = item.type;
+                                        record.Packageid = doc.packageid;
+                                        record.Per_Item = item.per_item;
+                                        record.Price = item.price;
+                                        record.Qty = item.qty;
+                                        record.Receipt_id = doc.receipt_id;
+                                        //if (discard_doc != null)
+                                        //    record.Rejection_reason = discard_doc.remarks;
+                                        record.Upc = item.upc_code;
+                                        record.Item_type = item.item_type;
+                                        record.Sr_no = int.Parse(item.sr_no);
+                                        record.Total = doc.total;
+                                        record.Transaction_date = doc.transaction_date;
+                                        record.Transaction_time = doc.transaction_time;
+                                        record.Transaction_type = package.doctype;
+                                        //record.Item_number = item.item_number;
+                                        //record.username=item
+                                        var user_key_this_doc = docs_plan_docs.Where(p => p.docid == item.docid).FirstOrDefault();
+                                        if (user_key_this_doc != null)
+                                            record.Worker_id = user_key_this_doc.lockedby;
+                                        record.Rejection_reason = item.remarks;
+                                        rs.Add(record);
+                                    }
+                                }
+                            }
+                        }
+                    }
+                    //var bb = rs.GroupBy(p => p.Doc_name).Count();
+                    return rs;
+                }
+            }
+            return null;
+        }
+
+        //public static bool UpdateToDB(NexGen.Document doc)
+        //{
+        //    try
+        //    {
+        //        Session workingSession = new Session();
+        //        CriteriaOperator criteria = CriteriaOperator.Parse(string.Format("layout = '{0}' AND doc_title='{1}'", doc.Layout, doc.Doc_title));
+        //        XPCollection cl = new XPCollection(workingSession, typeof(NexGen.Document), criteria);
+
+        //        var _list = cl.Cast<NexGen.Document>();
+        //        var document = _list.FirstOrDefault();
+        //        //khong tim thay' du lieu de update
+        //        if (document == null)
+        //        {
+        //            log.Error(string.Format(CONST_LOGGER_PREFIX, "UpdateToDB") + "The Document is NOT FOUND");
+        //            return false;
+        //        }
+        //        //document.fileID = doc.FileId;
+        //        //document.doc_name = doc.Doc_name;
+        //        //document.doc_path = doc.Doc_path;
+        //        //document.description = doc.Description;
+        //        //document.statusID = doc.StatusID;
+        //        //document.user_name = doc.User_name;
+        //        //document.modified_date = DateTime.Now;
+        //        //document.countyID = doc.CountyID;
+        //        //document.layout = doc.Layout;
+        //        //document.is_good_image = doc.Is_good_image;
+        //        //document.classified_by = doc.Classified_by;
+        //        //doc.End_classify = doc.End_classify;
+        //        document.Save();
+        //    }
+        //    catch (Exception ex)
+        //    {
+        //        log.Error(string.Format(CONST_LOGGER_PREFIX, "UpdateToDB") + ex.Message);
+        //        return false;
+        //    }
+        //    return true;
+        //}
+
+        /// <summary>
+        /// 
+        /// </summary>
+        /// <param name="layout">1900, ADC</param>
+        /// <param name="title">Doc title</param>
+        /// <returns></returns>
+        //public static NexGen.Document DisCardDocument(string layout, string title)
+        //{
+        //    NexGen.Document EditedDoc = new NexGen.Document();
+        //    try
+        //    {
+        //        Session workingSession = new Session();
+        //        CriteriaOperator criteria = CriteriaOperator.Parse(string.Format("layout = '{0}' AND doc_title='{1}'", layout, title));
+        //        XPCollection cl = new XPCollection(workingSession, typeof(NexGen.Document), criteria);
+
+        //        var _list = cl.Cast<NexGen.Document>();
+        //        var document = _list.FirstOrDefault();
+        //        //khong tim thay' du lieu de update
+        //        if (document == null)
+        //        {
+        //            log.Error(string.Format(CONST_LOGGER_PREFIX, "DisCardDocument") + "The Document is NOT FOUND");
+        //            return null;
+        //        }
+        //        //document.statusID = 0;//0: Inactive, 1:activated
+
+        //        document.Save();
+        //        //return updated record
+        //        //EditedDoc.Id = document.ID;
+        //        //EditedDoc.Doc_title = document.doc_title;
+        //        //EditedDoc.Layout = document.layout;
+
+        //    }
+        //    catch (Exception ex)
+        //    {
+        //        log.Error(string.Format(CONST_LOGGER_PREFIX, "DisCardDocument") + ex.Message);
+        //        return null;
+        //    }
+        //    return EditedDoc;
+        //}
+
+        public List<string> verifyListDocumentInserted(List<string> listDocumentName)
+        {
+            try
+            {
+                Session workingSession = new Session();
+                //XPCollection cl = new XPCollection(new Session(), typeof(Clore_DB.Document));
+                string strCondition = string.Empty;
+                foreach (var name in listDocumentName)
+                {
+                    strCondition += string.Format("doc_name = '{0}' OR ", name);
+                }
+                strCondition += ";";
+                strCondition = strCondition.Replace("OR ;", string.Empty);
+                CriteriaOperator criteria = CriteriaOperator.Parse(strCondition);
+                XPCollection cl = new XPCollection(workingSession, typeof(NexGen.document), criteria);
+
+                var _list = cl.Cast<NexGen.document>();
+                //var a = _list.Select(p => p.file_name).ToList();
+                return _list.Select(p => p.doc_name).ToList();
+            }
+            catch (Exception ex)
+            {
+                log.Error(ex);
+            }
+            return null;
+        }
+
+        public List<string> verifyListDocumentInserted(List<string> listDocumentName, string docpath)
+        {
+            try
+            {
+                Session workingSession = new Session();
+                //XPCollection cl = new XPCollection(new Session(), typeof(Clore_DB.Document));
+                string strCondition = string.Empty;
+                foreach (var name in listDocumentName)
+                {
+                    strCondition += string.Format("doc_name = '{0}' OR ", name);
+                }
+                strCondition += ";";
+                strCondition = strCondition.Replace("OR ;", string.Empty);
+                strCondition = "(" + strCondition + ") AND doc_path='" + docpath + "'";
+                CriteriaOperator criteria = CriteriaOperator.Parse(strCondition);
+                XPCollection cl = new XPCollection(workingSession, typeof(NexGen.document), criteria);
+
+                var _list = cl.Cast<NexGen.document>();
+                //var a = _list.Select(p => p.file_name).ToList();
+                return _list.Select(p => p.doc_name).ToList();
+            }
+            catch (Exception ex)
+            {
+                log.Error(ex);
+            }
+            return null;
+        }
+    }
+}

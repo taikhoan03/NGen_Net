@@ -1,0 +1,9 @@
+INFO  2015-04-21 11:02:20 - DataObject.User
+INFO  2015-04-21 11:03:12 - DataObject.User
+ERROR 2015-04-21 11:07:24 - Input string was not in a correct format.
+ERROR 2015-04-21 11:07:24 -    at System.Number.ParseDouble(String value, NumberStyles options, NumberFormatInfo numfmt)
+   at System.Double.Parse(String s, NumberStyles style, NumberFormatInfo info)
+   at NexGen.UserConctrol.doc_rsd_input.GetRecord() in d:\Projects\Projects\NexGen\NexGen\UserConctrol\doc_rsd_input.cs:line 127
+INFO  2015-04-21 11:08:43 - DataObject.User
+INFO  2015-04-21 11:10:40 - DataObject.User
+INFO  2015-04-21 11:14:22 - DataObject.User

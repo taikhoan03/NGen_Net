@@ -1,0 +1,99 @@
+INFO  2015-07-20 11:01:41 - DataObject.User
+INFO  2015-07-20 11:01:43 - Create Folder: D:\Projects\Projects\NexGen\NexGen\bin\Release\cache\IMG\20150719\UPC_2015-07-19_be9a8469e3e1\
+INFO  2015-07-20 11:01:44 - Download file: D:\Projects\Projects\NexGen\NexGen\bin\Release\cache\IMG\20150719\UPC_2015-07-19_be9a8469e3e1\26914420_1..jpg success
+INFO  2015-07-20 11:01:44 - Create Folder: D:\Projects\Projects\NexGen\NexGen\bin\Release\cache\OCR\20150719\UPC_2015-07-19_be9a8469e3e1\
+INFO  2015-07-20 11:01:44 - Download file: D:\Projects\Projects\NexGen\NexGen\bin\Release\cache\IMG\20150719\UPC_2015-07-19_be9a8469e3e1\26914420_2..jpg success
+ERROR 2015-07-20 11:01:44 - OCR Error:cache\OCR\20150719/UPC_2015-07-19_be9a8469e3e1/26914420_1..xml
+ERROR 2015-07-20 11:01:44 - Could not find file 'D:\Projects\Projects\NexGen\NexGen\bin\Release\cache\OCR\20150719\UPC_2015-07-19_be9a8469e3e1\26914420_1..xml'.
+ERROR 2015-07-20 11:01:44 -    at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   at System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize, FileOptions options, String msgPath, Boolean bFromProxy)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize)
+   at System.Xml.XmlUrlResolver.GetEntity(Uri absoluteUri, String role, Type ofObjectToReturn)
+   at System.Xml.XmlTextReaderImpl.OpenUrlDelegate(Object xmlResolver)
+   at System.Threading.CompressedStack.runTryCode(Object userData)
+   at System.Runtime.CompilerServices.RuntimeHelpers.ExecuteCodeWithGuaranteedCleanup(TryCode code, CleanupCode backoutCode, Object userData)
+   at System.Threading.CompressedStack.Run(CompressedStack compressedStack, ContextCallback callback, Object state)
+   at System.Xml.XmlTextReaderImpl.OpenUrl()
+   at System.Xml.XmlTextReaderImpl.Read()
+   at System.Xml.XmlLoader.Load(XmlDocument doc, XmlReader reader, Boolean preserveWhitespace)
+   at System.Xml.XmlDocument.Load(XmlReader reader)
+   at System.Xml.XmlDocument.Load(String filename)
+   at NexGen.From_Keyer.GetOCRDoc(String imagepath) in d:\Projects\Projects\NexGen\NexGen\From_Keyer.cs:line 448
+ERROR 2015-07-20 11:01:44 - OCR parse errors
+INFO  2015-07-20 11:01:49 - File download requested is existed -> ignore (D:\Projects\Projects\NexGen\NexGen\bin\Release\cache\IMG\20150719\UPC_2015-07-19_be9a8469e3e1\26914420_1..jpg)
+INFO  2015-07-20 11:01:49 - File download requested is existed -> ignore (D:\Projects\Projects\NexGen\NexGen\bin\Release\cache\IMG\20150719\UPC_2015-07-19_be9a8469e3e1\26914420_2..jpg)
+ERROR 2015-07-20 11:01:49 - OCR Error:cache\OCR\20150719/UPC_2015-07-19_be9a8469e3e1/26914420_1..xml
+ERROR 2015-07-20 11:01:49 - Could not find file 'D:\Projects\Projects\NexGen\NexGen\bin\Release\cache\OCR\20150719\UPC_2015-07-19_be9a8469e3e1\26914420_1..xml'.
+ERROR 2015-07-20 11:01:49 -    at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   at System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize, FileOptions options, String msgPath, Boolean bFromProxy)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize)
+   at System.Xml.XmlUrlResolver.GetEntity(Uri absoluteUri, String role, Type ofObjectToReturn)
+   at System.Xml.XmlTextReaderImpl.OpenUrlDelegate(Object xmlResolver)
+   at System.Threading.CompressedStack.runTryCode(Object userData)
+   at System.Runtime.CompilerServices.RuntimeHelpers.ExecuteCodeWithGuaranteedCleanup(TryCode code, CleanupCode backoutCode, Object userData)
+   at System.Threading.CompressedStack.Run(CompressedStack compressedStack, ContextCallback callback, Object state)
+   at System.Xml.XmlTextReaderImpl.OpenUrl()
+   at System.Xml.XmlTextReaderImpl.Read()
+   at System.Xml.XmlLoader.Load(XmlDocument doc, XmlReader reader, Boolean preserveWhitespace)
+   at System.Xml.XmlDocument.Load(XmlReader reader)
+   at System.Xml.XmlDocument.Load(String filename)
+   at NexGen.From_Keyer.GetOCRDoc(String imagepath) in d:\Projects\Projects\NexGen\NexGen\From_Keyer.cs:line 448
+ERROR 2015-07-20 11:01:49 - OCR parse errors
+INFO  2015-07-20 11:08:35 - DataObject.User
+INFO  2015-07-20 11:08:37 - Download file: D:\Projects\Projects\NexGen\NexGen\bin\Release\cache\IMG\20150719\UPC_2015-07-19_be9a8469e3e1\27027812_1..jpeg success
+ERROR 2015-07-20 11:08:37 - OCR Error:cache\OCR\20150719/UPC_2015-07-19_be9a8469e3e1/27027812_1..xml
+ERROR 2015-07-20 11:08:37 - Could not find file 'D:\Projects\Projects\NexGen\NexGen\bin\Release\cache\OCR\20150719\UPC_2015-07-19_be9a8469e3e1\27027812_1..xml'.
+ERROR 2015-07-20 11:08:37 -    at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   at System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize, FileOptions options, String msgPath, Boolean bFromProxy)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize)
+   at System.Xml.XmlUrlResolver.GetEntity(Uri absoluteUri, String role, Type ofObjectToReturn)
+   at System.Xml.XmlTextReaderImpl.OpenUrlDelegate(Object xmlResolver)
+   at System.Threading.CompressedStack.runTryCode(Object userData)
+   at System.Runtime.CompilerServices.RuntimeHelpers.ExecuteCodeWithGuaranteedCleanup(TryCode code, CleanupCode backoutCode, Object userData)
+   at System.Threading.CompressedStack.Run(CompressedStack compressedStack, ContextCallback callback, Object state)
+   at System.Xml.XmlTextReaderImpl.OpenUrl()
+   at System.Xml.XmlTextReaderImpl.Read()
+   at System.Xml.XmlLoader.Load(XmlDocument doc, XmlReader reader, Boolean preserveWhitespace)
+   at System.Xml.XmlDocument.Load(XmlReader reader)
+   at System.Xml.XmlDocument.Load(String filename)
+   at NexGen.From_Keyer.GetOCRDoc(String imagepath) in d:\Projects\Projects\NexGen\NexGen\From_Keyer.cs:line 448
+ERROR 2015-07-20 11:08:37 - OCR parse errors
+ERROR 2015-07-20 11:08:44 - Object reference not set to an instance of an object.
+ERROR 2015-07-20 11:08:44 -    at NexGen.From_Keyer.pboxImage_MouseDown(Object sender, MouseEventArgs e) in d:\Projects\Projects\NexGen\NexGen\From_Keyer.cs:line 901
+ERROR 2015-07-20 11:08:45 - Object reference not set to an instance of an object.
+ERROR 2015-07-20 11:08:45 -    at NexGen.From_Keyer.pboxImage_MouseDown(Object sender, MouseEventArgs e) in d:\Projects\Projects\NexGen\NexGen\From_Keyer.cs:line 901
+ERROR 2015-07-20 11:08:46 - Object reference not set to an instance of an object.
+ERROR 2015-07-20 11:08:46 -    at NexGen.From_Keyer.pboxImage_MouseDown(Object sender, MouseEventArgs e) in d:\Projects\Projects\NexGen\NexGen\From_Keyer.cs:line 901
+ERROR 2015-07-20 11:08:56 - Object reference not set to an instance of an object.
+ERROR 2015-07-20 11:08:56 -    at NexGen.From_Keyer.pboxImage_MouseDown(Object sender, MouseEventArgs e) in d:\Projects\Projects\NexGen\NexGen\From_Keyer.cs:line 901
+ERROR 2015-07-20 11:09:05 - Object reference not set to an instance of an object.
+ERROR 2015-07-20 11:09:05 -    at NexGen.From_Keyer.pboxImage_MouseDown(Object sender, MouseEventArgs e) in d:\Projects\Projects\NexGen\NexGen\From_Keyer.cs:line 901
+ERROR 2015-07-20 11:09:07 - Object reference not set to an instance of an object.
+ERROR 2015-07-20 11:09:07 -    at NexGen.From_Keyer.pboxImage_MouseDown(Object sender, MouseEventArgs e) in d:\Projects\Projects\NexGen\NexGen\From_Keyer.cs:line 901
+ERROR 2015-07-20 11:09:08 - Object reference not set to an instance of an object.
+ERROR 2015-07-20 11:09:08 -    at NexGen.From_Keyer.pboxImage_MouseDown(Object sender, MouseEventArgs e) in d:\Projects\Projects\NexGen\NexGen\From_Keyer.cs:line 901
+ERROR 2015-07-20 11:09:08 - Object reference not set to an instance of an object.
+ERROR 2015-07-20 11:09:08 -    at NexGen.From_Keyer.pboxImage_MouseDown(Object sender, MouseEventArgs e) in d:\Projects\Projects\NexGen\NexGen\From_Keyer.cs:line 901
+INFO  2015-07-20 11:20:06 - File download requested is existed -> ignore (D:\Projects\Projects\NexGen\NexGen\bin\Release\cache\IMG\20150719\UPC_2015-07-19_be9a8469e3e1\27027812_1..jpeg)
+ERROR 2015-07-20 11:20:06 - OCR Error:cache\OCR\20150719/UPC_2015-07-19_be9a8469e3e1/27027812_1..xml
+ERROR 2015-07-20 11:20:06 - Could not find file 'D:\Projects\Projects\NexGen\NexGen\bin\Release\cache\OCR\20150719\UPC_2015-07-19_be9a8469e3e1\27027812_1..xml'.
+ERROR 2015-07-20 11:20:06 -    at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   at System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize, FileOptions options, String msgPath, Boolean bFromProxy)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize)
+   at System.Xml.XmlUrlResolver.GetEntity(Uri absoluteUri, String role, Type ofObjectToReturn)
+   at System.Xml.XmlTextReaderImpl.OpenUrlDelegate(Object xmlResolver)
+   at System.Threading.CompressedStack.runTryCode(Object userData)
+   at System.Runtime.CompilerServices.RuntimeHelpers.ExecuteCodeWithGuaranteedCleanup(TryCode code, CleanupCode backoutCode, Object userData)
+   at System.Threading.CompressedStack.Run(CompressedStack compressedStack, ContextCallback callback, Object state)
+   at System.Xml.XmlTextReaderImpl.OpenUrl()
+   at System.Xml.XmlTextReaderImpl.Read()
+   at System.Xml.XmlLoader.Load(XmlDocument doc, XmlReader reader, Boolean preserveWhitespace)
+   at System.Xml.XmlDocument.Load(XmlReader reader)
+   at System.Xml.XmlDocument.Load(String filename)
+   at NexGen.From_Keyer.GetOCRDoc(String imagepath) in d:\Projects\Projects\NexGen\NexGen\From_Keyer.cs:line 448
+ERROR 2015-07-20 11:20:06 - OCR parse errors
+INFO  2015-07-20 04:39:45 - DataObject.User

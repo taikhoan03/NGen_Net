@@ -1,0 +1,473 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{659CC1AF-53F7-43C6-8E5D-CE8895FC0CD9}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>NexGen</RootNamespace>
+    <AssemblyName>NexGen</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <TargetFrameworkProfile />
+    <PublishUrl>publish\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ApplicationRevision>0</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Common.Logging">
+      <HintPath>..\packages\Common.Logging.3.0.0\lib\net40\Common.Logging.dll</HintPath>
+    </Reference>
+    <Reference Include="Common.Logging.Core">
+      <HintPath>..\packages\Common.Logging.Core.3.0.0\lib\net40\Common.Logging.Core.dll</HintPath>
+    </Reference>
+    <Reference Include="Ftp">
+      <HintPath>..\packages\Ftp.dll.2.0.15041.1147\lib\Ftp.dll</HintPath>
+    </Reference>
+    <Reference Include="Libs, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\Libs\Libs\bin\Release\Libs.dll</HintPath>
+    </Reference>
+    <Reference Include="log4net">
+      <HintPath>..\packages\log4net.2.0.3\lib\net40-full\log4net.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Data.Edm, Version=5.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <Private>True</Private>
+      <HintPath>..\packages\Microsoft.Data.Edm.5.0.0\lib\net40\Microsoft.Data.Edm.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Data.OData, Version=5.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <Private>True</Private>
+      <HintPath>..\packages\Microsoft.Data.OData.5.0.0\lib\net40\Microsoft.Data.OData.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Data.Services.Client, Version=5.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <Private>True</Private>
+      <HintPath>..\packages\Microsoft.Data.Services.Client.5.0.0\lib\net40\Microsoft.Data.Services.Client.dll</HintPath>
+    </Reference>
+    <Reference Include="ReadConfig">
+      <HintPath>..\..\ReadConfig\ReadConfig\bin\Release\ReadConfig.dll</HintPath>
+    </Reference>
+    <Reference Include="Spring.Core">
+      <HintPath>..\packages\Spring.Core.2.0.0-RC2\lib\net40\Spring.Core.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Net.FtpClient, Version=1.0.5281.14359, Culture=neutral, PublicKeyToken=fa4be07daa57c2b7, processorArchitecture=MSIL">
+      <HintPath>..\packages\System.Net.FtpClient.1.0.5281.14359\lib\net40\System.Net.FtpClient.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System.Runtime.Serialization" />
+    <Reference Include="System.ServiceModel" />
+    <Reference Include="System.Spatial, Version=5.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <Private>True</Private>
+      <HintPath>..\packages\System.Spatial.5.0.0\lib\net40\System.Spatial.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Common\ApplicationContextFactory.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Common\Downloader.cs" />
+    <Compile Include="Common\Download_Doc_Data.cs" />
+    <Compile Include="Common\FTPHelper.cs" />
+    <Compile Include="Common\ImageTool.cs" />
+    <Compile Include="Common\NexGenClient.cs" />
+    <Compile Include="Common\OCRDocument.cs" />
+    <Compile Include="Common\OCRObject.cs" />
+    <Compile Include="Common\OCR_old.cs" />
+    <Compile Include="Common\TmpDoc.cs" />
+    <Compile Include="Common\ToastMessage.cs" />
+    <Compile Include="Common\WebClientEx.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Controls\Combobox_Doctype.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Controls\Combobox_ItemType.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Controls\Combobox_Remark.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Export.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Export.Designer.cs">
+      <DependentUpon>Export.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form1.Designer.cs">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormApp.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormApp.Designer.cs">
+      <DependentUpon>FormApp.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmImport.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmImport.designer.cs">
+      <DependentUpon>frmImport.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmImportProccessing.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmImportProccessing.designer.cs">
+      <DependentUpon>frmImportProccessing.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmLogin.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmLogin.designer.cs">
+      <DependentUpon>frmLogin.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmMessage.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmMessage.designer.cs">
+      <DependentUpon>frmMessage.cs</DependentUpon>
+    </Compile>
+    <Compile Include="From_Keyer.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="From_Keyer.Designer.cs">
+      <DependentUpon>From_Keyer.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MainForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MainForm.Designer.cs">
+      <DependentUpon>MainForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ManagePackage.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ManagePackage.Designer.cs">
+      <DependentUpon>ManagePackage.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Manage_package_priority.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Manage_package_priority.Designer.cs">
+      <DependentUpon>Manage_package_priority.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="RecordList.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="RecordList.Designer.cs">
+      <DependentUpon>RecordList.cs</DependentUpon>
+    </Compile>
+    <Compile Include="SecureCodeProtector.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SecureCodeProtector.Designer.cs">
+      <DependentUpon>SecureCodeProtector.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Service References\NexGenService\Reference.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </Compile>
+    <Compile Include="Service References\svDownloadFile\Reference.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </Compile>
+    <Compile Include="Service References\svManageUploadFile\Reference.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </Compile>
+    <Compile Include="UserConctrol\doc_rin_rsd_input.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UserConctrol\doc_rin_rsd_input.Designer.cs">
+      <DependentUpon>doc_rin_rsd_input.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UserConctrol\doc_rin_input.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UserConctrol\doc_rin_input.Designer.cs">
+      <DependentUpon>doc_rin_input.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UserConctrol\doc_rsd_input.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UserConctrol\doc_rsd_input.Designer.cs">
+      <DependentUpon>doc_rsd_input.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UserConctrol\doc_upc_rsd_input.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UserConctrol\doc_upc_rsd_input.Designer.cs">
+      <DependentUpon>doc_upc_rsd_input.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UserConctrol\doc_upc_input.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UserConctrol\doc_upc_input.Designer.cs">
+      <DependentUpon>doc_upc_input.cs</DependentUpon>
+    </Compile>
+    <Compile Include="YesConfirm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="YesConfirm.Designer.cs">
+      <DependentUpon>YesConfirm.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="Export.resx">
+      <DependentUpon>Export.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormApp.resx">
+      <DependentUpon>FormApp.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmImport.resx">
+      <DependentUpon>frmImport.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmImportProccessing.resx">
+      <DependentUpon>frmImportProccessing.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmLogin.resx">
+      <DependentUpon>frmLogin.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmMessage.resx">
+      <DependentUpon>frmMessage.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="From_Keyer.resx">
+      <DependentUpon>From_Keyer.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ManagePackage.resx">
+      <DependentUpon>ManagePackage.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Manage_package_priority.resx">
+      <DependentUpon>Manage_package_priority.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <EmbeddedResource Include="RecordList.resx">
+      <DependentUpon>RecordList.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SecureCodeProtector.resx">
+      <DependentUpon>SecureCodeProtector.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UserConctrol\doc_rin_rsd_input.resx">
+      <DependentUpon>doc_rin_rsd_input.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UserConctrol\doc_rin_input.resx">
+      <DependentUpon>doc_rin_input.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UserConctrol\doc_rsd_input.resx">
+      <DependentUpon>doc_rsd_input.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UserConctrol\doc_upc_rsd_input.resx">
+      <DependentUpon>doc_upc_rsd_input.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UserConctrol\doc_upc_input.resx">
+      <DependentUpon>doc_upc_input.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="YesConfirm.resx">
+      <DependentUpon>YesConfirm.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="app.config">
+      <SubType>Designer</SubType>
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="packages.config" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <None Include="Service References\NexGenService\CommonService.wsdl" />
+    <None Include="Service References\NexGenService\CommonService.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Service References\NexGenService\CommonService1.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Service References\svDownloadFile\svManage_Download_File.wsdl" />
+    <None Include="Service References\svDownloadFile\svManage_Download_File.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Service References\svDownloadFile\svManage_Download_File1.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Service References\svDownloadFile\svManage_Download_File2.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Service References\svManageUploadFile\NexGen.svManageUploadFile.FolderTypes.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\svManageUploadFile\svUploadFile.wsdl" />
+    <None Include="Service References\svManageUploadFile\svUploadFile.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Service References\svManageUploadFile\svUploadFile1.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Service References\svManageUploadFile\svUploadFile2.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Service References\svManageUploadFile\svUploadFile3.xsd">
+      <SubType>Designer</SubType>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <WCFMetadata Include="Service References\" />
+  </ItemGroup>
+  <ItemGroup>
+    <WCFMetadataStorage Include="Service References\NexGenService\" />
+    <WCFMetadataStorage Include="Service References\svDownloadFile\" />
+    <WCFMetadataStorage Include="Service References\svManageUploadFile\" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Service References\NexGenService\configuration91.svcinfo" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Service References\NexGenService\configuration.svcinfo" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Service References\NexGenService\Reference.svcmap">
+      <Generator>WCF Proxy Generator</Generator>
+      <LastGenOutput>Reference.cs</LastGenOutput>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="cache-config.xml">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Config\TextFile1.txt">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Config\version.txt">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <None Include="Service References\svDownloadFile\configuration91.svcinfo" />
+    <None Include="Service References\svDownloadFile\configuration.svcinfo" />
+    <None Include="Service References\svDownloadFile\Reference.svcmap">
+      <Generator>WCF Proxy Generator</Generator>
+      <LastGenOutput>Reference.cs</LastGenOutput>
+    </None>
+    <None Include="Service References\svManageUploadFile\configuration91.svcinfo" />
+    <None Include="Service References\svManageUploadFile\configuration.svcinfo" />
+    <None Include="Service References\svManageUploadFile\Reference.svcmap">
+      <Generator>WCF Proxy Generator</Generator>
+      <LastGenOutput>Reference.cs</LastGenOutput>
+    </None>
+    <None Include="Service References\svManageUploadFile\svUploadFile.disco" />
+    <None Include="Service References\svDownloadFile\svManage_Download_File.disco" />
+    <None Include="Service References\NexGenService\CommonService.disco" />
+    <Content Include="spring-config.xml">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="XML\Combobox_doctype.xml">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="XML\FTP.xml">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="XML\record_list.xml">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="XML\TextFile1.txt">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include=".NETFramework,Version=v4.0">
+      <Visible>False</Visible>
+      <ProductName>Microsoft .NET Framework 4 %28x86 and x64%29</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Client.3.5">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1 Client Profile</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Windows.Installer.4.5">
+      <Visible>False</Visible>
+      <ProductName>Windows Installer 4.5</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\DataObject\DataObject.csproj">
+      <Project>{44955d06-7c5a-41bd-8165-fcc4442a65b3}</Project>
+      <Name>DataObject</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

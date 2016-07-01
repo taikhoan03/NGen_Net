@@ -1,0 +1,70 @@
+INFO  2015-04-01 01:44:52 NexGenService.CommonService:line 25 - service start
+INFO  2015-04-01 01:44:53 NexGenFlow.Manage.User:line 23 - User [aa] login success.
+INFO  2015-04-01 08:06:03 NexGenService.CommonService:line 25 - service start
+ERROR 2015-04-01 08:06:06 NexGenService.CommonService:line 37 - DevExpress.Xpo.DB.Exceptions.UnableToOpenDatabaseException: Unable to open database. Connection string: 'PORT=5432;TIMEOUT=15;POOLING=True;MINPOOLSIZE=1;MAXPOOLSIZE=1024;COMMANDTIMEOUT=20;COMPATIBLE=2.2.5.0;HOST=localhost;USER ID=postgres;PASSWORD=***REMOVED***;DATABASE=NexGen;CONNECTIONLIFETIME=15;'; Error: 'Npgsql.NpgsqlException:
+Failed to establish a connection to 'localhost'.
+   at Npgsql.NpgsqlClosedState.Open(NpgsqlConnector context, Int32 timeout)
+   at Npgsql.NpgsqlConnector.Open()
+   at Npgsql.NpgsqlConnectorPool.GetPooledConnector(NpgsqlConnection Connection)
+   at Npgsql.NpgsqlConnectorPool.RequestPooledConnectorInternal(NpgsqlConnection Connection)
+   at Npgsql.NpgsqlConnectorPool.RequestConnector(NpgsqlConnection Connection)
+   at Npgsql.NpgsqlConnection.Open()
+   at DevExpress.Xpo.DB.PostgreSqlConnectionProvider.CreateDataBase()' ---> Npgsql.NpgsqlException: Failed to establish a connection to 'localhost'. ---> System.Net.Sockets.SocketException: No connection could be made because the target machine actively refused it 127.0.0.1:5432
+   at Npgsql.NpgsqlClosedState.Open(NpgsqlConnector context, Int32 timeout)
+   --- End of inner exception stack trace ---
+   at Npgsql.NpgsqlClosedState.Open(NpgsqlConnector context, Int32 timeout)
+   at Npgsql.NpgsqlConnector.Open()
+   at Npgsql.NpgsqlConnectorPool.GetPooledConnector(NpgsqlConnection Connection)
+   at Npgsql.NpgsqlConnectorPool.RequestPooledConnectorInternal(NpgsqlConnection Connection)
+   at Npgsql.NpgsqlConnectorPool.RequestConnector(NpgsqlConnection Connection)
+   at Npgsql.NpgsqlConnection.Open()
+   at DevExpress.Xpo.DB.PostgreSqlConnectionProvider.CreateDataBase()
+   --- End of inner exception stack trace ---
+   at DevExpress.Xpo.DB.PostgreSqlConnectionProvider.CreateDataBase()
+   at DevExpress.Xpo.DB.ConnectionProviderSql..ctor(IDbConnection connection, AutoCreateOption autoCreateOption)
+   at DevExpress.Xpo.DB.PostgreSqlConnectionProvider..ctor(IDbConnection connection, AutoCreateOption autoCreateOption)
+   at DevExpress.Xpo.DB.PostgreSqlConnectionProvider.CreateProviderFromString(String connectionString, AutoCreateOption autoCreateOption, IDisposable[]& objectsToDisposeOnDisconnect)
+   at DevExpress.Xpo.DB.DataStoreBase.QueryDataStore(String providerType, String connectionString, AutoCreateOption defaultAutoCreateOption, IDisposable[]& objectsToDisposeOnDisconnect)
+   at DevExpress.Xpo.XpoDefault.GetConnectionProvider(String connectionString, AutoCreateOption defaultAutoCreateOption, IDisposable[]& objectsToDisposeOnDisconnect)
+   at DevExpress.Xpo.XpoDefault.GetDataLayer(String connectionString, XPDictionary dictionary, AutoCreateOption defaultAutoCreateOption, IDisposable[]& objectsToDisposeOnDisconnect)
+   at DevExpress.Xpo.XpoDefault.GetDataLayer(String connectionString, AutoCreateOption defaultAutoCreateOption)
+   at NexGenFlow.NexGen.ConnectionHelper.Connect(AutoCreateOption autoCreateOption) in d:\Projects\Projects\NexGen\NexGenFlow\ORMDataModelCode\ConnectionHelper.cs:line 22
+   at NexGenService.CommonService.InitConnection() in d:\Projects\Projects\NexGen\NexGenService\CommonService.svc.cs:line 33
+INFO  2015-04-01 08:06:48 NexGenService.CommonService:line 25 - service start
+ERROR 2015-04-01 08:07:27 NexGenService.CommonService:line 37 - DevExpress.Xpo.DB.Exceptions.UnableToOpenDatabaseException: Unable to open database. Connection string: 'PORT=5432;TIMEOUT=15;POOLING=True;MINPOOLSIZE=1;MAXPOOLSIZE=1024;COMMANDTIMEOUT=20;COMPATIBLE=2.2.5.0;HOST=localhost;USER ID=postgres;PASSWORD=***REMOVED***;DATABASE=NexGen;CONNECTIONLIFETIME=15;'; Error: 'Npgsql.NpgsqlException:
+Failed to establish a connection to 'localhost'.
+   at Npgsql.NpgsqlClosedState.Open(NpgsqlConnector context, Int32 timeout)
+   at Npgsql.NpgsqlConnector.Open()
+   at Npgsql.NpgsqlConnectorPool.GetPooledConnector(NpgsqlConnection Connection)
+   at Npgsql.NpgsqlConnectorPool.RequestPooledConnectorInternal(NpgsqlConnection Connection)
+   at Npgsql.NpgsqlConnectorPool.RequestConnector(NpgsqlConnection Connection)
+   at Npgsql.NpgsqlConnection.Open()
+   at DevExpress.Xpo.DB.PostgreSqlConnectionProvider.CreateDataBase()' ---> Npgsql.NpgsqlException: Failed to establish a connection to 'localhost'. ---> System.Net.Sockets.SocketException: No connection could be made because the target machine actively refused it 127.0.0.1:5432
+   at Npgsql.NpgsqlClosedState.Open(NpgsqlConnector context, Int32 timeout)
+   --- End of inner exception stack trace ---
+   at Npgsql.NpgsqlClosedState.Open(NpgsqlConnector context, Int32 timeout)
+   at Npgsql.NpgsqlConnector.Open()
+   at Npgsql.NpgsqlConnectorPool.GetPooledConnector(NpgsqlConnection Connection)
+   at Npgsql.NpgsqlConnectorPool.RequestPooledConnectorInternal(NpgsqlConnection Connection)
+   at Npgsql.NpgsqlConnectorPool.RequestConnector(NpgsqlConnection Connection)
+   at Npgsql.NpgsqlConnection.Open()
+   at DevExpress.Xpo.DB.PostgreSqlConnectionProvider.CreateDataBase()
+   --- End of inner exception stack trace ---
+   at DevExpress.Xpo.DB.PostgreSqlConnectionProvider.CreateDataBase()
+   at DevExpress.Xpo.DB.ConnectionProviderSql..ctor(IDbConnection connection, AutoCreateOption autoCreateOption)
+   at DevExpress.Xpo.DB.PostgreSqlConnectionProvider..ctor(IDbConnection connection, AutoCreateOption autoCreateOption)
+   at DevExpress.Xpo.DB.PostgreSqlConnectionProvider.CreateProviderFromConnection(IDbConnection connection, AutoCreateOption autoCreateOption)
+   at DevExpress.Xpo.DB.PostgreSqlConnectionProvider.CreateProviderFromString(String connectionString, AutoCreateOption autoCreateOption, IDisposable[]& objectsToDisposeOnDisconnect)
+   at DevExpress.Xpo.DB.DataStoreBase.QueryDataStore(String providerType, String connectionString, AutoCreateOption defaultAutoCreateOption, IDisposable[]& objectsToDisposeOnDisconnect)
+   at DevExpress.Xpo.XpoDefault.GetConnectionProvider(String connectionString, AutoCreateOption defaultAutoCreateOption, IDisposable[]& objectsToDisposeOnDisconnect)
+   at DevExpress.Xpo.XpoDefault.GetDataLayer(String connectionString, XPDictionary dictionary, AutoCreateOption defaultAutoCreateOption, IDisposable[]& objectsToDisposeOnDisconnect)
+   at DevExpress.Xpo.XpoDefault.GetDataLayer(String connectionString, XPDictionary dictionary, AutoCreateOption defaultAutoCreateOption)
+   at DevExpress.Xpo.XpoDefault.GetDataLayer(String connectionString, AutoCreateOption defaultAutoCreateOption)
+   at NexGenFlow.NexGen.ConnectionHelper.Connect(AutoCreateOption autoCreateOption) in d:\Projects\Projects\NexGen\NexGenFlow\ORMDataModelCode\ConnectionHelper.cs:line 22
+   at NexGenService.CommonService.InitConnection() in d:\Projects\Projects\NexGen\NexGenService\CommonService.svc.cs:line 33
+INFO  2015-04-01 08:08:05 NexGenService.CommonService:line 25 - service start
+INFO  2015-04-01 08:08:06 NexGenFlow.Manage.User:line 23 - User [aa] login success.
+INFO  2015-04-01 08:08:49 NexGenFlow.Manage.PackageImport:line 52 - Import new Package: ID=15
+INFO  2015-04-01 08:08:49 NexGenFlow.Manage.PackageImport:line 68 - Insert Document in Package: filename24170496_1..jpeg
+INFO  2015-04-01 08:11:58 NexGenService.CommonService:line 25 - service start
+INFO  2015-04-01 08:11:59 NexGenFlow.Manage.User:line 23 - User [aa] login success.

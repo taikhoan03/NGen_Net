@@ -1,0 +1,54 @@
+INFO  2015-04-07 09:37:11 - File download requested is existed -> ignore (D:\Projects\Projects\NexGen\NexGen\bin\Debug\cache\IMG\20150403\RIN_2015-03-26_40217ba096c4\23932551_1..jpg)
+INFO  2015-04-07 09:37:11 - File download requested is existed -> ignore (D:\Projects\Projects\NexGen\NexGen\bin\Debug\cache\OCR\20150403\RIN_2015-03-26_40217ba096c4\23932551_1..xml)
+INFO  2015-04-07 09:39:07 - Create Folder: D:\Projects\Projects\NexGen\NexGen\bin\Debug\cache\IMG\20150406\RSD_2015-04-05_92cc3d671675\
+INFO  2015-04-07 09:39:07 - Download file: D:\Projects\Projects\NexGen\NexGen\bin\Debug\cache\IMG\20150406\RSD_2015-04-05_92cc3d671675\24328721_1..jpg success
+INFO  2015-04-07 09:39:07 - Create Folder: D:\Projects\Projects\NexGen\NexGen\bin\Debug\cache\OCR\20150406\RSD_2015-04-05_92cc3d671675\
+INFO  2015-04-07 09:39:07 - Download file: D:\Projects\Projects\NexGen\NexGen\bin\Debug\cache\OCR\20150406\RSD_2015-04-05_92cc3d671675\24328721_1..xml success
+ERROR 2015-04-07 09:39:14 - Image: Resource/IMG/20150406/RSD_2015-04-05_92cc3d671675/24328721_2..jpg Fail
+ERROR 2015-04-07 09:39:14 - Failed to open file.
+ERROR 2015-04-07 09:39:14 -    at CacheImage.FTPHelper.Download(String path, String outputFile) in d:\Projects\Clore\_new\CacheImage\CacheImage\CacheImage\FTP\FTPHelper.cs:line 91
+   at CacheImage.Program.Main(String[] args) in d:\Projects\Clore\_new\CacheImage\CacheImage\CacheImage\Program.cs:line 64
+ERROR 2015-04-07 09:39:14 - OCR: Resource/OCR/20150406/RSD_2015-04-05_92cc3d671675/24328721_2..jpg Fail
+ERROR 2015-04-07 09:39:14 - Failed to open file.
+ERROR 2015-04-07 09:39:14 -    at CacheImage.FTPHelper.Download(String path, String outputFile) in d:\Projects\Clore\_new\CacheImage\CacheImage\CacheImage\FTP\FTPHelper.cs:line 91
+   at CacheImage.Program.Main(String[] args) in d:\Projects\Clore\_new\CacheImage\CacheImage\CacheImage\Program.cs:line 84
+INFO  2015-04-07 10:23:11 - Download file: D:\Projects\Projects\NexGen\NexGen\bin\Debug\cache\IMG\20150406\RSD_2015-04-05_92cc3d671675\24481277_1..jpg success
+INFO  2015-04-07 10:23:11 - Download file: D:\Projects\Projects\NexGen\NexGen\bin\Debug\cache\OCR\20150406\RSD_2015-04-05_92cc3d671675\24481277_1..xml success
+INFO  2015-04-07 10:23:17 - Download file: D:\Projects\Projects\NexGen\NexGen\bin\Debug\cache\IMG\20150406\RSD_2015-04-05_92cc3d671675\24481277_2..jpg success
+INFO  2015-04-07 10:23:18 - Download file: D:\Projects\Projects\NexGen\NexGen\bin\Debug\cache\OCR\20150406\RSD_2015-04-05_92cc3d671675\24481277_2..xml success
+INFO  2015-04-07 10:26:09 - File download requested is existed -> ignore (D:\Projects\Projects\NexGen\NexGen\bin\Debug\cache\IMG\20150406\RSD_2015-04-05_92cc3d671675\24481277_1..jpg)
+INFO  2015-04-07 10:26:09 - File download requested is existed -> ignore (D:\Projects\Projects\NexGen\NexGen\bin\Debug\cache\OCR\20150406\RSD_2015-04-05_92cc3d671675\24481277_1..xml)
+INFO  2015-04-07 10:26:15 - File download requested is existed -> ignore (D:\Projects\Projects\NexGen\NexGen\bin\Debug\cache\IMG\20150406\RSD_2015-04-05_92cc3d671675\24481277_2..jpg)
+INFO  2015-04-07 10:26:15 - File download requested is existed -> ignore (D:\Projects\Projects\NexGen\NexGen\bin\Debug\cache\OCR\20150406\RSD_2015-04-05_92cc3d671675\24481277_2..xml)
+INFO  2015-04-07 10:32:27 - File download requested is existed -> ignore (D:\Projects\Projects\NexGen\NexGen\bin\Debug\cache\IMG\20150406\RSD_2015-04-05_92cc3d671675\24481277_1..jpg)
+INFO  2015-04-07 10:32:27 - File download requested is existed -> ignore (D:\Projects\Projects\NexGen\NexGen\bin\Debug\cache\OCR\20150406\RSD_2015-04-05_92cc3d671675\24481277_1..xml)
+INFO  2015-04-07 10:32:33 - File download requested is existed -> ignore (D:\Projects\Projects\NexGen\NexGen\bin\Debug\cache\IMG\20150406\RSD_2015-04-05_92cc3d671675\24481277_2..jpg)
+INFO  2015-04-07 10:32:33 - File download requested is existed -> ignore (D:\Projects\Projects\NexGen\NexGen\bin\Debug\cache\OCR\20150406\RSD_2015-04-05_92cc3d671675\24481277_2..xml)
+INFO  2015-04-07 10:33:58 - File download requested is existed -> ignore (D:\Projects\Projects\NexGen\NexGen\bin\Debug\cache\IMG\20150406\RSD_2015-04-05_92cc3d671675\24481277_1..jpg)
+INFO  2015-04-07 10:33:58 - File download requested is existed -> ignore (D:\Projects\Projects\NexGen\NexGen\bin\Debug\cache\OCR\20150406\RSD_2015-04-05_92cc3d671675\24481277_1..xml)
+INFO  2015-04-07 10:34:04 - File download requested is existed -> ignore (D:\Projects\Projects\NexGen\NexGen\bin\Debug\cache\IMG\20150406\RSD_2015-04-05_92cc3d671675\24481277_2..jpg)
+INFO  2015-04-07 10:34:04 - File download requested is existed -> ignore (D:\Projects\Projects\NexGen\NexGen\bin\Debug\cache\OCR\20150406\RSD_2015-04-05_92cc3d671675\24481277_2..xml)
+INFO  2015-04-07 10:35:30 - File download requested is existed -> ignore (D:\Projects\Projects\NexGen\NexGen\bin\Debug\cache\IMG\20150406\RSD_2015-04-05_92cc3d671675\24481277_1..jpg)
+INFO  2015-04-07 10:35:30 - File download requested is existed -> ignore (D:\Projects\Projects\NexGen\NexGen\bin\Debug\cache\OCR\20150406\RSD_2015-04-05_92cc3d671675\24481277_1..xml)
+INFO  2015-04-07 10:35:36 - File download requested is existed -> ignore (D:\Projects\Projects\NexGen\NexGen\bin\Debug\cache\IMG\20150406\RSD_2015-04-05_92cc3d671675\24481277_2..jpg)
+INFO  2015-04-07 10:35:36 - File download requested is existed -> ignore (D:\Projects\Projects\NexGen\NexGen\bin\Debug\cache\OCR\20150406\RSD_2015-04-05_92cc3d671675\24481277_2..xml)
+INFO  2015-04-07 10:36:49 - Download file: D:\Projects\Projects\NexGen\NexGen\bin\Debug\cache\IMG\20150406\RSD_2015-04-05_92cc3d671675\24512209_1..jpg success
+INFO  2015-04-07 10:36:49 - Download file: D:\Projects\Projects\NexGen\NexGen\bin\Debug\cache\OCR\20150406\RSD_2015-04-05_92cc3d671675\24512209_1..xml success
+ERROR 2015-04-07 10:36:56 - Image: Resource/IMG/20150406/RSD_2015-04-05_92cc3d671675/24512209_2..jpg Fail
+ERROR 2015-04-07 10:36:56 - Failed to open file.
+ERROR 2015-04-07 10:36:56 -    at CacheImage.FTPHelper.Download(String path, String outputFile) in d:\Projects\Clore\_new\CacheImage\CacheImage\CacheImage\FTP\FTPHelper.cs:line 91
+   at CacheImage.Program.Main(String[] args) in d:\Projects\Clore\_new\CacheImage\CacheImage\CacheImage\Program.cs:line 64
+ERROR 2015-04-07 10:36:56 - OCR: Resource/OCR/20150406/RSD_2015-04-05_92cc3d671675/24512209_2..jpg Fail
+ERROR 2015-04-07 10:36:56 - Failed to open file.
+ERROR 2015-04-07 10:36:56 -    at CacheImage.FTPHelper.Download(String path, String outputFile) in d:\Projects\Clore\_new\CacheImage\CacheImage\CacheImage\FTP\FTPHelper.cs:line 91
+   at CacheImage.Program.Main(String[] args) in d:\Projects\Clore\_new\CacheImage\CacheImage\CacheImage\Program.cs:line 84
+INFO  2015-04-07 10:39:50 - File download requested is existed -> ignore (D:\Projects\Projects\NexGen\NexGen\bin\Debug\cache\IMG\20150406\RSD_2015-04-05_92cc3d671675\24512209_1..jpg)
+INFO  2015-04-07 10:39:50 - File download requested is existed -> ignore (D:\Projects\Projects\NexGen\NexGen\bin\Debug\cache\OCR\20150406\RSD_2015-04-05_92cc3d671675\24512209_1..xml)
+ERROR 2015-04-07 10:39:57 - Image: Resource/IMG/20150406/RSD_2015-04-05_92cc3d671675/24512209_2..jpg Fail
+ERROR 2015-04-07 10:39:57 - Failed to open file.
+ERROR 2015-04-07 10:39:57 -    at CacheImage.FTPHelper.Download(String path, String outputFile) in d:\Projects\Clore\_new\CacheImage\CacheImage\CacheImage\FTP\FTPHelper.cs:line 91
+   at CacheImage.Program.Main(String[] args) in d:\Projects\Clore\_new\CacheImage\CacheImage\CacheImage\Program.cs:line 64
+ERROR 2015-04-07 10:39:57 - OCR: Resource/OCR/20150406/RSD_2015-04-05_92cc3d671675/24512209_2..jpg Fail
+ERROR 2015-04-07 10:39:57 - Failed to open file.
+ERROR 2015-04-07 10:39:57 -    at CacheImage.FTPHelper.Download(String path, String outputFile) in d:\Projects\Clore\_new\CacheImage\CacheImage\CacheImage\FTP\FTPHelper.cs:line 91
+   at CacheImage.Program.Main(String[] args) in d:\Projects\Clore\_new\CacheImage\CacheImage\CacheImage\Program.cs:line 84

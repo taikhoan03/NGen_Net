@@ -1,0 +1,9 @@
+ERROR 2015-04-02 12:42:48 - Input string was not in a correct format.
+ERROR 2015-04-02 12:42:48 -    at System.Number.ParseDouble(String value, NumberStyles options, NumberFormatInfo numfmt)
+   at NexGen.UserConctrol.doc_rin_input.GetRecord() in d:\Projects\Projects\NexGen\NexGen\UserConctrol\doc_rin_input.cs:line 111
+ERROR 2015-04-02 02:55:59 - Input string was not in a correct format.
+ERROR 2015-04-02 02:55:59 -    at System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   at System.Number.ParseInt32(String s, NumberStyles style, NumberFormatInfo info)
+   at NexGen.UserConctrol.doc_rin_input.GetRecord() in d:\Projects\Projects\NexGen\NexGen\UserConctrol\doc_rin_input.cs:line 112
+ERROR 2015-04-02 04:08:35 - Unable to cast object of type 'NexGen.Controls.Combobox_ItemType' to type 'NexGen.Controls.Combobox_Remark'.
+ERROR 2015-04-02 04:09:41 - Unable to cast object of type 'NexGen.Controls.Combobox_ItemType' to type 'NexGen.Controls.Combobox_Remark'.

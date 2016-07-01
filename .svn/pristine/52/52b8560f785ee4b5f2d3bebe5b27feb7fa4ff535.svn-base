@@ -1,0 +1,138 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{71DCBA3D-4E6E-4B0C-A297-549BD9EC1061}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>NexGenFlow</RootNamespace>
+    <AssemblyName>NexGenFlow</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="DevExpress.Data.v14.2, Version=14.2.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
+    <Reference Include="DevExpress.Xpo.v14.2, Version=14.2.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
+    <Reference Include="Ionic.Zip">
+      <HintPath>..\..\..\Clore\_new\DataObject\bin\Release\Ionic.Zip.dll</HintPath>
+    </Reference>
+    <Reference Include="Libs, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\Libs\Libs\bin\Release\Libs.dll</HintPath>
+    </Reference>
+    <Reference Include="log4net">
+      <HintPath>..\packages\log4net.2.0.3\lib\net40-full\log4net.dll</HintPath>
+    </Reference>
+    <Reference Include="Mono.Security, Version=4.0.0.0, Culture=neutral, PublicKeyToken=0738eb9f132ed756, processorArchitecture=MSIL">
+      <Private>True</Private>
+      <HintPath>..\packages\Npgsql.2.2.5\lib\net40\Mono.Security.dll</HintPath>
+    </Reference>
+    <Reference Include="Npgsql, Version=2.2.5.0, Culture=neutral, PublicKeyToken=5d8b90d52f46fda7, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\packages\Npgsql.2.2.5\lib\net40\Npgsql.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.configuration" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Class1.cs" />
+    <Compile Include="Manage\Record_upc.cs" />
+    <Compile Include="Manage\Record_rsd.cs" />
+    <Compile Include="Manage\Document.cs" />
+    <Compile Include="Manage\PackageImport.cs" />
+    <Compile Include="Manage\Plan_doc_keyer.cs" />
+    <Compile Include="Manage\Record_rin.cs" />
+    <Compile Include="Manage\User.cs" />
+    <Compile Include="Manage\UserAction.cs" />
+    <Compile Include="ORMDataModelCode\ConnectionHelper.cs" />
+    <Compile Include="ORMDataModelCode\discard_doc.cs" />
+    <Compile Include="ORMDataModelCode\discard_doc.Designer.cs">
+      <DependentUpon>discard_doc.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ORMDataModelCode\document.cs" />
+    <Compile Include="ORMDataModelCode\document.Designer.cs">
+      <DependentUpon>document.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ORMDataModelCode\doc_keying_time.cs" />
+    <Compile Include="ORMDataModelCode\doc_keying_time.Designer.cs">
+      <DependentUpon>doc_keying_time.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ORMDataModelCode\doc_rin.cs" />
+    <Compile Include="ORMDataModelCode\doc_rin.Designer.cs">
+      <DependentUpon>doc_rin.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ORMDataModelCode\doc_rsd.cs" />
+    <Compile Include="ORMDataModelCode\doc_rsd.Designer.cs">
+      <DependentUpon>doc_rsd.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ORMDataModelCode\doc_upc.cs" />
+    <Compile Include="ORMDataModelCode\doc_upc.Designer.cs">
+      <DependentUpon>doc_upc.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ORMDataModelCode\package.cs" />
+    <Compile Include="ORMDataModelCode\package.Designer.cs">
+      <DependentUpon>package.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ORMDataModelCode\plan_doc_keyer.cs" />
+    <Compile Include="ORMDataModelCode\plan_doc_keyer.Designer.cs">
+      <DependentUpon>plan_doc_keyer.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ORMDataModelCode\plan_doc_qc.cs" />
+    <Compile Include="ORMDataModelCode\plan_doc_qc.Designer.cs">
+      <DependentUpon>plan_doc_qc.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ORMDataModelCode\user.cs" />
+    <Compile Include="ORMDataModelCode\user.Designer.cs">
+      <DependentUpon>user.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="TableName.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\DataObject\DataObject.csproj">
+      <Project>{44955d06-7c5a-41bd-8165-fcc4442a65b3}</Project>
+      <Name>DataObject</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="app.config" />
+    <None Include="ORMDataModel.xpo" />
+    <None Include="ORMDataModel.xpo.diagram">
+      <DependentUpon>ORMDataModel.xpo</DependentUpon>
+    </None>
+    <None Include="packages.config" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

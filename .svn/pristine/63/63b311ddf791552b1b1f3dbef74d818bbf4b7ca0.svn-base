@@ -1,0 +1,4 @@
+ERROR 2015-04-07 11:08:56 - Input string was not in a correct format.
+ERROR 2015-04-07 11:08:56 -    at System.Number.ParseDouble(String value, NumberStyles options, NumberFormatInfo numfmt)
+   at System.Double.Parse(String s, NumberStyles style, NumberFormatInfo info)
+   at NexGen.UserConctrol.doc_rsd_input.GetRecord() in d:\Projects\Projects\NexGen\NexGen\UserConctrol\doc_rsd_input.cs:line 116

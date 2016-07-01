@@ -1,0 +1,17 @@
+INFO  2015-09-10 04:00:18 - DataObject.User
+INFO  2015-09-10 04:00:22 - Create Folder: D:\Projects\Projects\NexGen\SVN\NexGen\bin\Release\cache\IMG\20150910\UPC_2015-09-10_26e554d0c35f\
+INFO  2015-09-10 04:00:22 - Download file: D:\Projects\Projects\NexGen\SVN\NexGen\bin\Release\cache\IMG\20150910\UPC_2015-09-10_26e554d0c35f\44297663_1..jpeg success
+INFO  2015-09-10 04:00:22 - Create Folder: D:\Projects\Projects\NexGen\SVN\NexGen\bin\Release\cache\OCR\20150910\UPC_2015-09-10_26e554d0c35f\
+INFO  2015-09-10 04:00:22 - Download file: D:\Projects\Projects\NexGen\SVN\NexGen\bin\Release\cache\OCR\20150910\UPC_2015-09-10_26e554d0c35f\44297663_1..xml success
+ERROR 2015-09-10 04:00:29 - Object reference not set to an instance of an object.
+ERROR 2015-09-10 04:00:29 -    at NexGen.From_Keyer.pboxImage_MouseUp(Object sender, MouseEventArgs e) in D:\Projects\Projects\NexGen\SVN\NexGen\From_Keyer.cs:line 1014
+ERROR 2015-09-10 04:00:30 - Object reference not set to an instance of an object.
+ERROR 2015-09-10 04:00:30 -    at NexGen.From_Keyer.pboxImage_MouseUp(Object sender, MouseEventArgs e) in D:\Projects\Projects\NexGen\SVN\NexGen\From_Keyer.cs:line 1014
+ERROR 2015-09-10 04:00:31 - Object reference not set to an instance of an object.
+ERROR 2015-09-10 04:00:31 -    at NexGen.From_Keyer.pboxImage_MouseUp(Object sender, MouseEventArgs e) in D:\Projects\Projects\NexGen\SVN\NexGen\From_Keyer.cs:line 1014
+ERROR 2015-09-10 04:00:34 - Object reference not set to an instance of an object.
+ERROR 2015-09-10 04:00:34 -    at NexGen.From_Keyer.pboxImage_MouseUp(Object sender, MouseEventArgs e) in D:\Projects\Projects\NexGen\SVN\NexGen\From_Keyer.cs:line 1014
+ERROR 2015-09-10 04:00:49 - Object reference not set to an instance of an object.
+ERROR 2015-09-10 04:00:49 -    at NexGen.From_Keyer.pboxImage_MouseUp(Object sender, MouseEventArgs e) in D:\Projects\Projects\NexGen\SVN\NexGen\From_Keyer.cs:line 981
+INFO  2015-09-10 04:03:58 - Download file: D:\Projects\Projects\NexGen\SVN\NexGen\bin\Release\cache\IMG\20150910\UPC_2015-09-10_26e554d0c35f\44628134_1..jpeg success
+INFO  2015-09-10 04:03:58 - Download file: D:\Projects\Projects\NexGen\SVN\NexGen\bin\Release\cache\OCR\20150910\UPC_2015-09-10_26e554d0c35f\44628134_1..xml success

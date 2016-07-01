@@ -1,0 +1,20 @@
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+
+namespace DataObject
+{
+    public class EVRData
+    {
+        public const string
+        Transaction_type_RSD = "RSD",
+        Transaction_type_RIN = "RIN",
+        Transaction_type_UPC = "UPC",
+        Query_Message_Type_Errors="Errors",
+        Role_author_keyer="Keyer",
+        Item_type_Item="Item",
+        Item_type_Coupon="Coupon",
+        Item_type_Void="Void";
+    }
+}

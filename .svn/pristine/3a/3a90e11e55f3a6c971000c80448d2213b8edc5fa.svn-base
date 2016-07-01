@@ -1,0 +1,8 @@
+INFO  2015-06-05 10:32:33 NexGenService.CommonService:line 25 - service start
+INFO  2015-06-05 10:32:33 NexGenFlow.Manage.User:line 23 - User [phuhuu.lac] login success.
+INFO  2015-06-05 10:34:35 NexGenService.CommonService:line 26 - service start
+INFO  2015-06-05 10:34:35 NexGenFlow.Manage.User:line 24 - User [phuhuu.lac] login success.
+INFO  2015-06-05 11:08:47 NexGenService.CommonService:line 25 - service start
+INFO  2015-06-05 11:08:47 NexGenFlow.Manage.User:line 23 - User [phuhuu.lac] login success.
+INFO  2015-06-05 11:21:50 NexGenService.CommonService:line 25 - service start
+INFO  2015-06-05 11:21:51 NexGenFlow.Manage.User:line 23 - User [phuhuu.lac] login success.

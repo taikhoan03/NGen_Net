@@ -1,0 +1,77 @@
+INFO  2015-06-01 11:34:13 NexGenService.CommonService:line 25 - service start
+INFO  2015-06-01 11:34:45 NexGenService.CommonService:line 25 - service start
+INFO  2015-06-01 11:38:28 NexGenService.CommonService:line 25 - service start
+INFO  2015-06-01 11:38:30 NexGenFlow.Manage.User:line 23 - User [phuhuu] login success.
+INFO  2015-06-01 11:40:25 NexGenService.CommonService:line 25 - service start
+INFO  2015-06-01 11:40:27 NexGenFlow.Manage.User:line 23 - User [phuhuu] login success.
+INFO  2015-06-01 11:42:37 NexGenService.CommonService:line 25 - service start
+INFO  2015-06-01 11:42:42 NexGenFlow.Manage.User:line 23 - User [phuhuu] login success.
+INFO  2015-06-01 11:43:46 NexGenService.CommonService:line 25 - service start
+INFO  2015-06-01 11:43:48 NexGenFlow.Manage.User:line 23 - User [phuhuu] login success.
+ERROR 2015-06-01 11:43:54 NexGenFlow.Manage.UserAction:line 38 - Object reference not set to an instance of an object.
+ERROR 2015-06-01 11:43:54 NexGenFlow.Manage.UserAction:line 39 -    at Libs.DBExtMethods.ExecuteReader[T](Database objDB, String command, Boolean CloseConnectionOnDone)
+   at NexGenFlow.Manage.UserAction.Get_doc_for_keyer(String username) in d:\Projects\Projects\NexGen\NexGenFlow\Manage\UserAction.cs:line 34
+INFO  2015-06-01 11:51:20 NexGenService.CommonService:line 25 - service start
+INFO  2015-06-01 11:52:10 NexGenService.CommonService:line 25 - service start
+INFO  2015-06-01 11:52:12 NexGenFlow.Manage.User:line 23 - User [phuhuu] login success.
+ERROR 2015-06-01 11:52:40 NexGenFlow.Manage.UserAction:line 38 - Object reference not set to an instance of an object.
+ERROR 2015-06-01 11:52:40 NexGenFlow.Manage.UserAction:line 39 -    at Libs.DBExtMethods.ExecuteReader[T](Database objDB, String command, Boolean CloseConnectionOnDone)
+   at NexGenFlow.Manage.UserAction.Get_doc_for_keyer(String username) in d:\Projects\Projects\NexGen\NexGenFlow\Manage\UserAction.cs:line 34
+INFO  2015-06-01 11:53:20 NexGenService.CommonService:line 25 - service start
+INFO  2015-06-01 11:53:20 NexGenFlow.Manage.User:line 23 - User [phuhuu] login success.
+ERROR 2015-06-01 11:53:27 NexGenFlow.Manage.UserAction:line 38 - Object reference not set to an instance of an object.
+ERROR 2015-06-01 11:53:27 NexGenFlow.Manage.UserAction:line 39 -    at Libs.DBExtMethods.ExecuteReader[T](Database objDB, String command, Boolean CloseConnectionOnDone)
+   at NexGenFlow.Manage.UserAction.Get_doc_for_keyer(String username) in d:\Projects\Projects\NexGen\NexGenFlow\Manage\UserAction.cs:line 34
+INFO  2015-06-01 11:55:57 NexGenService.CommonService:line 25 - service start
+INFO  2015-06-01 11:55:58 NexGenFlow.Manage.User:line 23 - User [phuhuu] login success.
+INFO  2015-06-01 11:56:39 NexGenService.CommonService:line 25 - service start
+INFO  2015-06-01 11:56:40 NexGenFlow.Manage.User:line 23 - User [camvan.nguyenthi] login success.
+ERROR 2015-06-01 11:56:46 NexGenFlow.Manage.UserAction:line 38 - Object reference not set to an instance of an object.
+ERROR 2015-06-01 11:56:46 NexGenFlow.Manage.UserAction:line 39 -    at Libs.DBExtMethods.ExecuteReader[T](Database objDB, String command, Boolean CloseConnectionOnDone)
+   at NexGenFlow.Manage.UserAction.Get_doc_for_keyer(String username) in d:\Projects\Projects\NexGen\NexGenFlow\Manage\UserAction.cs:line 34
+INFO  2015-06-01 11:58:10 NexGenService.CommonService:line 25 - service start
+INFO  2015-06-01 11:58:10 NexGenFlow.Manage.User:line 23 - User [camvan.nguyenthi] login success.
+INFO  2015-06-01 11:58:58 NexGenService.CommonService:line 25 - service start
+INFO  2015-06-01 11:58:58 NexGenFlow.Manage.User:line 23 - User [camvan.nguyenthi] login success.
+INFO  2015-06-01 11:59:36 NexGenService.CommonService:line 25 - service start
+INFO  2015-06-01 11:59:36 NexGenFlow.Manage.User:line 23 - User [camvan.nguyenthi] login success.
+INFO  2015-06-01 12:00:32 NexGenService.CommonService:line 25 - service start
+INFO  2015-06-01 12:00:33 NexGenFlow.Manage.User:line 23 - User [camvan.nguyenthi] login success.
+INFO  2015-06-01 12:05:38 NexGenService.CommonService:line 25 - service start
+INFO  2015-06-01 12:05:38 NexGenFlow.Manage.User:line 23 - User [camvan.nguyenthi] login success.
+INFO  2015-06-01 12:07:04 NexGenService.CommonService:line 25 - service start
+INFO  2015-06-01 12:07:04 NexGenFlow.Manage.User:line 23 - User [camvan.nguyenthi] login success.
+ERROR 2015-06-01 12:07:13 NexGenFlow.Manage.UserAction:line 38 - Object reference not set to an instance of an object.
+ERROR 2015-06-01 12:07:13 NexGenFlow.Manage.UserAction:line 39 -    at Libs.DBExtMethods.ExecuteReader[T](Database objDB, String command, Boolean CloseConnectionOnDone)
+   at NexGenFlow.Manage.UserAction.Get_doc_for_keyer(String username) in d:\Projects\Projects\NexGen\NexGenFlow\Manage\UserAction.cs:line 34
+ERROR 2015-06-01 12:07:29 NexGenFlow.Manage.UserAction:line 38 - Object reference not set to an instance of an object.
+ERROR 2015-06-01 12:07:29 NexGenFlow.Manage.UserAction:line 39 -    at Libs.DBExtMethods.ExecuteReader[T](Database objDB, String command, Boolean CloseConnectionOnDone)
+   at NexGenFlow.Manage.UserAction.Get_doc_for_keyer(String username) in d:\Projects\Projects\NexGen\NexGenFlow\Manage\UserAction.cs:line 34
+INFO  2015-06-01 12:07:56 NexGenService.CommonService:line 25 - service start
+INFO  2015-06-01 12:07:56 NexGenFlow.Manage.User:line 23 - User [phuhuu.lac] login success.
+ERROR 2015-06-01 12:08:04 NexGenFlow.Manage.UserAction:line 38 - Object reference not set to an instance of an object.
+ERROR 2015-06-01 12:08:04 NexGenFlow.Manage.UserAction:line 39 -    at Libs.DBExtMethods.ExecuteReader[T](Database objDB, String command, Boolean CloseConnectionOnDone)
+   at NexGenFlow.Manage.UserAction.Get_doc_for_keyer(String username) in d:\Projects\Projects\NexGen\NexGenFlow\Manage\UserAction.cs:line 34
+ERROR 2015-06-01 12:25:35 NexGenFlow.Manage.UserAction:line 38 - Object reference not set to an instance of an object.
+ERROR 2015-06-01 12:25:35 NexGenFlow.Manage.UserAction:line 39 -    at Libs.DBExtMethods.ExecuteReader[T](Database objDB, String command, Boolean CloseConnectionOnDone)
+   at NexGenFlow.Manage.UserAction.Get_doc_for_keyer(String username) in d:\Projects\Projects\NexGen\NexGenFlow\Manage\UserAction.cs:line 34
+ERROR 2015-06-01 12:26:51 NexGenFlow.Manage.UserAction:line 38 - Object reference not set to an instance of an object.
+ERROR 2015-06-01 12:26:51 NexGenFlow.Manage.UserAction:line 39 -    at Libs.DBExtMethods.ExecuteReader[T](Database objDB, String command, Boolean CloseConnectionOnDone)
+   at NexGenFlow.Manage.UserAction.Get_doc_for_keyer(String username) in d:\Projects\Projects\NexGen\NexGenFlow\Manage\UserAction.cs:line 34
+ERROR 2015-06-01 12:27:46 NexGenFlow.Manage.UserAction:line 38 - Object reference not set to an instance of an object.
+ERROR 2015-06-01 12:27:46 NexGenFlow.Manage.UserAction:line 39 -    at Libs.DBExtMethods.ExecuteReader[T](Database objDB, String command, Boolean CloseConnectionOnDone)
+   at NexGenFlow.Manage.UserAction.Get_doc_for_keyer(String username) in d:\Projects\Projects\NexGen\NexGenFlow\Manage\UserAction.cs:line 34
+INFO  2015-06-01 12:30:23 NexGenService.CommonService:line 25 - service start
+INFO  2015-06-01 12:30:24 NexGenFlow.Manage.User:line 23 - User [phuhuu.lac] login success.
+INFO  2015-06-01 12:56:08 NexGenService.CommonService:line 26 - service start
+INFO  2015-06-01 12:56:09 NexGenFlow.Manage.User:line 24 - User [phuhuu.lac] login success.
+INFO  2015-06-01 01:08:46 NexGenService.CommonService:line 26 - service start
+INFO  2015-06-01 01:08:47 NexGenFlow.Manage.User:line 24 - User [phuhuu.lac] login success.
+INFO  2015-06-01 01:10:28 NexGenService.CommonService:line 25 - service start
+INFO  2015-06-01 01:10:28 NexGenFlow.Manage.User:line 23 - User [phuhuu.lac] login success.
+INFO  2015-06-01 01:17:04 NexGenService.CommonService:line 25 - service start
+INFO  2015-06-01 01:17:05 NexGenFlow.Manage.User:line 23 - User [phuhuu.lac] login success.
+INFO  2015-06-01 01:17:54 NexGenService.CommonService:line 25 - service start
+INFO  2015-06-01 01:17:54 NexGenFlow.Manage.User:line 23 - User [phuhuu.lac] login success.
+INFO  2015-06-01 01:20:30 NexGenService.CommonService:line 26 - service start
+INFO  2015-06-01 01:20:30 NexGenFlow.Manage.User:line 24 - User [phuhuu.lac] login success.

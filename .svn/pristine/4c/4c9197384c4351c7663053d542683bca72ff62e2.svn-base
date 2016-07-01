@@ -1,0 +1,18 @@
+ERROR 2015-04-07 10:32:39 - Input string was not in a correct format.
+ERROR 2015-04-07 10:32:39 -    at System.Number.ParseDouble(String value, NumberStyles options, NumberFormatInfo numfmt)
+   at System.Double.Parse(String s, NumberStyles style, NumberFormatInfo info)
+   at System.Double.Parse(String s, IFormatProvider provider)
+   at System.Convert.ToDouble(String value)
+   at NexGen.UserConctrol.doc_rsd_input.GetRecord() in d:\Projects\Projects\NexGen\NexGen\UserConctrol\doc_rsd_input.cs:line 116
+ERROR 2015-04-07 10:32:58 - Input string was not in a correct format.
+ERROR 2015-04-07 10:32:58 -    at System.Number.ParseDouble(String value, NumberStyles options, NumberFormatInfo numfmt)
+   at System.Double.Parse(String s, NumberStyles style, NumberFormatInfo info)
+   at System.Double.Parse(String s, IFormatProvider provider)
+   at System.Convert.ToDouble(String value)
+   at NexGen.UserConctrol.doc_rsd_input.GetRecord() in d:\Projects\Projects\NexGen\NexGen\UserConctrol\doc_rsd_input.cs:line 116
+ERROR 2015-04-07 10:41:22 - Input string was not in a correct format.
+ERROR 2015-04-07 10:41:22 -    at System.Number.ParseDouble(String value, NumberStyles options, NumberFormatInfo numfmt)
+   at System.Double.Parse(String s, NumberStyles style, NumberFormatInfo info)
+   at System.Double.Parse(String s, IFormatProvider provider)
+   at System.Convert.ToDouble(String value)
+   at NexGen.UserConctrol.doc_rsd_input.GetRecord() in d:\Projects\Projects\NexGen\NexGen\UserConctrol\doc_rsd_input.cs:line 116

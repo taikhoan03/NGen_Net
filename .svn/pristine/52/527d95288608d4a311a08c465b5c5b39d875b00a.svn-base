@@ -1,0 +1,4 @@
+INFO  2015-04-22 01:42:06 NexGenService.CommonService:line 25 - service start
+INFO  2015-04-22 01:42:06 NexGenFlow.Manage.User:line 23 - User [trunghieu] login success.
+INFO  2015-04-22 01:46:01 NexGenService.CommonService:line 25 - service start
+INFO  2015-04-22 01:46:01 NexGenFlow.Manage.User:line 23 - User [trunghieu] login success.

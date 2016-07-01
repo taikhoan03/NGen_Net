@@ -1,0 +1,21 @@
+INFO  2015-08-21 11:51:02 - DataObject.User
+INFO  2015-08-21 11:51:04 - Create Folder: D:\Projects\Projects\NexGen\NexGen\bin\Release\cache\IMG\20150820\UPC_2015-08-20_caa808c22592\
+INFO  2015-08-21 11:51:04 - Download file: D:\Projects\Projects\NexGen\NexGen\bin\Release\cache\IMG\20150820\UPC_2015-08-20_caa808c22592\65011874_1..jpg success
+INFO  2015-08-21 11:51:04 - Create Folder: D:\Projects\Projects\NexGen\NexGen\bin\Release\cache\OCR\20150820\UPC_2015-08-20_caa808c22592\
+INFO  2015-08-21 11:51:04 - Download file: D:\Projects\Projects\NexGen\NexGen\bin\Release\cache\OCR\20150820\UPC_2015-08-20_caa808c22592\65011874_1..xml success
+ERROR 2015-08-21 11:51:06 - Input string was not in a correct format.
+ERROR 2015-08-21 11:51:06 -    at System.Number.ParseDouble(String value, NumberStyles options, NumberFormatInfo numfmt)
+   at System.Convert.ToDouble(String value)
+   at NexGen.UserConctrol.doc_upc_input.GetRecord() in D:\Projects\Projects\NexGen\NexGen\UserConctrol\doc_upc_input.cs:line 78
+INFO  2015-08-21 12:04:19 - DataObject.User
+INFO  2015-08-21 12:04:23 - Download file: D:\Projects\Projects\NexGen\NexGen\bin\Release\cache\IMG\20150820\UPC_2015-08-20_caa808c22592\64006425_1..jpg success
+INFO  2015-08-21 12:04:23 - Download file: D:\Projects\Projects\NexGen\NexGen\bin\Release\cache\OCR\20150820\UPC_2015-08-20_caa808c22592\64006425_1..xml success
+INFO  2015-08-21 04:42:08 - DataObject.User
+INFO  2015-08-21 04:42:10 - Create Folder: D:\Projects\Projects\NexGen\NexGen\bin\Release\cache\IMG\20150821\RSD_2015-08-21_d5af42687c24\
+INFO  2015-08-21 04:42:10 - Download file: D:\Projects\Projects\NexGen\NexGen\bin\Release\cache\IMG\20150821\RSD_2015-08-21_d5af42687c24\66253723_1..jpg success
+INFO  2015-08-21 04:42:10 - Create Folder: D:\Projects\Projects\NexGen\NexGen\bin\Release\cache\OCR\20150821\RSD_2015-08-21_d5af42687c24\
+INFO  2015-08-21 04:42:10 - Download file: D:\Projects\Projects\NexGen\NexGen\bin\Release\cache\OCR\20150821\RSD_2015-08-21_d5af42687c24\66253723_1..xml success
+INFO  2015-08-21 05:36:55 - 
+INFO  2015-08-21 05:37:03 - 
+INFO  2015-08-21 05:37:13 - DataObject.User
+INFO  2015-08-21 05:37:16 - File download requested is existed -> ignore (D:\Projects\Projects\NexGen\NexGen\bin\Release\cache\IMG\20150821\RSD_2015-08-21_d5af42687c24\66253723_1..jpg)

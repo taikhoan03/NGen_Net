@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<packages>
+  <package id="Common.Logging" version="3.0.0" targetFramework="net40" />
+  <package id="Common.Logging.Core" version="3.0.0" targetFramework="net40" />
+  <package id="Ftp.dll" version="2.0.15041.1147" targetFramework="net40" />
+  <package id="log4net" version="2.0.3" targetFramework="net40" />
+  <package id="Microsoft.Data.Edm" version="5.0.0" targetFramework="net40" />
+  <package id="Microsoft.Data.OData" version="5.0.0" targetFramework="net40" />
+  <package id="Microsoft.Data.Services.Client" version="5.0.0" targetFramework="net40" />
+  <package id="Spring.Core" version="2.0.0-RC2" targetFramework="net40" />
+  <package id="System.Net.FtpClient" version="1.0.5281.14359" targetFramework="net40" />
+  <package id="System.Spatial" version="5.0.0" targetFramework="net40" />
+</packages>

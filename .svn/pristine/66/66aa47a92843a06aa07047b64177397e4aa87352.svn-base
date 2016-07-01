@@ -1,0 +1,4 @@
+INFO  2015-04-03 09:03:58 - File download requested is existed -> ignore (D:\Projects\Projects\NexGen\NexGen\bin\Debug\cache\IMG\20150402\NexGen_test_1doc_2img\24170496_1..jpeg)
+INFO  2015-04-03 09:03:58 - File download requested is existed -> ignore (D:\Projects\Projects\NexGen\NexGen\bin\Debug\cache\OCR\20150402\NexGen_test_1doc_2img\24170496_1..xml)
+INFO  2015-04-03 09:04:03 - File download requested is existed -> ignore (D:\Projects\Projects\NexGen\NexGen\bin\Debug\cache\IMG\20150402\NexGen_test_1doc_2img\24170496_2..jpeg)
+INFO  2015-04-03 09:04:03 - File download requested is existed -> ignore (D:\Projects\Projects\NexGen\NexGen\bin\Debug\cache\OCR\20150402\NexGen_test_1doc_2img\24170496_2..xml)
