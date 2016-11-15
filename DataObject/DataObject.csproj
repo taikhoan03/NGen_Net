@@ -70,6 +70,7 @@
     <Compile Include="MergedObject\DocumentExport.cs" />
     <Compile Include="OCR\Entity.cs" />
     <Compile Include="OCR\OCRCollectData.cs" />
+    <Compile Include="PackageAssignment.cs" />
     <Compile Include="PackageImport.cs" />
     <Compile Include="Plan_Doc_Keyer.cs" />
     <Compile Include="plan_doc_keyer_2.cs" />

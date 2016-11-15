@@ -66,6 +66,7 @@ namespace NexGen
         private void packagePriorityToolStripMenuItem_Click(object sender, EventArgs e)
         {
             var frm = new SecureCodeProtector(FunctionProtected.PriorityManager);
+            frm.frmToShow = new Manage_package_priority();
             if (!frm.IsDisposed)
             {
                 frm.mainForm = this;
@@ -77,6 +78,18 @@ namespace NexGen
         private void managePackageToolStripMenuItem_Click(object sender, EventArgs e)
         {
             var frm = new SecureCodeProtector(FunctionProtected.ManagePackage);
+            frm.frmToShow = new ManagePackage();
+            if (!frm.IsDisposed)
+            {
+                frm.mainForm = this;
+                frm.ShowDialog();
+            }
+        }
+
+        private void packageAssignmentToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            var frm = new SecureCodeProtector(FunctionProtected.ManagePackage);
+            frm.frmToShow = new UserAssignToPackage();
             if (!frm.IsDisposed)
             {
                 frm.mainForm = this;

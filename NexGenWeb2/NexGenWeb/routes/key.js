@@ -183,6 +183,8 @@ router.get('/', function (req, res, next) {
                                     });
                             });
 
+                        }else{
+                            res.end('No more doc (^.^)');
                         }
 
                     }

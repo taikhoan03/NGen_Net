@@ -34,7 +34,26 @@ namespace NexGenService
             //        }
             return manage_download_file.Insert(downloadfile.XMLStringToObject<DataObject.PackageImport>(), FileList,docinfos, username,csv_file);
         }
-
+        public string getPackages()
+        {
+            return (new NexGenFlow.Manage.PackageImport()).Get_packages().XmlSerialize();
+        }
+        public string Get_Assigned_Packages(string username, int packageid)
+        {
+            return (new NexGenFlow.Manage.PackageImport()).Get_Assigned_Packages(username,packageid).XmlSerialize();
+        }
+        public long addAssignPackage(string xmlPackageAssign)
+        {
+            return (new NexGenFlow.Manage.PackageImport()).addAssignPackage(xmlPackageAssign.XMLStringToObject<DataObject.PackageAssignment>());
+        }
+        public void updateAssignPackage(string xmlPackageAssign)
+        {
+            (new NexGenFlow.Manage.PackageImport()).updateAssignPackage(xmlPackageAssign.XMLStringToObject<DataObject.PackageAssignment>());
+        }
+        public void removeAssignPackage(int packageid)
+        {
+            (new NexGenFlow.Manage.PackageImport()).removeAssignPackage(packageid);
+        }
         //public string Select(List<int> ID)
         //{
         //    return Download_File.ToXMLListString(manage_download_file.Select(ID));

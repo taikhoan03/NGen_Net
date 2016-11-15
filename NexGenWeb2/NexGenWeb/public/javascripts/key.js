@@ -375,7 +375,7 @@ $(document).ready(function(){
         });
         div.append(item_type);
 
-        if(d.Transaction_Type=='UPC_RSD' || d.Transaction_Type=='RSD'){
+        if(d.Transaction_Type=='UPC_RSD'){
             tmp=$('<input id="Client_item_detail" class="can-ocr" append="append" style="text-transform:uppercase;width:120px" maxlength="14">').val(d.Client_item_detail);
         }else{
             tmp=$('<input id="Client_item_detail" class="can-ocr" append="append" style="text-transform:uppercase" >').val(d.Client_item_detail);

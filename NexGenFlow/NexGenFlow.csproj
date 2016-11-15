@@ -112,6 +112,10 @@
     <Compile Include="ORMDataModelCode\package.Designer.cs">
       <DependentUpon>package.cs</DependentUpon>
     </Compile>
+    <Compile Include="ORMDataModelCode\package_assignment.cs" />
+    <Compile Include="ORMDataModelCode\package_assignment.Designer.cs">
+      <DependentUpon>package_assignment.cs</DependentUpon>
+    </Compile>
     <Compile Include="ORMDataModelCode\plan_doc_keyer.cs" />
     <Compile Include="ORMDataModelCode\plan_doc_keyer.Designer.cs">
       <DependentUpon>plan_doc_keyer.cs</DependentUpon>

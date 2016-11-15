@@ -21,6 +21,9 @@ namespace NexGen.NexGenService {
         [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/ICommonService/Login", ReplyAction="http://tempuri.org/ICommonService/LoginResponse")]
         string Login(string username, string password);
         
+        [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/ICommonService/getListUser", ReplyAction="http://tempuri.org/ICommonService/getListUserResponse")]
+        string getListUser();
+        
         [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/ICommonService/UnLock", ReplyAction="http://tempuri.org/ICommonService/UnLockResponse")]
         void UnLock(string username);
         
@@ -94,6 +97,10 @@ namespace NexGen.NexGenService {
         
         public string Login(string username, string password) {
             return base.Channel.Login(username, password);
+        }
+        
+        public string getListUser() {
+            return base.Channel.getListUser();
         }
         
         public void UnLock(string username) {

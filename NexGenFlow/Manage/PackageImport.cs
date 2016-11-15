@@ -27,7 +27,7 @@ namespace NexGenFlow.Manage
                     return false;
 
                 workingSession.BeginTransaction();
-                
+
                 #region begin transaction
                 CriteriaOperator criteria_limit_and_get_max_priority = CriteriaOperator.Parse("created_date >=?", DateTime.Now.AddMonths(-1));
                 XPCollection cl_limit_and_get_max_priority = new XPCollection(workingSession, typeof(NexGen.package), criteria_limit_and_get_max_priority);
@@ -51,7 +51,7 @@ namespace NexGenFlow.Manage
                 if (_list.Count() == 0)
                 {
                     var DF = new NexGen.package(new Session());
-                    
+
                     //DF.batch_num=downloadfile.b
                     DF.name = downloadfile.Name;
                     DF.created_by = downloadfile.Create_by;
@@ -60,9 +60,9 @@ namespace NexGenFlow.Manage
                     DF.file_path = downloadfile.File_path;
                     DF.film_tracker_id = downloadfile.Film_tracker_id;
                     DF.csv_name = Path.GetFileName(csv_file);
-                    
-                    if(max_priority>0)
-                        DF.priority = max_priority+1;
+
+                    if (max_priority > 0)
+                        DF.priority = max_priority + 1;
                     else
                         DF.priority = downloadfile.Priority;
                     DF.Save();
@@ -71,7 +71,7 @@ namespace NexGenFlow.Manage
                 }
                 else
                     downloadFileID = _list.FirstOrDefault().id;//this File is existed in DB, get it value
-                
+
                 downloadfile.Id = downloadFileID;
                 //var date = DateTime.Now;
                 var DocsInPackageInserted = (new Document()).SelectfromFile(downloadFileID).Select(p => p.Doc_name);
@@ -87,15 +87,15 @@ namespace NexGenFlow.Manage
                         File.IndexOf("_6.") > 0 ||
                         File.IndexOf("_7.") > 0 ||
                         File.IndexOf("_8.") > 0 ||
-                        File.IndexOf("_9.") > 0 || File.ToLower()=="thumb.db")
+                        File.IndexOf("_9.") > 0 || File.ToLower() == "thumb.db")
                         continue;
                     var simplefilename = File.Replace(Path.GetExtension(File), string.Empty).Replace(".", string.Empty);
                     var docinfo = docinfos.Where(p => p.Image_1 == simplefilename).FirstOrDefault();
-                    
-                    if(docinfo!=null)
+
+                    if (docinfo != null)
                     {
-                        var doc=CreateDocument(downloadfile, File, docinfo, Username);
-                        if(doc==null)
+                        var doc = CreateDocument(downloadfile, File, docinfo, Username);
+                        if (doc == null)
                         {
                             log.Error("Import Fail at: " + doc.XmlSerialize());
                             workingSession.RollbackTransaction();
@@ -104,11 +104,11 @@ namespace NexGenFlow.Manage
                         }
                         listDocBulkInsert.Add(doc);
                         //log.Info("Insert Document in Package: filename" + File);
-                    }else
+                    } else
                     {
                         log.Info("This doc is null: " + docinfo.XmlSerialize());
                     }
-                    
+
                 }
                 //foreach (var item in listDocBulkInsert)
                 //    {
@@ -120,7 +120,7 @@ namespace NexGenFlow.Manage
                 //    }
                 (new NexGenFlow.Manage.Document()).Insert(listDocBulkInsert);
                 //copy Document to Plan_Doc
-                
+
                 //int rs = workingSession.ExecuteNonQuery(string.Format("INSERT INTO \"{0}\"(docid, doctype, created_date) Select id, doctype, now() from \"{2}\" d where (select 1 from \"{1}\" pl where pl.docid=d.id) is null", TableName.CONS_plan_doc_keyer, TableName.CONS_plan_doc_keyer, TableName.CONS_document));
                 workingSession.CommitTransaction();
                 //int rs = (new Session()).ExecuteNonQuery("INSERT INTO \"plan_doc_keyer\"(docid, doctype, created_date) Select id, doctype, now() from \"document\" d where (select 1 from \"plan_doc_keyer\" pl where pl.docid=d.id) is null");
@@ -131,9 +131,9 @@ namespace NexGenFlow.Manage
                     throw new Exception(string.Format("No record moved from [{0}] to [{1}]", TableName.CONS_document, TableName.CONS_plan_doc_keyer));
                 }
                 //var a = (DateTime.Now - date).Milliseconds;
-                
+
                 return true;
-                
+
                 #endregion begin transaction
             }
             catch (Exception ex)
@@ -143,7 +143,7 @@ namespace NexGenFlow.Manage
                 return false;
             }
         }
-        
+
         private void InsertDocument(DataObject.PackageImport downloadfile, string File, string username, Session session)
         {
             DataObject.Document D = new DataObject.Document();
@@ -154,7 +154,7 @@ namespace NexGenFlow.Manage
             D.username = username;
             D.Create_date = DateTime.Now;
             D.Doctype = downloadfile.Doctype;
-            
+
             (new Document()).Insert(D, session);
         }
         private DataObject.Document CreateDocument(DataObject.PackageImport downloadfile, string File, DocInfo docinfo, string username)
@@ -170,7 +170,7 @@ namespace NexGenFlow.Manage
                 D.Create_date = DateTime.Now;
                 D.Modified_date = DateTime.Now;
                 D.Doctype = downloadfile.Doctype;
-                
+
                 D.Transaction_type = docinfo.Transaction_type;
                 D.Receipt_id = docinfo.Receipt_id;
                 D.Banner_id = docinfo.Banner_id;
@@ -186,7 +186,7 @@ namespace NexGenFlow.Manage
                 D.Image_7 = docinfo.Image_7;
                 D.Image_8 = docinfo.Image_8;
                 D.Image_9 = docinfo.Image_9;
-                
+
                 return D;
             }
             catch (Exception ex)
@@ -197,7 +197,7 @@ namespace NexGenFlow.Manage
                 log.Error("DocInfo:" + docinfo.XmlSerialize());
                 throw;
             }
-            
+
         }
         private void InsertDocument(DataObject.PackageImport downloadfile, string File, DocInfo docinfo, string username)
         {
@@ -212,7 +212,7 @@ namespace NexGenFlow.Manage
                 D.Create_date = DateTime.Now;
                 D.Modified_date = DateTime.Now;
                 D.Doctype = downloadfile.Doctype;
-                
+
                 D.Transaction_type = docinfo.Transaction_type;
                 D.Receipt_id = docinfo.Receipt_id;
                 D.Banner_id = docinfo.Banner_id;
@@ -228,7 +228,7 @@ namespace NexGenFlow.Manage
                 D.Image_7 = docinfo.Image_7;
                 D.Image_8 = docinfo.Image_8;
                 D.Image_9 = docinfo.Image_9;
-                
+
                 Manage.Document.Insert(D);
             }
             catch (Exception ex)
@@ -240,7 +240,7 @@ namespace NexGenFlow.Manage
                 throw;
             }
         }
-        
+
         //public List<Download_File> Select(List<int> ID)
         //{
         //    XPCollection cl = new XPCollection(new Session(), typeof(Clore_DB.Download_File));
@@ -267,7 +267,7 @@ namespace NexGenFlow.Manage
         //        Priority = p.priority,
         //    }).ToList();
         //}
-        
+
         //public List<Download_File> Select()
         //{
         //    XPCollection cl = new XPCollection(new Session(), typeof(Clore_DB.Download_File));
@@ -294,7 +294,7 @@ namespace NexGenFlow.Manage
         //        Priority = p.priority,
         //    }).ToList();
         //}
-        
+
         //public static Download_File Select(int ID)
         //{
         //    XPCollection cl = new XPCollection(new Session(), typeof(Clore_DB.Download_File));
@@ -348,6 +348,94 @@ namespace NexGenFlow.Manage
             if (packages_rs.Count > 0)
                 return packages_rs;
             return null;
+        }
+        public List<DataObject.PackageAssignment> Get_Assigned_Packages(string username, int packageid)
+        {
+            
+            Session workingSession = new Session();
+            //XPCollection cl = new XPCollection(new Session(), typeof(Clore_DB.Document));
+            
+            var condition = new List<string>();
+            if (!string.IsNullOrEmpty(username))
+            {
+                var str = string.Format("username='{0}'", username);
+                condition.Add(str);
+            }
+            if (packageid>0)
+            {
+                var str = string.Format("packageid='{0}'", packageid);
+                condition.Add(str);
+            }
+            condition.Add("is_enabled=TRUE");
+            var strCondition = " " + string.Join(" AND ", condition) + " ";
+
+
+            //strCondition = strCondition.Replace("OR ;", string.Empty);
+            CriteriaOperator criteria = CriteriaOperator.Parse(strCondition);
+            XPCollection cl = new XPCollection(workingSession, typeof(NexGen.package_assignment), criteria);
+
+            var _list = new List<DataObject.PackageAssignment>();
+            foreach (NexGen.package_assignment item in cl)
+            {
+                var assign_item = new DataObject.PackageAssignment();
+                assign_item.id = item.id;
+                assign_item.packageid = item.packageid;
+                assign_item.priority = item.priority;
+                assign_item.username = item.username;
+                assign_item.created_date = item.created_date;
+                assign_item.is_enabled = item.is_enabled;
+                _list.Add(assign_item);
+            }
+            //var a = _list.Select(p => p.file_name).ToList();
+            return _list;
+        }
+        public long addAssignPackage(DataObject.PackageAssignment ap)
+        {
+            var item = new NexGen.package_assignment(new Session());
+            item.created_date = DateTime.Now;
+            item.packageid = ap.packageid;
+            item.priority = ap.priority;
+            item.username = ap.username;
+            item.is_enabled = ap.is_enabled;
+            item.Save();
+            return item.id;
+        }
+        public void updateAssignPackage(DataObject.PackageAssignment ap)
+        {
+            Session workingSession = new Session();
+
+
+
+            //strCondition = strCondition.Replace("OR ;", string.Empty);
+            CriteriaOperator criteria = CriteriaOperator.Parse("id=?", ap.id);
+            XPCollection cl = new XPCollection(workingSession, typeof(NexGen.package_assignment), criteria);
+            cl.TopReturnedObjects = 1;
+
+            var item = (NexGen.package_assignment)cl[0];
+            item.created_date = DateTime.Now;
+            item.is_enabled = true;
+            item.packageid = ap.packageid;
+            item.priority = ap.priority;
+            item.username = ap.username;
+            item.is_enabled = ap.is_enabled;
+            item.Save();
+        }
+        public void removeAssignPackage(int id)
+        {
+            Session workingSession = new Session();
+            
+
+
+            //strCondition = strCondition.Replace("OR ;", string.Empty);
+            CriteriaOperator criteria = CriteriaOperator.Parse("id=?", id);
+            XPCollection cl = new XPCollection(workingSession, typeof(NexGen.package_assignment), criteria);
+            cl.TopReturnedObjects = 1;
+            workingSession.Delete(cl);
+            //foreach (NexGen.package_assignment item in cl)
+            //{
+            //    item.Delete();
+            //    //item.Save();
+            //}
         }
         public void Update_package_priority(int packageid,int priority)
         {

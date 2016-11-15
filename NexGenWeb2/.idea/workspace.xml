@@ -59,25 +59,25 @@
       <file leaf-file-name="key.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/NexGenWeb/public/javascripts/key.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.39823008">
-              <caret line="369" column="17" selection-start-line="369" selection-start-column="17" selection-end-line="369" selection-end-column="17" />
+            <state vertical-scroll-proportion="2.4580498">
+              <caret line="377" column="42" selection-start-line="377" selection-start-column="42" selection-end-line="377" selection-end-column="42" />
               <folding>
-                <marker date="1467341729245" expanded="true" signature="12222:12235" placeholder="..." />
-                <marker date="1467341729245" expanded="true" signature="12330:12343" placeholder="..." />
-                <marker date="1467341729245" expanded="true" signature="12438:12451" placeholder="..." />
-                <marker date="1467341729245" expanded="true" signature="12546:12559" placeholder="..." />
-                <marker date="1467341729245" expanded="true" signature="13690:13726" placeholder="..." />
-                <marker date="1467341729245" expanded="true" signature="13877:13901" placeholder="..." />
-                <marker date="1467341729245" expanded="true" signature="14150:14174" placeholder="..." />
-                <marker date="1467341729245" expanded="true" signature="14150:14186" placeholder="..." />
-                <marker date="1467341729245" expanded="true" signature="15276:15289" placeholder="..." />
-                <marker date="1467341729245" expanded="true" signature="15390:15403" placeholder="..." />
-                <marker date="1467341729245" expanded="true" signature="16079:16092" placeholder="..." />
-                <marker date="1467341729245" expanded="true" signature="16257:16270" placeholder="..." />
-                <marker date="1467341729245" expanded="true" signature="64829:65010" placeholder="..." />
-                <marker date="1467341729245" expanded="true" signature="65356:65385" placeholder="..." />
-                <marker date="1467341729245" expanded="true" signature="65650:65679" placeholder="..." />
-                <marker date="1467341729245" expanded="true" signature="66013:66044" placeholder="..." />
+                <marker date="1467358217747" expanded="true" signature="12222:12235" placeholder="..." />
+                <marker date="1467358217747" expanded="true" signature="12330:12343" placeholder="..." />
+                <marker date="1467358217747" expanded="true" signature="12438:12451" placeholder="..." />
+                <marker date="1467358217747" expanded="true" signature="12546:12559" placeholder="..." />
+                <marker date="1467358217747" expanded="true" signature="13661:13697" placeholder="..." />
+                <marker date="1467358217747" expanded="true" signature="13848:13872" placeholder="..." />
+                <marker date="1467358217747" expanded="true" signature="14121:14145" placeholder="..." />
+                <marker date="1467358217747" expanded="true" signature="14121:14157" placeholder="..." />
+                <marker date="1467358217747" expanded="true" signature="15247:15260" placeholder="..." />
+                <marker date="1467358217747" expanded="true" signature="15361:15374" placeholder="..." />
+                <marker date="1467358217747" expanded="true" signature="16050:16063" placeholder="..." />
+                <marker date="1467358217747" expanded="true" signature="16228:16241" placeholder="..." />
+                <marker date="1467358217747" expanded="true" signature="64800:64981" placeholder="..." />
+                <marker date="1467358217747" expanded="true" signature="65327:65356" placeholder="..." />
+                <marker date="1467358217747" expanded="true" signature="65621:65650" placeholder="..." />
+                <marker date="1467358217747" expanded="true" signature="65984:66015" placeholder="..." />
               </folding>
             </state>
           </provider>
@@ -96,7 +96,7 @@
       <file leaf-file-name="key.jade" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/NexGenWeb/views/key.jade">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-3.1176472">
+            <state vertical-scroll-proportion="0.0">
               <caret line="308" column="49" selection-start-line="308" selection-start-column="49" selection-end-line="308" selection-end-column="49" />
               <folding />
             </state>
@@ -324,7 +324,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="last_opened_file_path" value="$USER_HOME$/Dropbox/Apps/Heroku/fbmess" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/NexGenWeb" />
     <property name="WebServerToolWindowFactoryState" value="true" />
     <property name="HbShouldOpenHtmlAsHb" value="" />
     <property name="js-jscs-nodeInterpreter" value="C:\Program Files\nodejs\node.exe" />
@@ -436,22 +436,22 @@
     <editor active="true" />
     <layout>
       <window_info id="Remote Host" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.39871383" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24791667" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32581738" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32919955" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3990981" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32581738" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3990981" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="Vcs.Log.UiProperties">
@@ -793,7 +793,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="31" column="138" selection-start-line="31" selection-start-column="138" selection-end-line="31" selection-end-column="138" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -809,7 +808,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="15" column="0" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -825,7 +823,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="32" column="0" selection-start-line="32" selection-start-column="0" selection-end-line="32" selection-end-column="60" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -849,7 +846,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/NexGenWeb/views/key.jade">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-3.1176472">
+        <state vertical-scroll-proportion="0.0">
           <caret line="308" column="49" selection-start-line="308" selection-start-column="49" selection-end-line="308" selection-end-column="49" />
           <folding />
         </state>
@@ -857,25 +854,25 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/NexGenWeb/public/javascripts/key.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.39823008">
-          <caret line="369" column="17" selection-start-line="369" selection-start-column="17" selection-end-line="369" selection-end-column="17" />
+        <state vertical-scroll-proportion="2.4580498">
+          <caret line="377" column="42" selection-start-line="377" selection-start-column="42" selection-end-line="377" selection-end-column="42" />
           <folding>
-            <marker date="1467341729245" expanded="true" signature="12222:12235" placeholder="..." />
-            <marker date="1467341729245" expanded="true" signature="12330:12343" placeholder="..." />
-            <marker date="1467341729245" expanded="true" signature="12438:12451" placeholder="..." />
-            <marker date="1467341729245" expanded="true" signature="12546:12559" placeholder="..." />
-            <marker date="1467341729245" expanded="true" signature="13690:13726" placeholder="..." />
-            <marker date="1467341729245" expanded="true" signature="13877:13901" placeholder="..." />
-            <marker date="1467341729245" expanded="true" signature="14150:14174" placeholder="..." />
-            <marker date="1467341729245" expanded="true" signature="14150:14186" placeholder="..." />
-            <marker date="1467341729245" expanded="true" signature="15276:15289" placeholder="..." />
-            <marker date="1467341729245" expanded="true" signature="15390:15403" placeholder="..." />
-            <marker date="1467341729245" expanded="true" signature="16079:16092" placeholder="..." />
-            <marker date="1467341729245" expanded="true" signature="16257:16270" placeholder="..." />
-            <marker date="1467341729245" expanded="true" signature="64829:65010" placeholder="..." />
-            <marker date="1467341729245" expanded="true" signature="65356:65385" placeholder="..." />
-            <marker date="1467341729245" expanded="true" signature="65650:65679" placeholder="..." />
-            <marker date="1467341729245" expanded="true" signature="66013:66044" placeholder="..." />
+            <marker date="1467358217747" expanded="true" signature="12222:12235" placeholder="..." />
+            <marker date="1467358217747" expanded="true" signature="12330:12343" placeholder="..." />
+            <marker date="1467358217747" expanded="true" signature="12438:12451" placeholder="..." />
+            <marker date="1467358217747" expanded="true" signature="12546:12559" placeholder="..." />
+            <marker date="1467358217747" expanded="true" signature="13661:13697" placeholder="..." />
+            <marker date="1467358217747" expanded="true" signature="13848:13872" placeholder="..." />
+            <marker date="1467358217747" expanded="true" signature="14121:14145" placeholder="..." />
+            <marker date="1467358217747" expanded="true" signature="14121:14157" placeholder="..." />
+            <marker date="1467358217747" expanded="true" signature="15247:15260" placeholder="..." />
+            <marker date="1467358217747" expanded="true" signature="15361:15374" placeholder="..." />
+            <marker date="1467358217747" expanded="true" signature="16050:16063" placeholder="..." />
+            <marker date="1467358217747" expanded="true" signature="16228:16241" placeholder="..." />
+            <marker date="1467358217747" expanded="true" signature="64800:64981" placeholder="..." />
+            <marker date="1467358217747" expanded="true" signature="65327:65356" placeholder="..." />
+            <marker date="1467358217747" expanded="true" signature="65621:65650" placeholder="..." />
+            <marker date="1467358217747" expanded="true" signature="65984:66015" placeholder="..." />
           </folding>
         </state>
       </provider>

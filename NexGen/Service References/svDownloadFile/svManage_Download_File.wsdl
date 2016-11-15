@@ -31,6 +31,36 @@
   <wsdl:message name="IsvManage_Download_File_verifyListDocumentInserted_withPath_OutputMessage">
     <wsdl:part name="parameters" element="tns:verifyListDocumentInserted_withPathResponse" />
   </wsdl:message>
+  <wsdl:message name="IsvManage_Download_File_getPackages_InputMessage">
+    <wsdl:part name="parameters" element="tns:getPackages" />
+  </wsdl:message>
+  <wsdl:message name="IsvManage_Download_File_getPackages_OutputMessage">
+    <wsdl:part name="parameters" element="tns:getPackagesResponse" />
+  </wsdl:message>
+  <wsdl:message name="IsvManage_Download_File_Get_Assigned_Packages_InputMessage">
+    <wsdl:part name="parameters" element="tns:Get_Assigned_Packages" />
+  </wsdl:message>
+  <wsdl:message name="IsvManage_Download_File_Get_Assigned_Packages_OutputMessage">
+    <wsdl:part name="parameters" element="tns:Get_Assigned_PackagesResponse" />
+  </wsdl:message>
+  <wsdl:message name="IsvManage_Download_File_addAssignPackage_InputMessage">
+    <wsdl:part name="parameters" element="tns:addAssignPackage" />
+  </wsdl:message>
+  <wsdl:message name="IsvManage_Download_File_addAssignPackage_OutputMessage">
+    <wsdl:part name="parameters" element="tns:addAssignPackageResponse" />
+  </wsdl:message>
+  <wsdl:message name="IsvManage_Download_File_removeAssignPackage_InputMessage">
+    <wsdl:part name="parameters" element="tns:removeAssignPackage" />
+  </wsdl:message>
+  <wsdl:message name="IsvManage_Download_File_removeAssignPackage_OutputMessage">
+    <wsdl:part name="parameters" element="tns:removeAssignPackageResponse" />
+  </wsdl:message>
+  <wsdl:message name="IsvManage_Download_File_updateAssignPackage_InputMessage">
+    <wsdl:part name="parameters" element="tns:updateAssignPackage" />
+  </wsdl:message>
+  <wsdl:message name="IsvManage_Download_File_updateAssignPackage_OutputMessage">
+    <wsdl:part name="parameters" element="tns:updateAssignPackageResponse" />
+  </wsdl:message>
   <wsdl:portType name="IsvManage_Download_File">
     <wsdl:operation name="Insert">
       <wsdl:input wsaw:Action="http://tempuri.org/IsvManage_Download_File/Insert" message="tns:IsvManage_Download_File_Insert_InputMessage" />
@@ -47,6 +77,26 @@
     <wsdl:operation name="verifyListDocumentInserted_withPath">
       <wsdl:input wsaw:Action="http://tempuri.org/IsvManage_Download_File/verifyListDocumentInserted_withPath" message="tns:IsvManage_Download_File_verifyListDocumentInserted_withPath_InputMessage" />
       <wsdl:output wsaw:Action="http://tempuri.org/IsvManage_Download_File/verifyListDocumentInserted_withPathResponse" message="tns:IsvManage_Download_File_verifyListDocumentInserted_withPath_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="getPackages">
+      <wsdl:input wsaw:Action="http://tempuri.org/IsvManage_Download_File/getPackages" message="tns:IsvManage_Download_File_getPackages_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IsvManage_Download_File/getPackagesResponse" message="tns:IsvManage_Download_File_getPackages_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="Get_Assigned_Packages">
+      <wsdl:input wsaw:Action="http://tempuri.org/IsvManage_Download_File/Get_Assigned_Packages" message="tns:IsvManage_Download_File_Get_Assigned_Packages_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IsvManage_Download_File/Get_Assigned_PackagesResponse" message="tns:IsvManage_Download_File_Get_Assigned_Packages_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="addAssignPackage">
+      <wsdl:input wsaw:Action="http://tempuri.org/IsvManage_Download_File/addAssignPackage" message="tns:IsvManage_Download_File_addAssignPackage_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IsvManage_Download_File/addAssignPackageResponse" message="tns:IsvManage_Download_File_addAssignPackage_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="removeAssignPackage">
+      <wsdl:input wsaw:Action="http://tempuri.org/IsvManage_Download_File/removeAssignPackage" message="tns:IsvManage_Download_File_removeAssignPackage_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IsvManage_Download_File/removeAssignPackageResponse" message="tns:IsvManage_Download_File_removeAssignPackage_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="updateAssignPackage">
+      <wsdl:input wsaw:Action="http://tempuri.org/IsvManage_Download_File/updateAssignPackage" message="tns:IsvManage_Download_File_updateAssignPackage_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IsvManage_Download_File/updateAssignPackageResponse" message="tns:IsvManage_Download_File_updateAssignPackage_OutputMessage" />
     </wsdl:operation>
   </wsdl:portType>
   <wsdl:binding name="BasicHttpBinding_IsvManage_Download_File" type="tns:IsvManage_Download_File">
@@ -80,6 +130,51 @@
     </wsdl:operation>
     <wsdl:operation name="verifyListDocumentInserted_withPath">
       <soap:operation soapAction="http://tempuri.org/IsvManage_Download_File/verifyListDocumentInserted_withPath" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="getPackages">
+      <soap:operation soapAction="http://tempuri.org/IsvManage_Download_File/getPackages" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="Get_Assigned_Packages">
+      <soap:operation soapAction="http://tempuri.org/IsvManage_Download_File/Get_Assigned_Packages" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="addAssignPackage">
+      <soap:operation soapAction="http://tempuri.org/IsvManage_Download_File/addAssignPackage" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="removeAssignPackage">
+      <soap:operation soapAction="http://tempuri.org/IsvManage_Download_File/removeAssignPackage" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="updateAssignPackage">
+      <soap:operation soapAction="http://tempuri.org/IsvManage_Download_File/updateAssignPackage" style="document" />
       <wsdl:input>
         <soap:body use="literal" />
       </wsdl:input>

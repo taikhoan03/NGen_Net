@@ -44,6 +44,10 @@ namespace NexGenService
             //InitConnection();
             return (new NexGenFlow.Manage.User()).login(username, password).XmlSerialize();
         }
+        public string getListUser()
+        {
+            return (new NexGenFlow.Manage.User()).GetUsers().XmlSerialize();
+        }
         #endregion login
         public string Get_doc_for_keyer(string username)
         {

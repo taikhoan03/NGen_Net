@@ -13,6 +13,7 @@ namespace NexGen
     {
         private string _code = "FJDSKFLDJ@!32";
         public Form mainForm { get; set; }
+        public Form frmToShow { get; set; }
         public SecureCodeProtector(FunctionProtected functionProtected)
         {
             InitializeComponent();
@@ -20,16 +21,19 @@ namespace NexGen
         }
         public void Init(FunctionProtected functionProtected)
         {
-            Form frm=null;
-            switch (functionProtected)
-            {
-                case FunctionProtected.PriorityManager:
-                    frm = new Manage_package_priority();
-                    break;
-                case FunctionProtected.ManagePackage:
-                    frm = new ManagePackage();
-                    break;
-            }
+            //Form frm=null;
+            //switch (functionProtected)
+            //{
+            //    case FunctionProtected.PriorityManager:
+            //        frm = new Manage_package_priority();
+            //        break;
+            //    case FunctionProtected.ManagePackage:
+            //        frm = new ManagePackage();
+            //        break;
+            //    case FunctionProtected.PackageAssignMent:
+            //        frm = new UserAssignToPackage();
+            //        break;
+            //}
             textBox1.TextChanged += (sender, e) => {
                 var code = NexGenClient.Service.Get_secure_code(_code);
                 if (code != 0)
@@ -38,8 +42,8 @@ namespace NexGen
                     {
                         this.Close();
                         //var frm = new Manage_package_priority();
-                        frm.MdiParent = mainForm;
-                        frm.Show();
+                        frmToShow.MdiParent = mainForm;
+                        frmToShow.Show();
                     }
                 }
                 
@@ -49,6 +53,7 @@ namespace NexGen
     public enum FunctionProtected
     {
         PriorityManager=1,
-        ManagePackage=2
+        ManagePackage=2,
+        PackageAssignMent=3
     }
 }

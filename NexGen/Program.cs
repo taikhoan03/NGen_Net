@@ -39,7 +39,8 @@ namespace NexGen
             //Regex check_format_transaction_time = new Regex("^[0-9]+[:]{1}[0-9]+(:[0-9]+)?(\\s(AM|PM))?$");
             //var match = check_format_transaction_time.IsMatch("1324");
             //var b= Regex.Replace("123A123BC", @"[^\d]", "");
-            log4net.Config.XmlConfigurator.Configure();
+            log4net.Config.XmlConfigurator.Configure(); 
+                //Application.Run(new UserAssignToPackage());
             Application.Run(new frmLogin());
             //Application.Run(new SecureCodeProtector(FunctionProtected.PriorityManager));
             //Application.Run(new frmLogin());

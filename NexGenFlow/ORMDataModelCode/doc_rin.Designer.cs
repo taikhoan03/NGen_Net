@@ -110,6 +110,7 @@ namespace NexGenFlow.NexGen
             set { SetPropertyValue<string>("role_author", ref frole_author, value); }
         }
         long fdocid;
+        [Indexed(Name = @"index_plan_rin")]
         public long docid
         {
             get { return fdocid; }

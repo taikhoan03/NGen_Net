@@ -16,6 +16,8 @@ namespace NexGenService
         #region user
         [OperationContract]
         string Login(string username, string password);
+        [OperationContract]
+        string getListUser();
 
         [OperationContract]
         void UnLock(string username);

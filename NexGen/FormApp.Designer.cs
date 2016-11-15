@@ -32,10 +32,11 @@
             this.manageDataToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.importPackageToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.packagePriorityToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.managePackageToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.workingToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.keyToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.exportToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.managePackageToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.packageAssignmentToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.menuStrip1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -56,7 +57,8 @@
             this.manageDataToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.importPackageToolStripMenuItem,
             this.packagePriorityToolStripMenuItem,
-            this.managePackageToolStripMenuItem});
+            this.managePackageToolStripMenuItem,
+            this.packageAssignmentToolStripMenuItem});
             this.manageDataToolStripMenuItem.Name = "manageDataToolStripMenuItem";
             this.manageDataToolStripMenuItem.Size = new System.Drawing.Size(111, 24);
             this.manageDataToolStripMenuItem.Text = "Manage Data";
@@ -64,16 +66,23 @@
             // importPackageToolStripMenuItem
             // 
             this.importPackageToolStripMenuItem.Name = "importPackageToolStripMenuItem";
-            this.importPackageToolStripMenuItem.Size = new System.Drawing.Size(190, 26);
+            this.importPackageToolStripMenuItem.Size = new System.Drawing.Size(219, 26);
             this.importPackageToolStripMenuItem.Text = "Import package";
             this.importPackageToolStripMenuItem.Click += new System.EventHandler(this.importPackageToolStripMenuItem_Click);
             // 
             // packagePriorityToolStripMenuItem
             // 
             this.packagePriorityToolStripMenuItem.Name = "packagePriorityToolStripMenuItem";
-            this.packagePriorityToolStripMenuItem.Size = new System.Drawing.Size(190, 26);
+            this.packagePriorityToolStripMenuItem.Size = new System.Drawing.Size(219, 26);
             this.packagePriorityToolStripMenuItem.Text = "Package priority";
             this.packagePriorityToolStripMenuItem.Click += new System.EventHandler(this.packagePriorityToolStripMenuItem_Click);
+            // 
+            // managePackageToolStripMenuItem
+            // 
+            this.managePackageToolStripMenuItem.Name = "managePackageToolStripMenuItem";
+            this.managePackageToolStripMenuItem.Size = new System.Drawing.Size(219, 26);
+            this.managePackageToolStripMenuItem.Text = "Manage package";
+            this.managePackageToolStripMenuItem.Click += new System.EventHandler(this.managePackageToolStripMenuItem_Click);
             // 
             // workingToolStripMenuItem
             // 
@@ -98,12 +107,12 @@
             this.exportToolStripMenuItem.Text = "Export";
             this.exportToolStripMenuItem.Click += new System.EventHandler(this.exportToolStripMenuItem_Click);
             // 
-            // managePackageToolStripMenuItem
+            // packageAssignmentToolStripMenuItem
             // 
-            this.managePackageToolStripMenuItem.Name = "managePackageToolStripMenuItem";
-            this.managePackageToolStripMenuItem.Size = new System.Drawing.Size(198, 26);
-            this.managePackageToolStripMenuItem.Text = "Manage package";
-            this.managePackageToolStripMenuItem.Click += new System.EventHandler(this.managePackageToolStripMenuItem_Click);
+            this.packageAssignmentToolStripMenuItem.Name = "packageAssignmentToolStripMenuItem";
+            this.packageAssignmentToolStripMenuItem.Size = new System.Drawing.Size(219, 26);
+            this.packageAssignmentToolStripMenuItem.Text = "Package Assignment";
+            this.packageAssignmentToolStripMenuItem.Click += new System.EventHandler(this.packageAssignmentToolStripMenuItem_Click);
             // 
             // FormApp
             // 
@@ -134,5 +143,6 @@
         private System.Windows.Forms.ToolStripMenuItem exportToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem packagePriorityToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem managePackageToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem packageAssignmentToolStripMenuItem;
     }
 }

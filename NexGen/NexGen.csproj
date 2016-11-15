@@ -226,6 +226,12 @@
       <DesignTime>True</DesignTime>
       <DependentUpon>Reference.svcmap</DependentUpon>
     </Compile>
+    <Compile Include="UserAssignToPackage.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UserAssignToPackage.Designer.cs">
+      <DependentUpon>UserAssignToPackage.cs</DependentUpon>
+    </Compile>
     <Compile Include="UserConctrol\doc_rin_rsd_input.cs">
       <SubType>UserControl</SubType>
     </Compile>
@@ -305,6 +311,9 @@
     <EmbeddedResource Include="SecureCodeProtector.resx">
       <DependentUpon>SecureCodeProtector.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="UserAssignToPackage.resx">
+      <DependentUpon>UserAssignToPackage.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="UserConctrol\doc_rin_rsd_input.resx">
       <DependentUpon>doc_rin_rsd_input.cs</DependentUpon>
     </EmbeddedResource>
@@ -323,6 +332,7 @@
     <EmbeddedResource Include="YesConfirm.resx">
       <DependentUpon>YesConfirm.cs</DependentUpon>
     </EmbeddedResource>
+    <None Include="app.local.config" />
     <None Include="app.config">
       <SubType>Designer</SubType>
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>

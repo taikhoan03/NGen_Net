@@ -24,5 +24,16 @@ namespace NexGenService
 
         [OperationContract]
         string verifyListDocumentInserted_withPath(string listFileName,string docpath);
+        [OperationContract]
+        string getPackages();
+        [OperationContract]
+        string Get_Assigned_Packages(string username, int packageid);
+        [OperationContract]
+        long addAssignPackage(string xmlPackageAssign);
+
+        [OperationContract]
+        void removeAssignPackage(int packageid);
+        [OperationContract]
+        void updateAssignPackage(string xmlPackageAssign);
     }
 }

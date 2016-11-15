@@ -24,6 +24,7 @@ namespace NexGenFlow.NexGen
             set { SetPropertyValue<long>("id", ref fid, value); }
         }
         int fpackageid;
+        [Indexed(Name = @"packageid_index")]
         public int packageid
         {
             get { return fpackageid; }

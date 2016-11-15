@@ -43,5 +43,23 @@ namespace NexGenFlow.Manage
 
             return (NexGen.user)cl[0];
         }
+        public List<DataObject.User> GetUsers()
+        {
+            var session = new Session();
+            //CriteriaOperator criteria = CriteriaOperator.Parse("username = ?", username);
+            var cl = new XPCollection(session, typeof(NexGen.user));
+            //cl.TopReturnedObjects = 1;
+            var users = new List<DataObject.User>();
+            foreach (NexGen.user item in cl)
+            {
+                var user = new DataObject.User();
+                user.Id = item.id;
+                user.Is_deleted = item.is_deleted;
+                user.Username = item.username;
+                
+                users.Add(user);
+            }
+            return users;
+        }
     }
 }

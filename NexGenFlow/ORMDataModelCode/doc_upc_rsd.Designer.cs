@@ -24,6 +24,7 @@ namespace NexGenFlow.NexGen
             set { SetPropertyValue<long>("id", ref fid, value); }
         }
         long fdocid;
+        [Indexed(Name = @"index_plan_upc_rsd")]
         public long docid
         {
             get { return fdocid; }
